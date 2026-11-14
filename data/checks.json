@@ -1,0 +1,360 @@
+{
+  "date": "2026-11-13",
+  "summary": "5 posted, 1 rejected, 0 earlier cards removed",
+  "articles": [
+    {
+      "gallery": "designers",
+      "designer": "Russell Simmons",
+      "brand": "Phat Farm",
+      "headline": "Joey Badass Is the Face of True Religion and Phat Farm's Y2K Men's Collection",
+      "source": "Complex",
+      "url": "https://www.complex.com/style/a/jaelaniturnerwilliams/true-religion-phat-farm-joey-badass-collection",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://images.complex.com/complex/image/upload/c_crop,h_1081,w_1920,x_0,y_0/g_auto:aoi_638_170_384_216,ar_1.91,c_fill,q_auto,w_1200/sanity-new/j8gg4xduinjczcpdnmaq",
+      "photo_note": "article's main photo; photo checked (1200x628)",
+      "rejected_photos": [
+        {
+          "photo": "https://www.complex.com/style/a/jaelaniturnerwilliams/w_2048/sanity-new/j8gg4xduinjczcpdnmaq",
+          "reason": "photo did not load (error 404)"
+        }
+      ]
+    },
+    {
+      "gallery": "designers",
+      "designer": "Virgil Abloh",
+      "brand": "Off-White",
+      "headline": "Comparing the Maybach S680 and Gucci AMC Hornet",
+      "source": "Cascadia Classic on MSN",
+      "url": "https://www.msn.com/en-us/entertainment/general/comparing-the-maybach-s680-and-gucci-amc-hornet/vi-AA2hhy1f",
+      "result": "rejected",
+      "reason": "page has almost no article text (paywall or blocked)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Jay Jaxon",
+      "brand": "Jay Jaxon",
+      "headline": "From Jay Jaxon to Martine Rose, Black Designers Now Lead Fashion’s Most Powerful Houses",
+      "source": "theqgentleman",
+      "url": "https://www.theqgentleman.com/post/2026-11-from-jay-jaxon-to-martine-rose-black-designers-now-lead-fashions-most-powerful-houses/",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://www.theqgentleman.com/wp-content/uploads/2026/11/Martine-Rose.png",
+      "photo_note": "article's main photo; photo checked (1200x675)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Anifa Mvuemba",
+      "brand": "Hanifa",
+      "headline": "Hanifa’s Anifa Mvuemba on the power of pressing pause: ‘It’s okay to stop’",
+      "source": "TheGrio",
+      "url": "https://thegrio.com/2026/11/12/hanifas-anifa-mvuemba-on-the-power-of-pressing-pause-its-okay-to-stop/",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://thegrio.com/cdn-cgi/image/width=1074%2Cheight=605%2Cfit=crop%2Cquality=65%2Cgravity=auto%2Cmetadata=none%2Cformat=auto%2Conerror=redirect/wp-content/uploads/2026/11/ANIFAS-NEW-HEADSHOT-0-of-1-1-e1794503721386.png",
+      "photo_note": "captioned with the designer's name; photo checked (1074x605)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Rihanna",
+      "brand": "Savage X Fenty",
+      "headline": "Where to Buy Matching Holiday Pajamas for the Whole Family (Yes, Even the Dog)",
+      "source": "E! Online",
+      "url": "https://www.eonline.com/news/1438056/where-to-buy-matching-family-christmas-pajamas-old-navy-skims-amazon",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://akns-images.eonline.com/eol_images/Entire_Site/20261112/b1c4aa6e-82c5-41b0-985d-38d284a1388f_1794506653.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+      "photo_note": "article's main photo; photo checked (1200x1200)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "makeup",
+      "designer": "Pat McGrath",
+      "brand": "Pat McGrath Labs",
+      "headline": "La Beauté Louis Vuitton Celebrates Monogram Rouge With a Holiday Limited Edition",
+      "source": "ouispeakfashion",
+      "url": "https://ouispeakfashion.com/la-beaute-louis-vuitton-monogram-rouge-holiday/",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://i0.wp.com/ouispeakfashion.com/wp-content/uploads/2026/11/la-beaute-louis-vuitton-monogram-rouge-holiday.jpg",
+      "photo_note": "article's main photo; photo checked (3900x2194)",
+      "rejected_photos": []
+    }
+  ],
+  "websites": [
+    {
+      "designer": "LaQuan Smith",
+      "website": "https://www.laquansmith.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Tremaine Emory",
+      "website": "https://denimtears.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Rachel Scott",
+      "website": "https://diotima.world",
+      "result": "using website found earlier"
+    },
+    {
+      "designer": "Tyler, the Creator",
+      "website": "https://golfwang.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Jay Jaxon",
+      "website": "(none)",
+      "result": "no website (looked recently) — using a search link"
+    },
+    {
+      "designer": "Anifa Mvuemba",
+      "website": "https://hanifa.co",
+      "result": "opens"
+    },
+    {
+      "designer": "Telfar Clemens",
+      "website": "https://telfar.net",
+      "result": "opens"
+    },
+    {
+      "designer": "Brandon Blackwood",
+      "website": "https://brandonblackwood.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Victor Glemaud",
+      "website": "https://www.victorglemaud.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kimberly Goldson",
+      "website": "https://kimberlygoldson.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ursula Stephen",
+      "website": "https://www.a-frameagency.com/artists/us/hair/ursula-stephen",
+      "result": "opens"
+    },
+    {
+      "designer": "Kim Kimble",
+      "website": "https://shopkimkimble.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Larry Sims",
+      "website": "https://larryjsims.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kiyah Wright",
+      "website": "https://www.kiyahwright.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sam Fine",
+      "website": "https://www.instagram.com/samfinebeauty/",
+      "result": "social profile kept (these sites block automated checks)"
+    },
+    {
+      "designer": "AJ Crimson",
+      "website": "https://ajcrimson.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sir John",
+      "website": "https://models.com/people/sir-john",
+      "result": "opens"
+    },
+    {
+      "designer": "Ashunta Sheriff",
+      "website": "https://ashuntabeauty.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kerby Jean-Raymond",
+      "website": "https://pyermoss.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Connor McKnight",
+      "website": "(none)",
+      "result": "listed website did NOT open; no website (looked recently) — using a search link"
+    },
+    {
+      "designer": "Maxwell Osborne",
+      "website": "https://www.publicschoolnyc.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Romeo Hunte",
+      "website": "https://romeohunte.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ev Bravado & Téla D'Amore",
+      "website": "https://whodecideswar.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
+      "website": "https://fubu.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kimora Lee Simmons",
+      "website": "https://babyphat.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Willi Smith",
+      "website": "(none)",
+      "result": "no website (looked recently) — using a search link"
+    },
+    {
+      "designer": "Heron Preston",
+      "website": "https://www.heronpreston.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Frederick Anderson",
+      "website": "https://www.frederickandersondesigner.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sebastien Amisial",
+      "website": "https://www.sebastienami.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Letesha Renee",
+      "website": "https://blackownedeverything.co/collections/eugene-taylor-brand",
+      "result": "opens"
+    },
+    {
+      "designer": "Jerry Lorenzo",
+      "website": "https://fearofgod.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ye (Kanye West)",
+      "website": "https://yeezy.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Keyondra & Kim Lockett",
+      "website": "https://jolienoire.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Aaron Potts",
+      "website": "(none)",
+      "result": "listed website did NOT open; no website (looked recently) — using a search link"
+    },
+    {
+      "designer": "Felisha Noel",
+      "website": "https://fenoel.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Brittany Kozerski",
+      "website": "https://jadeswim.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Shiara Robinson",
+      "website": "https://www.lasette.shop",
+      "result": "opens"
+    },
+    {
+      "designer": "Rihanna",
+      "website": "https://www.rihannanow.com",
+      "result": "listed website did NOT open; using website found earlier"
+    },
+    {
+      "designer": "Don C",
+      "website": "https://justdon.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Aisha McShaw",
+      "website": "https://aishamcshaw.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Isaac Moore",
+      "website": "(none)",
+      "result": "listed website did NOT open; no website (looked recently) — using a search link"
+    },
+    {
+      "designer": "Jameel Mohammed",
+      "website": "https://khiry.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Matthew Harris",
+      "website": "https://mateonewyork.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Johnny Nelson",
+      "website": "https://johnnynelson.nyc",
+      "result": "opens"
+    },
+    {
+      "designer": "Dynasty & Soull Ogun",
+      "website": "https://www.lenchanteur.co",
+      "result": "opens"
+    },
+    {
+      "designer": "Simone I. Smith",
+      "website": "https://simoneismith.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Virgil Abloh",
+      "website": "https://www.off---white.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Dapper Dan",
+      "website": "https://dapperdanofharlem.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Stephen Burrows",
+      "website": "https://stephenburrows.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Russell Simmons",
+      "website": "https://www.phatfarm.com",
+      "result": "FOUND AUTOMATICALLY — add it to the designer list"
+    },
+    {
+      "designer": "Pat McGrath",
+      "website": "https://www.patmcgrath.com",
+      "result": "opens"
+    }
+  ],
+  "rechecked": [],
+  "photos": [
+    {
+      "person": "Dynasty & Soull Ogun",
+      "photo": "(none found)",
+      "from": "",
+      "how": ""
+    }
+  ]
+}
