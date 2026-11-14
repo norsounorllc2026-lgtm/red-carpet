@@ -1,0 +1,706 @@
+{
+  "date": "2026-11-14",
+  "summary": "3 posted, 6 rejected, 0 earlier cards removed",
+  "articles": [
+    {
+      "gallery": "designers",
+      "designer": "LaQuan Smith",
+      "brand": "LaQuan Smith",
+      "headline": "Hunter Schafer and Michelle Yeoh do futurism for Blade Runner 2099",
+      "source": "Women's Wear Daily on MSN",
+      "url": "https://www.msn.com/en-us/news/other/hunter-schafer-and-michelle-yeoh-do-futurism-for-blade-runner-2099/ar-AA2hnPPg",
+      "result": "rejected",
+      "reason": "page has almost no article text (paywall or blocked)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Sergio Hudson",
+      "brand": "Sergio Hudson",
+      "headline": "Halle Bailey Brings Daring Asymmetrical Le Silla Pumps to the 2026 GQ Men of the Year Red Carpet",
+      "source": "Women's Wear Daily",
+      "url": "https://wwd.com/footwear-news/shoe-trends/halle-bailey-le-silla-futura-pump-2026-gq-men-of-the-year-1239416105/",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://wwd.com/wp-content/uploads/2026/11/halle-bailey-gq-man-of-the-year-2026.jpg?w=1000&h=563&crop=1",
+      "photo_note": "article's main photo; photo checked (1000x563)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Tremaine Emory",
+      "brand": "Denim Tears",
+      "headline": "Treamine Emory On Adidas Collab, Martine Rose & The Growth Of Denim Tears | The Complex Style Pod",
+      "source": "Yahoo",
+      "url": "https://www.yahoo.com/entertainment/videos/treamine-emory-adidas-collab-martine-210000607.html",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://s.yimg.com/lo/mysterio/api/07472fb3f2c30e8e0c8089f60a11ff3b2f979ea3f5e057085cfaf42fcbe9bc32/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_video_441%2F10e5418f174c49de14363af8b91613da.jpg",
+      "photo_note": "article's main photo; photo checked (1200x677)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Pharrell Williams",
+      "brand": "Billionaire Boys Club / ICECREAM",
+      "headline": "Billionaire Boys Club",
+      "source": "Het Laatste Nieuws",
+      "url": "https://www.hln.be/tv-gids/play-crime/uitzending/aflevering/f092f19d-1ce6-410c-823c-b5c186618757",
+      "result": "rejected",
+      "reason": "link returned error 403",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Pharrell Williams",
+      "brand": "Billionaire Boys Club / ICECREAM",
+      "headline": "Billionaire Boys Club rolls out new Pokémon collab collection",
+      "source": "Complex on MSN",
+      "url": "https://www.msn.com/en-us/lifestyle/other/billionaire-boys-club-rolls-out-new-pokémon-collab-collection/ar-AA2hoceF",
+      "result": "rejected",
+      "reason": "page has almost no article text (paywall or blocked)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Ev Bravado & Téla D'Amore",
+      "brand": "Who Decides War",
+      "headline": "Stunna Sandy Stars in Who Decides War F/W 2026 Womenswear Campaign",
+      "source": "Complex",
+      "url": "https://www.complex.com/style/a/jaelaniturnerwilliams/who-decides-war-womenswear-collection-launch",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://images.complex.com/complex/image/upload/c_crop,h_1091,w_1920,x_0,y_0/g_auto:aoi_768_437_384_218/sanity-new/ljndxtfzrmsiayu8sr8e",
+      "photo_note": "alt text names the designer; photo checked (1920x1090)",
+      "rejected_photos": [
+        {
+          "photo": "https://www.complex.com/style/a/jaelaniturnerwilliams/w_2048/sanity-new/cvdxiukte0y0ljsgl2xl",
+          "reason": "photo did not load (error 404)"
+        }
+      ]
+    },
+    {
+      "gallery": "designers",
+      "designer": "Kimora Lee Simmons",
+      "brand": "Baby Phat",
+      "headline": "How Baby Phat lost its success",
+      "source": "understitch, on MSN",
+      "url": "https://www.msn.com/en-us/money/other/how-baby-phat-lost-its-success/vi-AA2hogBZ",
+      "result": "rejected",
+      "reason": "page has almost no article text (paywall or blocked)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Russell Simmons",
+      "brand": "Phat Farm",
+      "headline": "How Baby Phat lost its success",
+      "source": "understitch, on MSN",
+      "url": "https://www.msn.com/en-us/money/other/how-baby-phat-lost-its-success/vi-AA2hogBZ",
+      "result": "rejected",
+      "reason": "page has almost no article text (paywall or blocked)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Virgil Abloh",
+      "brand": "Off-White",
+      "headline": "IKEA x Virgil Abloh Markerad unboxing & review",
+      "source": "YouTube on MSN",
+      "url": "https://www.msn.com/en-us/entertainment/general/ikea-x-virgil-abloh-markerad-unboxing-review/vi-AA26Hk6o",
+      "result": "rejected",
+      "reason": "page has almost no article text (paywall or blocked)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    }
+  ],
+  "websites": [
+    {
+      "designer": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Tremaine Emory",
+      "website": "https://denimtears.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ev Bravado & Téla D'Amore",
+      "website": "https://whodecideswar.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Christopher John Rogers",
+      "website": "https://www.christopherjohnrogers.com",
+      "result": "opens"
+    },
+    {
+      "designer": "LaQuan Smith",
+      "website": "https://www.laquansmith.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Telfar Clemens",
+      "website": "https://telfar.net",
+      "result": "opens"
+    },
+    {
+      "designer": "Brandon Blackwood",
+      "website": "https://brandonblackwood.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Victor Glemaud",
+      "website": "https://www.victorglemaud.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Frederick Anderson",
+      "website": "https://www.frederickandersondesigner.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kimberly Goldson",
+      "website": "https://kimberlygoldson.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ursula Stephen",
+      "website": "https://www.a-frameagency.com/artists/us/hair/ursula-stephen",
+      "result": "opens"
+    },
+    {
+      "designer": "Kim Kimble",
+      "website": "https://shopkimkimble.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Larry Sims",
+      "website": "https://larryjsims.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kiyah Wright",
+      "website": "https://www.kiyahwright.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sam Fine",
+      "website": "https://www.instagram.com/samfinebeauty/",
+      "result": "social profile kept (these sites block automated checks)"
+    },
+    {
+      "designer": "AJ Crimson",
+      "website": "https://ajcrimson.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sir John",
+      "website": "https://models.com/people/sir-john",
+      "result": "opens"
+    },
+    {
+      "designer": "Ashunta Sheriff",
+      "website": "https://ashuntabeauty.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Felisha Noel",
+      "website": "https://fenoel.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kerby Jean-Raymond",
+      "website": "https://pyermoss.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Dapper Dan",
+      "website": "https://dapperdanofharlem.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Romeo Hunte",
+      "website": "https://romeohunte.com",
+      "result": "opens"
+    },
+    {
+      "designer": "April Walker",
+      "website": "https://walkerwear.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
+      "website": "https://fubu.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Jerry Lorenzo",
+      "website": "https://fearofgod.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Heron Preston",
+      "website": "https://www.heronpreston.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sebastien Amisial",
+      "website": "https://www.sebastienami.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Letesha Renee",
+      "website": "https://blackownedeverything.co/collections/eugene-taylor-brand",
+      "result": "opens"
+    },
+    {
+      "designer": "Rachel Scott",
+      "website": "https://diotima.world",
+      "result": "FOUND AUTOMATICALLY — add it to the designer list"
+    },
+    {
+      "designer": "Aaron Potts",
+      "website": "(none)",
+      "result": "listed website did NOT open; no official website found — using a search link"
+    },
+    {
+      "designer": "Kimora Lee Simmons",
+      "website": "https://babyphat.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ye (Kanye West)",
+      "website": "https://yeezy.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Brittany Kozerski",
+      "website": "https://jadeswim.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Shiara Robinson",
+      "website": "https://www.lasette.shop",
+      "result": "opens"
+    },
+    {
+      "designer": "Rihanna",
+      "website": "https://www.rihannanow.com",
+      "result": "listed website did NOT open; FOUND AUTOMATICALLY — add it to the designer list"
+    },
+    {
+      "designer": "Don C",
+      "website": "https://justdon.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Aisha McShaw",
+      "website": "https://aishamcshaw.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Isaac Moore",
+      "website": "(none)",
+      "result": "listed website did NOT open; no official website found — using a search link"
+    },
+    {
+      "designer": "Matthew Harris",
+      "website": "https://mateonewyork.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Johnny Nelson",
+      "website": "https://johnnynelson.nyc",
+      "result": "opens"
+    },
+    {
+      "designer": "Dynasty & Soull Ogun",
+      "website": "https://www.lenchanteur.co",
+      "result": "opens"
+    },
+    {
+      "designer": "Simone I. Smith",
+      "website": "https://simoneismith.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Elisa Johnson",
+      "website": "https://elisajohnson.co",
+      "result": "opens"
+    },
+    {
+      "designer": "Stephen Burrows",
+      "website": "https://stephenburrows.com",
+      "result": "opens"
+    },
+    {
+      "designer": "B Michael",
+      "website": "https://bmichaelamerica.com",
+      "result": "opens"
+    }
+  ],
+  "rechecked": [],
+  "photos": [
+    {
+      "person": "Christopher John Rogers",
+      "photo": "https://christopherjohnrogers.com/cdn/shop/files/000945960006_copy.jpg?v=1793116515&width=1400",
+      "from": "https://www.christopherjohnrogers.com",
+      "how": "their website"
+    },
+    {
+      "person": "LaQuan Smith",
+      "photo": "https://laquansmith.com/cdn/shop/files/LQS_sunglasses_2_web.jpg?v=1705785004&width=1400",
+      "from": "https://www.laquansmith.com",
+      "how": "their website"
+    },
+    {
+      "person": "Telfar Clemens",
+      "photo": "https://cdn.shopify.com/s/files/1/0880/7204/files/TELFAR-NYC-SKULLY-BLACK-FRONT.jpg?v=1790888465&width=900&height=900&crop=center",
+      "from": "https://telfar.net",
+      "how": "their website"
+    },
+    {
+      "person": "Brandon Blackwood",
+      "photo": "https://brandonblackwood.com/cdn/shop/files/7574a02fecf51d3b6accc50f027d3ccdc5334021.jpg?v=1794580618&width=600",
+      "from": "https://brandonblackwood.com",
+      "how": "their website"
+    },
+    {
+      "person": "Victor Glemaud",
+      "photo": "https://www.haiti.org/wp-content/uploads/2018/03/y-Victor-Glemaud-Design.jpg",
+      "from": "https://www.haiti.org/dt_gallery/haitian-designers-showcase/",
+      "how": "image search"
+    },
+    {
+      "person": "Frederick Anderson",
+      "photo": "https://theimpression.com/wp-content/uploads/2023/06/Anderson-Resort-PO-S24-020-scaled.jpg",
+      "from": "https://theimpression.com/frederick-anderson-resort-2024-fashion-show/",
+      "how": "image search"
+    },
+    {
+      "person": "Kimberly Goldson",
+      "photo": "https://kimberlygoldson.com/assets/images/card.jpg?v=69bff141",
+      "from": "https://kimberlygoldson.com",
+      "how": "their website"
+    },
+    {
+      "person": "Ursula Stephen",
+      "photo": "https://cdn.sanity.io/images/22k5bv0o/production/595a4829324d13f402c18e2078e3beb1a51d09ae-3496x2331.jpg?rect=0,253,3496,1827&w=1200&h=627&fit=crop&auto=format",
+      "from": "https://www.a-frameagency.com/artists/us/hair/ursula-stephen",
+      "how": "their website"
+    },
+    {
+      "person": "Kim Kimble",
+      "photo": "https://shopkimkimble.com/cdn/shop/files/kim-kimble-curly-hair-products-collection.jpg?v=1772135013&width=2400",
+      "from": "https://shopkimkimble.com",
+      "how": "their website"
+    },
+    {
+      "person": "Larry Sims",
+      "photo": "https://larryjsims.com/new/wp-content/uploads/2023/04/Janet.jpg",
+      "from": "https://larryjsims.com/new/",
+      "how": "image search"
+    },
+    {
+      "person": "Kiyah Wright",
+      "photo": "https://static.wixstatic.com/media/ea7fc9_ee213763ccc54d48a7668aec1093510f~mv2.jpg/v1/fill/w_827,h_827,al_c,q_85,enc_auto/ea7fc9_ee213763ccc54d48a7668aec1093510f~mv2.jpg",
+      "from": "https://www.muzehair.com/post/from-beauty-to-business-kiyah-wright-gives-essence-the-guide-to-success",
+      "how": "image search"
+    },
+    {
+      "person": "Sam Fine",
+      "photo": "https://images.squarespace-cdn.com/content/v1/57c84f1de3df28a00dacd1ed/1522288277707-G3FDEJAN40RK3QL8C8A9/SB_SamFine2.png",
+      "from": "https://www.saubhaya.com/sam-fine-makeup-book/",
+      "how": "image search"
+    },
+    {
+      "person": "AJ Crimson",
+      "photo": "https://www.whodiedtoday.com/wp-content/uploads/2022/04/Celebrity-makeup-artist-AJ-Crimson-dies-at-age-27-1024x512.jpeg",
+      "from": "https://www.whodiedtoday.com/aj-crimson-celebrity-makeup-artist-dies-at-age-27/",
+      "how": "image search"
+    },
+    {
+      "person": "Sir John",
+      "photo": "https://hips.hearstapps.com/hmg-prod/images/masterclass-1652712370.jpg?crop=0.563xw:1.00xh;0.246xw,0&resize=640:*",
+      "from": "https://www.saubhaya.com/beyonce-makeup-artist-sir-john-instagram/",
+      "how": "image search"
+    },
+    {
+      "person": "Ashunta Sheriff",
+      "photo": "https://ashuntabeauty.com/cdn/shop/files/Screen_Shot_2026-09-14_at_1.45.20_PM.png?v=1789407953&width=1024",
+      "from": "https://ashuntabeauty.com",
+      "how": "their website"
+    },
+    {
+      "person": "Christopher John Rogers",
+      "photo": "https://fredericmagazine.com/wp-content/uploads/2024/01/FOB_FREDERIC_V10_MY-FAVORITE-THINGS_CHRISTOPHER-JOHN-ROGERS_CJR-Portrait-1-e1708114506502.jpeg",
+      "from": "https://fredericmagazine.com/2024/02/christopher-john-rogers-my-favorite-things/",
+      "how": "image search"
+    },
+    {
+      "person": "LaQuan Smith",
+      "photo": "https://i.pinimg.com/736x/91/b1/12/91b112fa3f8cf35d579e0b8a7f779a6c.jpg",
+      "from": "https://www.pinterest.com/pin/449163762839548989/",
+      "how": "image search"
+    },
+    {
+      "person": "Kimberly Goldson",
+      "photo": "https://i1.wp.com/fashionstyledetroit.com/wp-content/uploads/2014/02/IN-THE-WORLD-OF-AFRICAN-AMERICAN-FASHIOn_Meet-Designer-KIMBERLY-GOLDSON.png?fit=2240%2C1260&ssl=1",
+      "from": "https://fashionstyledetroit.com/in-the-world-of-african-american-fashion-meet-designer-kimberly-goldson/",
+      "how": "image search"
+    },
+    {
+      "person": "Felisha Noel",
+      "photo": "https://fenoel.com/cdn/shop/files/BLOCK_1_-_WEB_VIEW_upd_v3_1440x.jpg?v=1791834929",
+      "from": "https://fenoel.com",
+      "how": "their website"
+    },
+    {
+      "person": "Frederick Anderson",
+      "photo": "https://assets.vogue.com/photos/6470dd38175bd4b8ed064efe/master/w_2560%2Cc_limit/00009-frederick-anderson-resort-2024-credit-brand.JPG",
+      "from": "https://www.vogue.com/fashion-shows/resort-2024/frederick-anderson",
+      "how": "image search"
+    },
+    {
+      "person": "Kimberly Goldson",
+      "photo": "https://i.pinimg.com/736x/df/2d/42/df2d4207a72a849749078cc638cd9ec7.jpg",
+      "from": "https://www.pinterest.com/pin/episode-32-kimberly-goldson--700591285766896592/",
+      "how": "image search"
+    },
+    {
+      "person": "Kerby Jean-Raymond",
+      "photo": "https://www.pyermoss.com/cdn/shop/files/hp_2023_msg_v3_61ec1848-c303-4c30-b458-18dcbf617d69_2048x2048.png?v=1672845897",
+      "from": "https://pyermoss.com",
+      "how": "their website"
+    },
+    {
+      "person": "Dapper Dan",
+      "photo": "https://images.squarespace-cdn.com/content/v1/5ccae8a6af46838ceee6e296/1753881659369-T390FJ71OMUL5I5DZYRW/original5.webp",
+      "from": "https://www.dancepolicy.com/stream/how-dapper-dan-brought-luxury-streetwear-to-hip-hop",
+      "how": "image search"
+    },
+    {
+      "person": "Romeo Hunte",
+      "photo": "https://assets.vogue.com/photos/698fbad7ceed63970b1c0270/master/w_2240,c_limit/00018-romeo-hunte-fall-2026-ready-to-wear-credit-gorunway.jpg",
+      "from": "https://romeohunte.com",
+      "how": "their website"
+    },
+    {
+      "person": "April Walker",
+      "photo": "https://walkerwear.com/cdn/shop/files/Untitled_design-7.png?v=1790032596",
+      "from": "https://walkerwear.com",
+      "how": "their website"
+    },
+    {
+      "person": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
+      "photo": "https://c8.alamy.com/comp/2F1DEWN/krt-business-story-slugged-fubu-krt-photograph-by-todd-plittchicago-tribune-krt1-july-1-fubu-designers-left-to-right-keith-perrin-daymond-john-carl-brown-and-j-alexander-martin-are-building-strong-brand-recognition-for-their-clothes-the-buzz-on-the-street-is-making-fubu-one-of-the-hottest-and-fastest-growing-clothing-brands-to-emerge-in-the-late-1990s-photo-by-tb-ap-pl-kd-bl-1999-horiz-no-tv-no-internet-ded-2F1DEWN.jpg",
+      "from": "https://www.alamy.com/krt-business-story-slugged-fubu-krt-photograph-by-todd-plittchicago-tribune-krt1-july-1-fubu-designers-left-to-right-keith-perrin-daymond-john-carl-brown-and-j-alexander-martin-are-building-strong-brand-recognition-for-their-clothes-the-buzz-on-the-street-is-making-fubu-one-of-the-hottest-and-fastest-growing-clothing-brands-to-emerge-in-the-late-1990s-photo-by-tb-ap-pl-kd-bl-1999-horiz-no-tv-no-internet-ded-image413960561.html",
+      "how": "image search"
+    },
+    {
+      "person": "Telfar Clemens",
+      "photo": "https://hips.hearstapps.com/hmg-prod/images/designer-telfar-clemens-poses-backstage-for-telfar-during-news-photo-1594747511.jpg?crop=0.650xw:0.650xh;0.122xw,0&resize=980:*",
+      "from": "https://www.cosmopolitan.com/style-beauty/fashion/g33312113/black-fashion-designers/",
+      "how": "image search"
+    },
+    {
+      "person": "Jerry Lorenzo",
+      "photo": "https://fearofgod.com/cdn/shop/files/NBA_DESKTOP_BANNER_0cdbc57f-6790-4c37-96f9-89d168483c7a_x1800.jpg?v=1792439800",
+      "from": "https://fearofgod.com",
+      "how": "their website"
+    },
+    {
+      "person": "Heron Preston",
+      "photo": "https://heronpreston.com/cdn/shop/files/website_holding_page.jpg?v=1794595501&width=1800",
+      "from": "https://www.heronpreston.com",
+      "how": "their website"
+    },
+    {
+      "person": "Victor Glemaud",
+      "photo": "https://image-cdn.hypb.st/https://hypebeast.com/image/2020/07/victor-glemaud-fw2020-03.jpg?w=1260&cbr=1&q=90&fit=max",
+      "from": "https://hypebeast.com/2020/7/victor-glemaud-designer-profile-equality-body-inclusivity",
+      "how": "image search"
+    },
+    {
+      "person": "Frederick Anderson",
+      "photo": "https://theimpression.com/wp-content/uploads/2023/06/Anderson-Resort-PO-S24-027-scaled.jpg",
+      "from": "https://theimpression.com/frederick-anderson-resort-2024-fashion-show/",
+      "how": "image search"
+    },
+    {
+      "person": "Sebastien Amisial",
+      "photo": "https://www.sebastienami.com/cdn/shop/files/SAWW_FW26_03.jpg?v=1792763031&width=3840",
+      "from": "https://www.sebastienami.com",
+      "how": "their website"
+    },
+    {
+      "person": "Letesha Renee",
+      "photo": "https://img.huffingtonpost.com/asset/621689a23600001e5d24f7f1.jpg?ops=scalefit_720_noupscale",
+      "from": "https://www.huffpost.com/entry/emerging-designers-of-color-to-watch-beyond-new-york-fashion-week_n_621685d6e4b03d0c8032818a",
+      "how": "image search"
+    },
+    {
+      "person": "Rachel Scott",
+      "photo": "https://diotima.world/cdn/shop/files/DIOTIMAFW26_LK_MG_1742_copy.jpg?v=1788115809&width=3840",
+      "from": "https://diotima.world",
+      "how": "their website"
+    },
+    {
+      "person": "Jerry Lorenzo",
+      "photo": "https://media.gettyimages.com/id/1328750773/photo/fashion-designer-jerry-lorenzo-poses-for-a-portrait-on-october-22-2020-in-los-angeles.jpg?s=612x612&w=gi&k=20&c=N1PrUWhqAV86tsU6_FHA74-CWKAeXadmXcPJs1UyPkU=",
+      "from": "https://www.gettyimages.dk/photos/jerry-lorenzo",
+      "how": "image search"
+    },
+    {
+      "person": "Aaron Potts",
+      "photo": "https://c8.alamy.com/comp/2N76666/new-york-usa-10th-feb-2023-designer-aaron-potts-directs-models-before-his-presentation-during-new-york-mens-day-fw23-presentations-during-new-york-fashion-week-at-daylight-studios-in-new-york-ny-on-february-10-2023-photo-by-efren-landaossipa-usa-credit-sipa-usaalamy-live-news-2N76666.jpg",
+      "from": "https://www.alamy.com/new-york-usa-10th-feb-2023-designer-aaron-potts-directs-models-before-his-presentation-during-new-york-mens-day-fw23-presentations-during-new-york-fashion-week-at-daylight-studios-in-new-york-ny-on-february-10-2023-photo-by-efren-landaossipa-usa-credit-sipa-usaalamy-live-news-image520750222.html",
+      "how": "image search"
+    },
+    {
+      "person": "Letesha Renee",
+      "photo": "https://images.squarespace-cdn.com/content/v1/55664553e4b0e48846329dc0/1494454743327-KJ3O5N7BW06JZOA3E7XT/image-asset.jpeg",
+      "from": "https://thesedaysmag.com/features/2017/5/10/letesha-renee-aims-to-unify-with-new-eugene-taylor-brand-release",
+      "how": "image search"
+    },
+    {
+      "person": "Kimora Lee Simmons",
+      "photo": "https://babyphat.com/cdn/shop/files/L02_1066copy.jpg?v=1793212943&width=640",
+      "from": "https://babyphat.com",
+      "how": "their website"
+    },
+    {
+      "person": "Ye (Kanye West)",
+      "photo": "https://yeezy.com/link-preview-white-corner-fade.png",
+      "from": "https://yeezy.com",
+      "how": "their website"
+    },
+    {
+      "person": "Felisha Noel",
+      "photo": "https://c8.alamy.com/comp/2AYBFT1/new-york-ny-usa-february-12-2020-a-model-walks-runway-for-fe-noel-by-felisha-noel-fallwinter-2020-collection-during-new-york-fashion-week-at-sp-2AYBFT1.jpg",
+      "from": "https://www.alamy.com/new-york-ny-usa-february-12-2020-a-model-walks-runway-for-fe-noel-by-felisha-noel-fallwinter-2020-collection-during-new-york-fashion-week-at-sp-image343846609.html",
+      "how": "image search"
+    },
+    {
+      "person": "Brittany Kozerski",
+      "photo": "https://jadeswim.com/cdn/shop/files/Screenshot_2026-05-16_at_7.06.49_AM.png?v=1778929686",
+      "from": "https://jadeswim.com",
+      "how": "their website"
+    },
+    {
+      "person": "Shiara Robinson",
+      "photo": "https://www.lasette.shop/cdn/shop/products/TiedUpChemise2_1024x.jpg?v=1615232629",
+      "from": "https://www.lasette.shop",
+      "how": "their website"
+    },
+    {
+      "person": "Rihanna",
+      "photo": "https://media1.popsugar-assets.com/files/thumbor/uJHMAQdVVggWQko1QS1qPRbjvug=/fit-in/1584x2376/filters:format_auto():upscale()/2019/12/02/894/n/2589280/eb0c336e3692eaf9_GettyImages-1191505774.jpg",
+      "from": "https://www.popsugar.com/fashion/rihanna-wearing-fenty-48160921",
+      "how": "image search"
+    },
+    {
+      "person": "Telfar Clemens",
+      "photo": "https://www.bellanaijastyle.com/wp-content/uploads/2019/09/bellanaija-style-SS20-PARIS-FASHION-WEEK-Telfar_8__dan0116.jpg",
+      "from": "https://www.bellanaija.com/2019/09/telfar-clemens-unveils-his-ss20-collection-at-paris-fashion-week-2019/",
+      "how": "image search"
+    },
+    {
+      "person": "Brandon Blackwood",
+      "photo": "https://brandonblackwood.com/cdn/shop/files/brandon-banner_1.webp?v=1751309582",
+      "from": "https://brandonblackwood.com/",
+      "how": "image search"
+    },
+    {
+      "person": "Don C",
+      "photo": "https://justdon.com/cdn/shop/files/jd-sk_front.jpg?v=1794594956",
+      "from": "https://justdon.com",
+      "how": "their website"
+    },
+    {
+      "person": "Aisha McShaw",
+      "photo": "https://aishamcshaw.com/cdn/shop/articles/WhatsApp_Image_2026-07-24_at_14.37.55_4_abd24138-8ca7-4d77-9faf-0441db5e34f4.jpg?v=1785018533&width=3840",
+      "from": "https://aishamcshaw.com",
+      "how": "their website"
+    },
+    {
+      "person": "Isaac Moore",
+      "photo": "https://hollywoodunlocked.com/wp-content/uploads/2020/08/8E198989-7C66-4AA1-90F2-0BBFD10F0A2C-2048x1152.jpeg",
+      "from": "https://hollywoodunlocked.com/isaac-moore-breaks-the-boundaries-from-homeless-to-successful-high-fashion-designer/",
+      "how": "image search"
+    },
+    {
+      "person": "Matthew Harris",
+      "photo": "https://mateonewyork.com/cdn/shop/collections/Untitled-1_b8b6e664-4c63-4da1-8db3-27bc06a0924e.webp?v=1775981915&width=400",
+      "from": "https://mateonewyork.com",
+      "how": "their website"
+    },
+    {
+      "person": "Johnny Nelson",
+      "photo": "https://johnnynelson.nyc/cdn/shop/products/malcolmxring_720x.jpg?v=1598943445",
+      "from": "https://johnnynelson.nyc",
+      "how": "their website"
+    },
+    {
+      "person": "Dynasty & Soull Ogun",
+      "photo": "(none found)",
+      "from": "",
+      "how": ""
+    },
+    {
+      "person": "Simone I. Smith",
+      "photo": "https://simoneismith.com/cdn/shop/files/homepage_black_friday_banner.jpg?v=1793553494&width=3202",
+      "from": "https://simoneismith.com",
+      "how": "their website"
+    },
+    {
+      "person": "Elisa Johnson",
+      "photo": "https://elisajohnson.co/cdn/shop/files/WEB_BANNER_cb2d0cc4-a577-4411-8c15-2962ef86c630.png?v=1794336857&width=3200",
+      "from": "https://elisajohnson.co",
+      "how": "their website"
+    },
+    {
+      "person": "Christopher John Rogers",
+      "photo": "https://wwd.com/wp-content/uploads/2025/02/Christopher-John-Rogers-A-Kaleidoscope-of-Color-in-Fashion23-2.jpg",
+      "from": "https://wwd.com/fashion-news/fashion-features/black-fashion-designers-american-fashion-1236903193/",
+      "how": "image search"
+    },
+    {
+      "person": "Kerby Jean-Raymond",
+      "photo": "https://checktherunway.com/wp-content/uploads/2025/08/Kirby-Jean-Raymond-Pyer-Moss-Check-The-Runway-5-e1756242362303.jpg",
+      "from": "https://checktherunway.com/2025/08/flashback-friday-kerby-jean-raymond-fashion-with-a-conscience/",
+      "how": "image search"
+    },
+    {
+      "person": "Dapper Dan",
+      "photo": "https://iconiccollection.com/wp-content/uploads/sites/13779/2021/01/Dapper-Dan_Brookfield_DSC05794-2_LOWRES-scaled.jpg",
+      "from": "https://iconiccollection.com/how-dapper-dan-and-gucci-put-a-spotlight-on-harlem-style/",
+      "how": "image search"
+    },
+    {
+      "person": "Stephen Burrows",
+      "photo": "https://i0.wp.com/stephenburrows.com/wp-content/uploads/2013/01/stephen_burrows_cam1_ss12_838.jpg?w=632&h=632&crop=1&ssl=1",
+      "from": "https://stephenburrows.com",
+      "how": "their website"
+    },
+    {
+      "person": "B Michael",
+      "photo": "https://media.npr.org/assets/img/2013/12/02/closing-spring-2014-walk-out_custom-c47898491a770a99159227fc1e144d95d4550fa9-s1100-c50.jpg",
+      "from": "https://www.npr.org/2013/12/02/248195980/designer-b-michael-on-bringing-color-to-the-runway",
+      "how": "image search"
+    }
+  ]
+}
