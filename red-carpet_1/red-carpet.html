@@ -1,0 +1,702 @@
+<!--
+=============================================================================
+  RED CARPET — Wix embed for the Black American Fashion Designers page
+=============================================================================
+  HOW TO USE
+    1. Your GitHub username is already filled in (SECTION 1).
+    2. Copy this ENTIRE file and paste it into the #redCarpet "Embed HTML" box.
+
+  WHAT IT SHOWS
+    - A 10-slot carousel of today's designer news (auto-plays, swipeable)
+    - Two 4-slot galleries: Barbers & Hair Stylists, and Makeup Artists
+    - 10 category buttons with simple gold icons
+    - Click a button -> a drop-down with up to 5 designers in that category,
+      each with a picture, the article link and a link to their website
+
+  This page never stores anything. Every time someone visits, it reads the
+  latest data/feed.json that the daily GitHub job wrote.
+
+  TABLE OF CONTENTS
+    SECTION 1  Settings (the one line you must edit)
+    SECTION 2  Look & feel (colors, fonts, spacing — the "red carpet" style)
+    SECTION 3  Page layout (the empty frames that get filled in)
+    SECTION 4  Category icons (simple line drawings)
+    SECTION 5  Helpers (dates, monograms, safe text)
+    SECTION 6  Building one card (used by carousel and drop-downs)
+    SECTION 7  Carousel (slides, arrows, dots, auto-play, swipe) — used for
+               the designer carousel AND the two new galleries
+    SECTION 8  Category buttons + drop-down panel
+    SECTION 8B Back button (to the American Griot One page)
+    SECTION 9  Loading today's feed and starting everything
+=============================================================================
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Red Carpet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+/* ===========================================================================
+   SECTION 2 — LOOK & FEEL
+   Change the colors here and the whole page follows.
+   =========================================================================== */
+:root {
+  --velvet:      #4a0b12;   /* deep red carpet */
+  --velvet-dark: #1c0306;   /* shadow edge of the carpet */
+  --black:       #0b0708;
+  --gold:        #d4af5a;   /* main gold */
+  --gold-light:  #f3dc9b;   /* highlight gold */
+  --gold-dim:    #8c7232;
+  --ivory:       #f6efe3;   /* main text */
+  --muted:       #c9b9a6;   /* secondary text */
+  --card:        rgba(18, 6, 8, .72);
+  --radius:      14px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--black);
+  color: var(--ivory);
+  font-family: "Montserrat", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* The page background: a spotlight glowing on red velvet */
+.stage {
+  min-height: 100vh;
+  padding: 36px 16px 56px;
+  background:
+    radial-gradient(ellipse 60% 38% at 50% 0%, rgba(255, 228, 170, .20), transparent 70%),
+    repeating-linear-gradient(90deg, rgba(0,0,0,.10) 0 2px, transparent 2px 7px),
+    linear-gradient(180deg, var(--velvet) 0%, var(--velvet-dark) 100%);
+}
+.wrap { max-width: 1120px; margin: 0 auto; }
+
+/* ---- Heading ---- */
+.masthead { text-align: center; margin-bottom: 26px; }
+.eyebrow {
+  font-size: 11px; letter-spacing: .32em; text-transform: uppercase;
+  color: var(--gold); font-weight: 600;
+}
+.title {
+  font-family: "Playfair Display", serif; font-weight: 700;
+  font-size: clamp(34px, 6vw, 62px); line-height: 1.05; margin: 10px 0 8px;
+  background: linear-gradient(180deg, var(--gold-light), var(--gold) 55%, var(--gold-dim));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.subtitle { color: var(--muted); font-size: 14px; }
+.updated { color: var(--gold-dim); font-size: 11px; letter-spacing: .12em; margin-top: 8px; text-transform: uppercase; }
+
+/* ---- Back button (top-left) ---- */
+.back-btn {
+  display: inline-flex; align-items: center; gap: 6px; margin-bottom: 18px;
+  padding: 9px 16px; border-radius: 99px; cursor: pointer;
+  border: 1px solid var(--gold); background: rgba(10,2,4,.45); color: var(--gold-light);
+  font-family: inherit; font-size: 11px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+  transition: background .2s ease;
+}
+.back-btn:hover { background: rgba(212,175,90,.15); }
+.back-btn[hidden] { display: none; }
+
+/* ---- Velvet rope divider ---- */
+.rope { display: block; width: 100%; max-width: 560px; height: 46px; margin: 34px auto 26px; }
+
+/* ---- The two extra galleries (same look as the main carousel, a bit shorter) ---- */
+.gallery-section { margin-top: 8px; }
+.gallery .slide { height: clamp(340px, 46vw, 470px); }
+.gallery .slide h2 { font-size: clamp(24px, 3.4vw, 36px); }
+
+/* ---- Carousel ---- */
+.carousel {
+  position: relative; border-radius: var(--radius); overflow: hidden;
+  border: 1px solid rgba(212, 175, 90, .45);
+  box-shadow: 0 30px 80px rgba(0,0,0,.55), 0 0 0 6px rgba(212,175,90,.06);
+  background: var(--black);
+}
+.track { display: flex; transition: transform .7s cubic-bezier(.22,.8,.2,1); }
+.slide { position: relative; flex: 0 0 100%; height: clamp(380px, 56vw, 560px); }
+.slide .photo { position: absolute; inset: 0; }
+.slide .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.slide .shade {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(10,2,4,.92) 88%);
+}
+.slide .caption { position: absolute; left: 0; right: 0; bottom: 0; padding: 28px 76px 54px; }
+/* Where the person is from: gold for Black American, ivory outline for other countries */
+.origin {
+  display: inline-block; margin-top: 8px; padding: 3px 10px; border-radius: 99px;
+  font-size: 10.5px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  border: 1px solid rgba(246,239,227,.55); color: var(--ivory); background: rgba(10,2,4,.45);
+}
+.origin.ba { border-color: var(--gold); color: var(--gold-light); background: rgba(212,175,90,.14); }
+.row .origin { margin-top: 6px; font-size: 9.5px; }
+.credit { margin-top: 8px; font-size: 10.5px; color: var(--muted); opacity: .8; }
+.credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.slot-tag {
+  display: inline-block; font-size: 10px; letter-spacing: .26em; text-transform: uppercase;
+  color: var(--black); background: var(--gold); padding: 5px 10px; border-radius: 99px; font-weight: 600;
+}
+.slide h2 {
+  font-family: "Playfair Display", serif; font-size: clamp(26px, 4vw, 42px);
+  margin: 12px 0 4px; color: var(--ivory);
+}
+.slide .brand { color: var(--gold-light); font-style: italic; font-family: "Playfair Display", serif; font-size: 17px; }
+.slide .headline { margin-top: 12px; font-size: 15px; line-height: 1.5; max-width: 720px; color: var(--ivory); }
+.slide .meta { margin-top: 6px; font-size: 12px; color: var(--muted); letter-spacing: .04em; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 10px 18px; border-radius: 99px; font-size: 12px; font-weight: 600;
+  letter-spacing: .1em; text-transform: uppercase; text-decoration: none; cursor: pointer;
+  transition: transform .15s ease, background .2s ease, color .2s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-gold { background: linear-gradient(180deg, var(--gold-light), var(--gold)); color: var(--black); border: 0; }
+.btn-line { border: 1px solid var(--gold); color: var(--gold-light); background: transparent; }
+.btn-line:hover { background: rgba(212,175,90,.12); }
+
+.arrow {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid rgba(212,175,90,.6); background: rgba(10,2,4,.55);
+  color: var(--gold-light); font-size: 22px; cursor: pointer; z-index: 3;
+}
+.arrow:hover { background: rgba(212,175,90,.2); }
+.arrow.prev { left: 14px; } .arrow.next { right: 14px; }
+.dots { position: absolute; bottom: 18px; left: 0; right: 0; display: flex; justify-content: center; gap: 8px; z-index: 3; }
+.dot { width: 8px; height: 8px; border-radius: 50%; border: 0; background: rgba(246,239,227,.35); cursor: pointer; padding: 0; }
+.dot.on { background: var(--gold); width: 22px; border-radius: 99px; }
+
+/* Gold monogram shown when no picture is available */
+.monogram {
+  width: 100%; height: 100%; display: grid; place-items: center;
+  background:
+    radial-gradient(circle at 50% 40%, rgba(212,175,90,.25), transparent 60%),
+    linear-gradient(160deg, #2a060b, #0b0708);
+}
+.monogram span {
+  font-family: "Playfair Display", serif; color: var(--gold);
+  font-size: clamp(56px, 10vw, 120px); letter-spacing: .04em;
+  border: 2px solid var(--gold-dim); border-radius: 50%;
+  width: 1.9em; height: 1.9em; display: grid; place-items: center;
+}
+
+/* ---- Category buttons ---- */
+.section-title {
+  text-align: center; font-family: "Playfair Display", serif; font-size: clamp(24px, 3.4vw, 34px);
+  color: var(--gold-light); margin-bottom: 6px;
+}
+.section-sub { text-align: center; color: var(--muted); font-size: 13px; margin-bottom: 22px; }
+.cats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+.cat {
+  display: flex; flex-direction: column; align-items: center; gap: 10px;
+  padding: 18px 10px 16px; border-radius: var(--radius); cursor: pointer;
+  background: var(--card); border: 1px solid rgba(212,175,90,.28); color: var(--ivory);
+  font-family: inherit; font-size: 12px; font-weight: 500; letter-spacing: .04em; line-height: 1.3;
+  transition: border-color .2s, transform .2s, background .2s;
+}
+.cat:hover { border-color: var(--gold); transform: translateY(-2px); }
+.cat[aria-expanded="true"] { background: rgba(212,175,90,.14); border-color: var(--gold); }
+.cat svg { width: 40px; height: 40px; stroke: var(--gold); fill: none; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---- Drop-down panel ---- */
+.panel {
+  overflow: hidden; max-height: 0; opacity: 0;
+  transition: max-height .5s ease, opacity .35s ease, margin .35s ease;
+}
+.panel.open { max-height: 2400px; opacity: 1; margin-top: 18px; }
+.panel-inner {
+  border: 1px solid rgba(212,175,90,.45); border-radius: var(--radius);
+  background: rgba(10,2,4,.78); padding: 20px;
+}
+.panel-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+.panel-head h3 { font-family: "Playfair Display", serif; color: var(--gold-light); font-size: 22px; }
+.close { background: none; border: 0; color: var(--muted); font-size: 26px; cursor: pointer; line-height: 1; }
+
+.row {
+  display: grid; grid-template-columns: 120px 1fr; gap: 16px; align-items: center;
+  padding: 14px 0; border-top: 1px solid rgba(212,175,90,.16);
+}
+.row:first-of-type { border-top: 0; }
+.thumb { width: 120px; height: 120px; border-radius: 10px; overflow: hidden; border: 1px solid rgba(212,175,90,.35); }
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb .monogram span { font-size: 30px; border-width: 1px; }
+.row h4 { font-family: "Playfair Display", serif; font-size: 19px; }
+.row .brand { color: var(--gold-light); font-style: italic; font-family: "Playfair Display", serif; font-size: 14px; }
+.row .headline { font-size: 13.5px; margin-top: 6px; line-height: 1.45; }
+.row .headline a { color: var(--ivory); text-decoration: underline; text-decoration-color: var(--gold-dim); text-underline-offset: 3px; }
+.row .meta { font-size: 11.5px; color: var(--muted); margin-top: 4px; }
+.row .actions { margin-top: 10px; }
+.row .btn { padding: 8px 14px; font-size: 11px; }
+
+.notice {
+  text-align: center; padding: 70px 20px; color: var(--muted); font-size: 14px; line-height: 1.6;
+}
+.notice strong { color: var(--gold-light); font-family: "Playfair Display", serif; font-size: 22px; display: block; margin-bottom: 8px; font-weight: 500; }
+
+.footer-note { text-align: center; color: var(--gold-dim); font-size: 11px; margin-top: 30px; letter-spacing: .06em; }
+
+/* ---- Phone-size screens ---- */
+@media (max-width: 760px) {
+  .stage { padding: 26px 16px 40px; }
+  .cats { grid-template-columns: repeat(2, 1fr); }
+  .slide .caption { padding: 20px 18px 50px; }
+  .arrow { display: none; }
+  .row { grid-template-columns: 84px 1fr; gap: 12px; }
+  .thumb { width: 84px; height: 84px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .track, .panel, .cat, .btn { transition: none; }
+}
+</style>
+</head>
+
+<body>
+<!-- ===========================================================================
+     SECTION 3 — PAGE LAYOUT
+     Empty frames; the script in Section 9 fills them with today's feed.
+     =========================================================================== -->
+<main class="stage">
+  <div class="wrap">
+
+    <!-- Back button: returns to the American Griot One landing page -->
+    <button class="back-btn" id="backAgo" type="button">&#8249; American Griot One</button>
+
+    <header class="masthead">
+      <div class="eyebrow">Today's Arrivals</div>
+      <h1 class="title">The Red Carpet</h1>
+      <p class="subtitle">Black American designers, barbers, hair stylists and makeup artists in the news</p>
+      <div class="updated" id="updated"></div>
+    </header>
+
+    <!-- Carousel (10 slots) -->
+    <section class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Today's designer news">
+      <div class="notice" id="carousel-notice"><strong>Rolling out the carpet…</strong>Loading today's designers.</div>
+    </section>
+
+    <!-- Velvet rope divider -->
+    <svg class="rope" viewBox="0 0 560 46" aria-hidden="true">
+      <defs>
+        <linearGradient id="g" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f3dc9b"/><stop offset="1" stop-color="#8c7232"/></linearGradient>
+      </defs>
+      <path d="M40 12 Q160 52 280 12 Q400 52 520 12" fill="none" stroke="#7a0f1c" stroke-width="7" stroke-linecap="round"/>
+      <path d="M40 12 Q160 52 280 12 Q400 52 520 12" fill="none" stroke="#b3202f" stroke-width="2" opacity=".6"/>
+      <g fill="url(#g)">
+        <rect x="34" y="6" width="12" height="40" rx="3"/><circle cx="40" cy="6" r="7"/>
+        <rect x="274" y="6" width="12" height="40" rx="3"/><circle cx="280" cy="6" r="7"/>
+        <rect x="514" y="6" width="12" height="40" rx="3"/><circle cx="520" cy="6" r="7"/>
+      </g>
+    </svg>
+
+    <!-- Category buttons + drop-down -->
+    <section aria-labelledby="cat-title">
+      <h2 class="section-title" id="cat-title">Browse by Specialty</h2>
+      <p class="section-sub">Tap a category to see five designers working in it today.</p>
+      <div class="cats" id="cats"></div>
+      <div class="panel" id="panel" role="region" aria-live="polite"></div>
+    </section>
+
+    <!-- Gallery: Barbers & Hair Stylists (4 slots) -->
+    <svg class="rope" viewBox="0 0 560 46" aria-hidden="true">
+      <path d="M40 12 Q160 52 280 12 Q400 52 520 12" fill="none" stroke="#7a0f1c" stroke-width="7" stroke-linecap="round"/>
+      <path d="M40 12 Q160 52 280 12 Q400 52 520 12" fill="none" stroke="#b3202f" stroke-width="2" opacity=".6"/>
+      <g fill="url(#g)">
+        <rect x="34" y="6" width="12" height="40" rx="3"/><circle cx="40" cy="6" r="7"/>
+        <rect x="274" y="6" width="12" height="40" rx="3"/><circle cx="280" cy="6" r="7"/>
+        <rect x="514" y="6" width="12" height="40" rx="3"/><circle cx="520" cy="6" r="7"/>
+      </g>
+    </svg>
+    <section class="gallery-section" aria-labelledby="hair-title">
+      <h2 class="section-title" id="hair-title">Barbers &amp; Hair Stylists</h2>
+      <p class="section-sub">The artists behind the cuts, braids and crowns in today's news.</p>
+      <div class="carousel gallery" id="gallery-hair" aria-roledescription="carousel" aria-label="Barbers and hair stylists in the news">
+        <div class="notice"><strong>Rolling out the carpet…</strong>Loading today's stylists.</div>
+      </div>
+    </section>
+
+    <!-- Gallery: Makeup Artists (4 slots) -->
+    <svg class="rope" viewBox="0 0 560 46" aria-hidden="true">
+      <path d="M40 12 Q160 52 280 12 Q400 52 520 12" fill="none" stroke="#7a0f1c" stroke-width="7" stroke-linecap="round"/>
+      <path d="M40 12 Q160 52 280 12 Q400 52 520 12" fill="none" stroke="#b3202f" stroke-width="2" opacity=".6"/>
+      <g fill="url(#g)">
+        <rect x="34" y="6" width="12" height="40" rx="3"/><circle cx="40" cy="6" r="7"/>
+        <rect x="274" y="6" width="12" height="40" rx="3"/><circle cx="280" cy="6" r="7"/>
+        <rect x="514" y="6" width="12" height="40" rx="3"/><circle cx="520" cy="6" r="7"/>
+      </g>
+    </svg>
+    <section class="gallery-section" aria-labelledby="makeup-title">
+      <h2 class="section-title" id="makeup-title">Makeup Artists</h2>
+      <p class="section-sub">The glam behind today's red-carpet faces.</p>
+      <div class="carousel gallery" id="gallery-makeup" aria-roledescription="carousel" aria-label="Makeup artists in the news">
+        <div class="notice"><strong>Rolling out the carpet…</strong>Loading today's makeup artists.</div>
+      </div>
+    </section>
+
+    <p class="footer-note">Images and stories link to their original publishers.</p>
+  </div>
+</main>
+
+<script>
+/* ===========================================================================
+   SECTION 1 — SETTINGS
+   Your GitHub username and project name are already filled in. The page
+   tries the usual places feed.json can live (top level or inside a
+   red-carpet folder, on the main or master branch) and uses the first
+   one that answers. To force one exact address, put it in FEED_URL.
+   =========================================================================== */
+const GITHUB_USER = "norsounorllc2026-lgtm";
+const GITHUB_REPO = "red-carpet";
+const FEED_URL    = "";   // optional: exact address to feed.json
+
+// Folders inside the repository where the project files may sit.
+// "" = top level. Your upload is in red-carpet_1, so it is tried first.
+const PROJECT_FOLDERS = ["red-carpet_1", "red-carpet_1/red-carpet", "", "red-carpet", "red_carpet_1"];
+
+function feedAddresses() {
+  if (FEED_URL) return [FEED_URL];
+  const base = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}`;
+  return ["main", "master"].flatMap(branch =>
+    PROJECT_FOLDERS.map(folder => `${base}/${branch}/${folder ? folder + "/" : ""}data/feed.json`));
+}
+
+const AUTOPLAY_SECONDS = 6;   // how long each carousel slide stays up
+
+
+/* ===========================================================================
+   SECTION 4 — CATEGORY ICONS
+   Simple gold line drawings, one per category key from the script.
+   =========================================================================== */
+const ICONS = {
+  dresses:    '<path d="M9 3h6l-1.2 4.5L19 21H5l5.2-13.5z"/><path d="M8.6 12h6.8"/>',
+  suiting:    '<path d="M8 3l4 5 4-5 4 3-1.6 15H5.6L4 6z"/><path d="M12 8v13"/><path d="M9.5 13h-2"/>',
+  denim:      '<path d="M6.5 3h11l1 18h-4.5L12 10l-2 11H5.5z"/><path d="M6.5 6.5h11"/><path d="M12 3v3.5"/>',
+  streetwear: '<path d="M3.5 16a8.5 7 0 0 1 17 0z"/><path d="M12 16h9"/><path d="M12 9V7.5"/>',
+  knitwear:   '<circle cx="11" cy="13" r="7"/><path d="M5.5 9.5c3 1 8 1 11 0M4.5 14c4 1.5 9 1.5 13 0M7 19c2-4 6-9 9-11"/><path d="M15 3l6 6"/>',
+  comfort:    '<path d="M3 17l1-7 4 1 3 3.5 7.5 1A2.5 2.5 0 0 1 21 18v1H3z"/><path d="M3 17h18"/><path d="M9 12l-1 2M11 14l-1 2"/>',
+  swim:       '<path d="M8.5 3l.8 5.5L7 13.5 9 21h6l2-7.5-2.3-5L15.5 3"/><path d="M9.3 8.5c1.6 1.3 3.8 1.3 5.4 0"/>',
+  bags:       '<rect x="4" y="9" width="16" height="12" rx="2"/><path d="M8.5 9V7a3.5 3.5 0 0 1 7 0v2"/><path d="M4 13h16"/>',
+  jewelry:    '<circle cx="12" cy="15" r="6"/><path d="M9.5 6l2.5-3 2.5 3-2.5 3z"/>',
+  couture:    '<path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5z"/><path d="M5 19h14"/>',
+};
+const iconSvg = key => `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONS[key] || ICONS.couture}</svg>`;
+
+
+/* ===========================================================================
+   SECTION 5 — HELPERS
+   =========================================================================== */
+
+// Makes text safe to place on the page (stops broken or harmful markup)
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+// Only allow normal web links
+function safeUrl(u) {
+  try { const x = new URL(u); return /^https?:$/.test(x.protocol) ? x.href : ""; }
+  catch { return ""; }
+}
+
+// "2026-11-10T08:00:00Z" -> "Nov 10, 2026"
+function niceDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return isNaN(d) ? "" : d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
+
+// "Christopher John Rogers" -> "CR";  "LaQuan Smith" -> "LS"
+function initials(name) {
+  const words = String(name).replace(/\(.*?\)/g, "").split(/[\s,&]+/).filter(w => /^[A-Za-z]/.test(w));
+  return ((words[0] || "?")[0] + (words.length > 1 ? words[words.length - 1][0] : "")).toUpperCase();
+}
+
+// Small "Photo: site.com" credit linking to the page the photo came from
+function photoCredit(post) {
+  const src = safeUrl(post.photo_source);
+  if (!src || !post.image) return "";
+  const host = new URL(src).hostname.replace(/^www\./, "");
+  return `<p class="credit">Photo: <a href="${esc(src)}" target="_blank" rel="noopener">${esc(host)}</a></p>`;
+}
+
+// Where the person is from ("Black American", "Born in Haiti", ...). Blank if not confirmed.
+function originHtml(post) {
+  if (!post.origin) return "";
+  const ba = post.origin === "Black American";
+  return `<span class="origin${ba ? " ba" : ""}">${esc(post.origin)}</span>`;
+}
+
+// Picture, or a gold monogram if the picture is missing or won't load
+function pictureHtml(post) {
+  const mono = `<div class="monogram"><span>${esc(initials(post.designer))}</span></div>`;
+  const src = safeUrl(post.image);
+  if (!src) return mono;
+  return `<img src="${esc(src)}" alt="${esc(post.designer)}" loading="lazy" referrerpolicy="no-referrer"
+           onerror="this.outerHTML='${mono.replace(/'/g, "&#39;").replace(/"/g, "&quot;")}'">`;
+}
+
+
+/* ===========================================================================
+   SECTION 6 — BUILDING ONE CARD'S TEXT + BUTTONS
+   "article" cards link to the story; "profile" cards (first days only)
+   link to the designer's website.
+   =========================================================================== */
+function storyParts(post) {
+  const story = safeUrl(post.url);
+  const details = safeUrl(post.details);       // the search with the AI summary of their details
+  let site = safeUrl(post.website);
+  if (site && site === details) site = "";     // no website of their own yet: just show "Get details"
+  const isArticle = post.kind === "article" && story;
+  const role = post.role || "designer";            // designer, hair stylist, makeup artist
+  const isDesigner = role === "designer";
+  return {
+    headline: isArticle ? post.headline
+            : isDesigner ? `Step into the world of ${post.brand}.`
+            : `Get to know the work of ${post.designer}.`,
+    meta: isArticle ? [post.source, niceDate(post.published)].filter(Boolean).join(" · ")
+        : (isDesigner ? "Designer" : role.replace(/^./, c => c.toUpperCase())) + " spotlight",
+    buttons:
+      (isArticle ? `<a class="btn btn-gold" href="${esc(story)}" target="_blank" rel="noopener">Read the story</a>` : "") +
+      (site ? `<a class="btn ${isArticle ? "btn-line" : "btn-gold"}" href="${esc(site)}" target="_blank" rel="noopener">${isDesigner ? "Visit designer" : "Visit website"}</a>` : "") +
+      (safeUrl(post.instagram) ? `<a class="btn btn-line" href="${esc(safeUrl(post.instagram))}" target="_blank" rel="noopener">Instagram</a>` : "") +
+      (details ? `<a class="btn btn-line" href="${esc(details)}" target="_blank" rel="noopener">Get details</a>` : ""),
+    credit: photoCredit(post),
+    story: isArticle ? story : "",
+  };
+}
+
+
+/* ===========================================================================
+   SECTION 7 — CAROUSEL
+   Slides move every AUTOPLAY_SECONDS, pause when hovered or touched,
+   and respond to arrows, dots, keyboard arrows and finger swipes.
+   =========================================================================== */
+function buildCarousel(posts, boxId = "carousel", who = "designers") {
+  const box = document.getElementById(boxId);
+  if (!box) return;
+  if (!posts.length) {
+    box.innerHTML = `<div class="notice"><strong>The carpet is being rolled out</strong>Today's ${esc(who)} will appear here after the first daily update.</div>`;
+    return;
+  }
+
+  box.innerHTML = `
+    <div class="track">
+      ${posts.map((p, i) => {
+        const s = storyParts(p);
+        return `
+        <article class="slide" role="group" aria-roledescription="slide" aria-label="${i + 1} of ${posts.length}">
+          <div class="photo">${pictureHtml(p)}</div>
+          <div class="shade"></div>
+          <div class="caption">
+            <span class="slot-tag">${p.kind === "article" ? "In the news" : "Spotlight"}</span>
+            <h2>${esc(p.designer)}</h2>
+            <div class="brand">${esc(p.brand)}</div>
+            ${originHtml(p)}
+            <p class="headline">${esc(s.headline)}</p>
+            <p class="meta">${esc(s.meta)}</p>
+            <div class="actions">${s.buttons}</div>
+            ${s.credit}
+          </div>
+        </article>`;
+      }).join("")}
+    </div>
+    <button class="arrow prev" aria-label="Previous">&#8249;</button>
+    <button class="arrow next" aria-label="Next">&#8250;</button>
+    <div class="dots">${posts.map((_, i) => `<button class="dot" aria-label="Go to slide ${i + 1}"></button>`).join("")}</div>`;
+
+  const track = box.querySelector(".track");
+  const dots = [...box.querySelectorAll(".dot")];
+  let index = 0, timer = null;
+
+  function go(i) {
+    index = (i + posts.length) % posts.length;
+    track.style.transform = `translateX(-${index * 100}%)`;
+    dots.forEach((d, n) => d.classList.toggle("on", n === index));
+  }
+  function play() { stop(); if (posts.length > 1) timer = setInterval(() => go(index + 1), AUTOPLAY_SECONDS * 1000); }
+  function stop() { clearInterval(timer); }
+
+  box.querySelector(".prev").onclick = () => { go(index - 1); play(); };
+  box.querySelector(".next").onclick = () => { go(index + 1); play(); };
+  dots.forEach((d, n) => d.onclick = () => { go(n); play(); });
+  box.addEventListener("mouseenter", stop);
+  box.addEventListener("mouseleave", play);
+  box.tabIndex = 0;
+  box.addEventListener("keydown", e => {
+    if (e.key === "ArrowLeft") { go(index - 1); play(); }
+    if (e.key === "ArrowRight") { go(index + 1); play(); }
+  });
+
+  // finger swipe on phones
+  let startX = null;
+  box.addEventListener("touchstart", e => { startX = e.touches[0].clientX; stop(); }, { passive: true });
+  box.addEventListener("touchend", e => {
+    if (startX === null) return;
+    const dx = e.changedTouches[0].clientX - startX;
+    if (Math.abs(dx) > 40) go(index + (dx < 0 ? 1 : -1));
+    startX = null; play();
+  });
+
+  go(0); play();
+}
+
+
+/* ===========================================================================
+   SECTION 8 — CATEGORY BUTTONS + DROP-DOWN PANEL
+   One button per category. Clicking opens a panel below the buttons listing
+   that category's designers; clicking again (or ×) closes it.
+   =========================================================================== */
+function buildCategories(categories) {
+  const grid = document.getElementById("cats");
+  const panel = document.getElementById("panel");
+  let openKey = null;
+
+  grid.innerHTML = categories.map(c => `
+    <button class="cat" data-key="${esc(c.key)}" aria-expanded="false" aria-controls="panel">
+      ${iconSvg(c.key)}<span>${esc(c.label)}</span>
+    </button>`).join("");
+
+  function close() {
+    openKey = null;
+    panel.classList.remove("open");
+    grid.querySelectorAll(".cat").forEach(b => b.setAttribute("aria-expanded", "false"));
+  }
+
+  function open(cat) {
+    openKey = cat.key;
+    grid.querySelectorAll(".cat").forEach(b => b.setAttribute("aria-expanded", String(b.dataset.key === cat.key)));
+    const rows = cat.posts.map(p => {
+      const s = storyParts(p);
+      return `
+        <div class="row">
+          <div class="thumb">${pictureHtml(p)}</div>
+          <div>
+            <h4>${esc(p.designer)}</h4>
+            <div class="brand">${esc(p.brand)}</div>
+            ${originHtml(p)}
+            <p class="headline">${s.story ? `<a href="${esc(s.story)}" target="_blank" rel="noopener">${esc(s.headline)}</a>` : esc(s.headline)}</p>
+            <p class="meta">${esc(s.meta)}</p>
+            <div class="actions">${s.buttons}</div>
+            ${s.credit}
+          </div>
+        </div>`;
+    }).join("") || `<p class="notice">Designers for this category will appear after the first daily update.</p>`;
+
+    panel.innerHTML = `
+      <div class="panel-inner">
+        <div class="panel-head"><h3>${esc(cat.label)}</h3><button class="close" aria-label="Close">&times;</button></div>
+        ${rows}
+      </div>`;
+    panel.querySelector(".close").onclick = close;
+    panel.classList.add("open");
+    setTimeout(() => panel.scrollIntoView({ behavior: "smooth", block: "nearest" }), 120);
+  }
+
+  grid.addEventListener("click", e => {
+    const btn = e.target.closest(".cat");
+    if (!btn) return;
+    const cat = categories.find(c => c.key === btn.dataset.key);
+    openKey === cat.key ? close() : open(cat);
+  });
+}
+
+
+/* ===========================================================================
+   SECTION 8B — BACK BUTTON (back to the American Griot One landing page)
+   Same method as the Hot 16 page: first asks the Wix page code to open the
+   page; if nothing happens within 0.8 seconds, opens it directly.
+   =========================================================================== */
+var SITE_URL = '';   // optional: your site address, e.g. 'https://www.mysite.com'; leave '' to detect it
+
+function siteBase() {
+  if (SITE_URL) return SITE_URL.replace(/\/$/, '');
+  try {
+    var u = new URL(document.referrer);
+    if (/\.wixsite\.com$/.test(u.hostname)) {
+      var seg = u.pathname.split('/').filter(Boolean)[0];
+      return u.origin + (seg ? '/' + seg : '');
+    }
+    return u.origin;
+  } catch (e) { return ''; }
+}
+
+// Ask the page code to open the page; if it doesn't answer, open it directly.
+function goToPage(slug, message) {
+  window.parent.postMessage(message, '*');
+  setTimeout(function () {
+    var base = siteBase(); if (!base) return;
+    var url = base + '/' + slug;
+    try { window.top.location.href = url; } catch (e) { window.open(url, '_top'); }
+  }, 800);
+}
+
+var backBtn = document.getElementById("backAgo");
+if (window.parent === window) backBtn.hidden = true;      // opened on its own, not inside the site
+backBtn.addEventListener("click", function () {
+  goToPage("american-griot-one", { source: 'cultureTree', type: 'nav', path: '/american-griot-one' });
+});
+
+
+/* ===========================================================================
+   SECTION 9 — LOADING TODAY'S FEED AND STARTING EVERYTHING
+   Adds a time stamp to the address so visitors always get the newest file.
+   (For testing you can add ?feed=ANOTHER-ADDRESS to the page address.)
+   =========================================================================== */
+// Tries one address; returns the feed, or a short reason it failed.
+async function tryFeed(url) {
+  try {
+    const res = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) return { error: res.status === 404 ? "not found (404)" : "error " + res.status };
+    const feed = await res.json();
+    return { feed };
+  } catch (err) {
+    return { error: err instanceof SyntaxError ? "file is not valid feed data" : "could not connect" };
+  }
+}
+
+async function start() {
+  const override = new URLSearchParams(location.search).get("feed");
+  const addresses = override ? [override] : feedAddresses();
+  const tried = [];
+
+  for (const url of addresses) {
+    const result = await tryFeed(url);
+    if (result.feed) {
+      const feed = result.feed;
+      document.getElementById("updated").textContent = feed.updated ? "Updated " + niceDate(feed.updated) : "";
+      buildCarousel(feed.carousel || []);
+      buildCategories(feed.categories || []);
+      // the two extra galleries (Barbers & Hair Stylists, Makeup Artists)
+      const galleries = feed.galleries || [];
+      const find = key => (galleries.find(g => g.key === key) || {}).posts || [];
+      buildCarousel(find("hair"), "gallery-hair", "barbers and hair stylists");
+      buildCarousel(find("makeup"), "gallery-makeup", "makeup artists");
+      console.info("Red Carpet feed loaded from:", url);
+      return;
+    }
+    tried.push(`${url} — ${result.error}`);
+  }
+
+  // Nothing worked: show what was tried so the problem is easy to spot
+  document.getElementById("carousel").innerHTML =
+    `<div class="notice"><strong>The carpet is being rolled out</strong>Today's designers couldn't load just now. Please check back shortly.
+     <details style="margin-top:14px;text-align:left;font-size:11px;word-break:break-all;color:#8c7232">
+       <summary style="cursor:pointer">Details for the site owner</summary>
+       <ul style="margin:8px 0 0 16px">${tried.map(t => `<li>${esc(t)}</li>`).join("")}</ul>
+       <p style="margin-top:8px">If every address says "not found", the GitHub project is private, or the daily run hasn't saved feed.json yet.</p>
+     </details></div>`;
+  buildCategories([]);
+  console.error("Red Carpet feed could not load. Tried:\n" + tried.join("\n"));
+}
+start();
+</script>
+<!-- AGO shell: shared back button, members, brand frame and "More from AGO" links -->
+<script src="https://norsounorllc2026-lgtm.github.io/ago/shell/ago-shell.js" data-page="red-carpet" data-back="#backAgo"></script>
+</body>
+</html>
