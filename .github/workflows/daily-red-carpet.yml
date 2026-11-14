@@ -1,0 +1,92 @@
+# =============================================================================
+#  DAILY RED CARPET — GitHub's alarm clock for the news script
+# =============================================================================
+#  WHAT THIS FILE DOES
+#    Once a day, GitHub starts a fresh computer, runs scraper/run_daily.py,
+#    and saves the updated data/feed.json, data/state.json and the backup
+#    check report data/checks.json back into this project. Your Wix page
+#    then reads the new data/feed.json.
+#
+#  SECTIONS
+#    1. When it runs        (the schedule + a manual "Run workflow" button)
+#    2. Permission to save  (lets the job write the updated files back)
+#    3. The steps           (download -> find script -> install -> run -> save)
+# =============================================================================
+
+name: Daily Red Carpet
+
+# ---- 1. WHEN IT RUNS ---------------------------------------------------------
+on:
+  schedule:
+    # Times are in UTC. "17 11 * * *" = 11:17 UTC every day
+    #   = 5:17 AM Central Standard Time (6:17 AM during daylight saving time).
+    - cron: "17 11 * * *"
+  # Adds a "Run workflow" button on the Actions tab so you can run it any time.
+  workflow_dispatch:
+
+# ---- 2. PERMISSION TO SAVE ---------------------------------------------------
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-red-carpet
+  cancel-in-progress: false
+
+# ---- 3. THE STEPS ------------------------------------------------------------
+jobs:
+  find-todays-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      # 3a. Download this project onto the fresh computer
+      - name: Get the project files
+        uses: actions/checkout@v5
+
+      # 3b. Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # 3c. Find the script, wherever it was uploaded (top level or inside a
+      #     folder). Prints every file so the log shows what GitHub can see.
+      - name: Find the script
+        id: locate
+        run: |
+          echo "Files in this project:"
+          find . -path ./.git -prune -o -type f -print | sort
+          SCRIPT=$(find . -path ./.git -prune -o -type f -name run_daily.py -print | head -n 1)
+          if [ -z "$SCRIPT" ]; then
+            echo "::error::run_daily.py was not found. Upload the scraper folder (see README, Part 2)."
+            exit 1
+          fi
+          PROJECT=$(dirname "$(dirname "$SCRIPT")")
+          echo "Script found at: $SCRIPT"
+          echo "Project folder:  $PROJECT"
+          echo "script=$SCRIPT"   >> "$GITHUB_OUTPUT"
+          echo "project=$PROJECT" >> "$GITHUB_OUTPUT"
+
+      # 3d. Install the two add-ons the script needs, at the versions listed in
+      #     scraper/requirements.txt (requests = opens web pages; pillow = measures photo sizes)
+      - name: Install requirements
+        run: python -m pip install -r "${{ steps.locate.outputs.project }}/scraper/requirements.txt"
+
+      # 3e. Run the Rolodex search (its log shows every designer it checked)
+      - name: Search today's news
+        run: python "${{ steps.locate.outputs.script }}"
+
+      # 3f. Save the updated feed, memory and check report back into the project
+      - name: Save today's results
+        run: |
+          DATA="${{ steps.locate.outputs.project }}/data"
+          git config user.name  "red-carpet-bot"
+          git config user.email "red-carpet-bot@users.noreply.github.com"
+          git add "$DATA"
+          if git diff --cached --quiet; then
+            echo "Nothing changed today."
+          else
+            git commit -m "Red carpet update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+          echo "Your feed address (for FEED_URL in red-carpet.html):"
+          echo "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/${DATA#./}/feed.json"
