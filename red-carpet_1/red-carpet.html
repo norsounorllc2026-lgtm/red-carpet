@@ -683,14 +683,9 @@ async function start() {
     tried.push(`${url} — ${result.error}`);
   }
 
-  // Nothing worked: show what was tried so the problem is easy to spot
+  // Nothing worked: a plain message for visitors; what was tried goes to the browser console for the site owner
   document.getElementById("carousel").innerHTML =
-    `<div class="notice"><strong>The carpet is being rolled out</strong>Today's designers couldn't load just now. Please check back shortly.
-     <details style="margin-top:14px;text-align:left;font-size:11px;word-break:break-all;color:#8c7232">
-       <summary style="cursor:pointer">Details for the site owner</summary>
-       <ul style="margin:8px 0 0 16px">${tried.map(t => `<li>${esc(t)}</li>`).join("")}</ul>
-       <p style="margin-top:8px">If every address says "not found", the GitHub project is private, or the daily run hasn't saved feed.json yet.</p>
-     </details></div>`;
+    `<div class="notice"><strong>The carpet is being rolled out</strong>Today's designers couldn't load just now. Please check back shortly.</div>`;
   buildCategories([]);
   console.error("Red Carpet feed could not load. Tried:\n" + tried.join("\n"));
 }
