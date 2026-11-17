@@ -1,14 +1,27 @@
 {
-  "date": "2026-11-16",
-  "summary": "5 posted, 4 rejected, 0 earlier cards removed",
+  "date": "2026-11-17",
+  "summary": "2 posted, 3 rejected, 0 earlier cards removed",
   "articles": [
     {
       "gallery": "designers",
-      "designer": "Sergio Hudson",
-      "brand": "Sergio Hudson",
-      "headline": "Keke Palmer wears Sergio Hudson spring 2027 gown at 2026 Baby2Baby gala",
-      "source": "Fashion Times on MSN",
-      "url": "https://www.msn.com/en-us/news/other/keke-palmer-wears-sergio-hudson-spring-2027-gown-at-2026-baby2baby-gala/ar-AA2htOFh",
+      "designer": "Karl Kani",
+      "brand": "Karl Kani",
+      "headline": "Karl Kani Explains Why He Chose Control Over Going Public After $50M in Sales",
+      "source": "AllHipHop",
+      "url": "https://allhiphop.com/news/karl-kani-explains-why-he-chose-control-over-going-public-after-50m-in-sales/",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://allhiphop.com/wp-content/uploads/2026/11/Karl-Kani-1200x675.png",
+      "photo_note": "captioned with the designer's name; photo checked (1200x675)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Virgil Abloh",
+      "brand": "Off-White",
+      "headline": "The moment Virgil Abloh became the GOAT",
+      "source": "Oren John on MSN",
+      "url": "https://www.msn.com/en-us/news/other/the-moment-virgil-abloh-became-the-goat/vi-AA2hAdiK",
       "result": "rejected",
       "reason": "page has almost no article text (paywall or blocked)",
       "photo": "",
@@ -17,24 +30,11 @@
     },
     {
       "gallery": "designers",
-      "designer": "Russell Simmons",
-      "brand": "Phat Farm",
-      "headline": "Joey Bada$$ on True Religion x Phat Farm",
-      "source": "Yahoo",
-      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/joey-bada-true-religion-x-225500212.html",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/94d326945c17654cb64da09c571baf34514469d73a78842497a3fff30e00d52b/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmen_s_journal_718%2F1746b8c8ff099cc2fbf6c2905a90c9c5.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (976x549)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Simone I. Smith",
-      "brand": "Simone I. Smith",
-      "headline": "LL Cool J reveals secret behind 31-year marriage to wife Simone I. Smith",
-      "source": "The Express Tribune",
-      "url": "https://tribune.com.pk/story/2640459/ll-cool-j-reveals-secret-behind-31-year-marriage-to-wife-simone-i-smith",
+      "designer": "Tracy Reese",
+      "brand": "Hope for Flowers",
+      "headline": "A recap of Cooper Flagg's return to New England & TD Garden",
+      "source": "foxbangor.com",
+      "url": "https://www.foxbangor.com/sports/bangor-local-sports/a-recap-of-cooper-flaggs-return-to-new-england-td-garden/article_3aa5d176-40fb-4eb1-b987-a79aef139cd5.html",
       "result": "rejected",
       "reason": "no designer talk near the name (likely a different person)",
       "photo": "",
@@ -43,78 +43,26 @@
     },
     {
       "gallery": "designers",
-      "designer": "Simone I. Smith",
-      "brand": "Simone I. Smith",
-      "headline": "LL Cool J credits one unexpected rule for keeping his marriage strong",
-      "source": "The News International",
-      "url": "https://www.thenews.com.pk/latest/1423689-ll-cool-j-credits-one-unexpected-rule-for-keeping-his-marriage-strong",
-      "result": "rejected",
-      "reason": "link returned error 403",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Simone I. Smith",
-      "brand": "Simone I. Smith",
-      "headline": "LL Cool J Gives The SECRET To Being Married 31 Yrs IN HOLLYWOOD!",
-      "source": "Media Take Out",
-      "url": "https://mediatakeout.com/ll-cool-j-gives-the-secret-to-being-married-31-yrs-in-hollywood",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://mediatakeout.com/wp-content/uploads/2023/04/LL-Coolj.png",
-      "photo_note": "article's main photo; photo checked (1300x712)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Karl Kani",
-      "brand": "Karl Kani",
-      "headline": "Hip-hop streetwear pioneer Karl Kani shares how he built his brand in new memoir",
-      "source": "Boise State Public Radio",
-      "url": "https://www.boisestatepublicradio.org/2026-11-16/hip-hop-streetwear-pioneer-karl-kani-shares-how-he-built-his-brand-in-new-memoir",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://www.karlkani.com/cdn/shop/files/pac-hoodie-purple_c2107ad8-f84d-4971-85bd-d88532e4b51e.png?v=1743792813",
-      "photo_note": "no usable article photo; used a photo of them from karlkani.com",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Joe Robinson",
-      "brand": "Joe Freshgoods",
-      "headline": "Joe Freshgoods x Blackstock & Weber Loafer Releases October 23",
-      "source": "kicksundercost.com",
-      "url": "https://kicksundercost.com/news/joe-freshgoods-blackstock-weber-candy-apple-loafer-release",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fkicksundercost.com%2Fimages%2Fnews%2F82932791cb8b6097def511414f61eebb38506fc5.jpg&w=1200&q=80",
-      "photo_note": "captioned with the designer's name; photo checked (1068x757)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
       "designer": "Anifa Mvuemba",
       "brand": "Hanifa",
-      "headline": "Hanifa Returns After an 8-Month Hiatus With a Ready-to-Ship Collection",
-      "source": "Grit Daily",
-      "url": "https://gritdaily.com/8-month-hiatus-hanifa-ready-to-ship-collection/",
+      "headline": "Hanifa Is Back: Anifa Mvuemba On Motherhood, The Pressure To Keep Going And The Decision To Pause",
+      "source": "Yahoo",
+      "url": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/hanifa-back-anifa-mvuemba-motherhood-160559906.html",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://gritdaily.com/wp-content/uploads/2026/11/hanifa-founder-anifa-mvuemba-portrait-768x432.webp",
-      "photo_note": "captioned with the designer's name; photo checked (768x432)",
+      "photo": "https://s.yimg.com/lo/mysterio/api/b22d1e188b7521a47e1052719ea553f50afa1d4336f58804d81ccf9b2847c3fb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fblack_enterprise_497%2F8708c9045029584a40b0e0e545377bd3.jpg",
+      "photo_note": "article's main photo; photo checked (1200x748)",
       "rejected_photos": []
     },
     {
-      "gallery": "designers",
-      "designer": "Omar Salam",
-      "brand": "Sukeina",
-      "headline": "Une médaille d’or pour la Syrie au Championnat d’Arabie saoudite d’aviron en salle",
-      "source": "Syrian Arab News Agency",
-      "url": "https://sana.sy/fr/sport/2341830/",
+      "gallery": "makeup",
+      "designer": "Jackie Aina",
+      "brand": "FORVR Mood",
+      "headline": "Melanin Beauty Awards Trailblazer Award: Jackie Aina",
+      "source": "HelloBeautiful",
+      "url": "https://hellobeautiful.com/4606339/jackie-aina-trailblazer-award/",
       "result": "rejected",
-      "reason": "article is not in English (language: fr-fr)",
+      "reason": "no makeup artist talk near the name (likely a different person)",
       "photo": "",
       "photo_note": "",
       "rejected_photos": []
@@ -122,8 +70,18 @@
   ],
   "websites": [
     {
-      "designer": "Sergio Hudson",
-      "website": "https://www.sergiohudson.com",
+      "designer": "Russell Simmons",
+      "website": "https://www.phatfarm.com",
+      "result": "using website found earlier"
+    },
+    {
+      "designer": "Simone I. Smith",
+      "website": "https://simoneismith.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Karl Kani",
+      "website": "https://karlkani.com",
       "result": "opens"
     },
     {
@@ -132,18 +90,8 @@
       "result": "opens"
     },
     {
-      "designer": "Ev Bravado & Téla D'Amore",
-      "website": "https://whodecideswar.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Christopher John Rogers",
-      "website": "https://www.christopherjohnrogers.com",
-      "result": "opens"
-    },
-    {
-      "designer": "LaQuan Smith",
-      "website": "https://www.laquansmith.com",
+      "designer": "Anifa Mvuemba",
+      "website": "https://hanifa.co",
       "result": "opens"
     },
     {
@@ -212,8 +160,23 @@
       "result": "opens"
     },
     {
+      "designer": "Christopher John Rogers",
+      "website": "https://www.christopherjohnrogers.com",
+      "result": "opens"
+    },
+    {
+      "designer": "LaQuan Smith",
+      "website": "https://www.laquansmith.com",
+      "result": "opens"
+    },
+    {
       "designer": "Felisha Noel",
       "website": "https://fenoel.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
       "result": "opens"
     },
     {
@@ -227,8 +190,8 @@
       "result": "opens"
     },
     {
-      "designer": "Tremaine Emory",
-      "website": "https://denimtears.com",
+      "designer": "Ev Bravado & Téla D'Amore",
+      "website": "https://whodecideswar.com",
       "result": "opens"
     },
     {
@@ -332,11 +295,6 @@
       "result": "opens"
     },
     {
-      "designer": "Simone I. Smith",
-      "website": "https://simoneismith.com",
-      "result": "opens"
-    },
-    {
       "designer": "Elisa Johnson",
       "website": "https://elisajohnson.co",
       "result": "opens"
@@ -350,21 +308,6 @@
       "designer": "B Michael",
       "website": "https://bmichaelamerica.com",
       "result": "opens"
-    },
-    {
-      "designer": "Russell Simmons",
-      "website": "https://www.phatfarm.com",
-      "result": "FOUND AUTOMATICALLY — add it to the designer list"
-    },
-    {
-      "designer": "Karl Kani",
-      "website": "https://karlkani.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Anifa Mvuemba",
-      "website": "https://hanifa.co",
-      "result": "opens"
     }
   ],
   "rechecked": [],
@@ -374,12 +317,6 @@
       "photo": "(none found)",
       "from": "",
       "how": ""
-    },
-    {
-      "person": "Karl Kani",
-      "photo": "https://www.karlkani.com/cdn/shop/files/pac-hoodie-purple_c2107ad8-f84d-4971-85bd-d88532e4b51e.png?v=1743792813",
-      "from": "https://karlkani.com",
-      "how": "their website"
     }
   ]
 }
