@@ -1,68 +1,60 @@
 {
-  "date": "2026-11-17",
-  "summary": "2 posted, 3 rejected, 0 earlier cards removed",
+  "date": "2026-11-18",
+  "summary": "2 posted, 2 rejected, 0 earlier cards removed",
   "articles": [
     {
       "gallery": "designers",
-      "designer": "Karl Kani",
-      "brand": "Karl Kani",
-      "headline": "Karl Kani Explains Why He Chose Control Over Going Public After $50M in Sales",
-      "source": "AllHipHop",
-      "url": "https://allhiphop.com/news/karl-kani-explains-why-he-chose-control-over-going-public-after-50m-in-sales/",
+      "designer": "Dapper Dan",
+      "brand": "Dapper Dan of Harlem",
+      "headline": "Снимки 78-летнего Михаила Барышникова появились в глянце",
+      "source": "Леди Mail.ru",
+      "url": "https://lady.mail.ru/article/603619-snimki-78-letnego-mihaila-baryshnikova-poyavilis-v-glyance/",
+      "result": "rejected",
+      "reason": "article is not in English (language: ru)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Russell Simmons",
+      "brand": "Phat Farm",
+      "headline": "Joey Badass Is Face of True Religion and Phat Farm's Y2K Men's Collection",
+      "source": "Yahoo",
+      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/joey-badass-face-true-religion-210205298.html",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://allhiphop.com/wp-content/uploads/2026/11/Karl-Kani-1200x675.png",
-      "photo_note": "captioned with the designer's name; photo checked (1200x675)",
+      "photo": "https://s.yimg.com/lo/mysterio/api/3e1008666eff668674b9dd01f203330a7c56e49e59b2f842254cfcb45b38c0e8/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2Fd66ab9af08dde5357802727474086ca5.jpg",
+      "photo_note": "captioned with the designer's name; photo checked (976x549)",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
       "designer": "Virgil Abloh",
       "brand": "Off-White",
-      "headline": "The moment Virgil Abloh became the GOAT",
-      "source": "Oren John on MSN",
-      "url": "https://www.msn.com/en-us/news/other/the-moment-virgil-abloh-became-the-goat/vi-AA2hAdiK",
-      "result": "rejected",
-      "reason": "page has almost no article text (paywall or blocked)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Tracy Reese",
-      "brand": "Hope for Flowers",
-      "headline": "A recap of Cooper Flagg's return to New England & TD Garden",
-      "source": "foxbangor.com",
-      "url": "https://www.foxbangor.com/sports/bangor-local-sports/a-recap-of-cooper-flaggs-return-to-new-england-td-garden/article_3aa5d176-40fb-4eb1-b987-a79aef139cd5.html",
-      "result": "rejected",
-      "reason": "no designer talk near the name (likely a different person)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Anifa Mvuemba",
-      "brand": "Hanifa",
-      "headline": "Hanifa Is Back: Anifa Mvuemba On Motherhood, The Pressure To Keep Going And The Decision To Pause",
-      "source": "Yahoo",
-      "url": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/hanifa-back-anifa-mvuemba-motherhood-160559906.html",
+      "headline": "Raul Lopez Reimagines Jitney Bag for 10×10: Off-White Project",
+      "source": "Women's Wear Daily",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/raul-lopez-jitney-bag-10x10-off-white-reimagined-luar-1239421172/",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/b22d1e188b7521a47e1052719ea553f50afa1d4336f58804d81ccf9b2847c3fb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fblack_enterprise_497%2F8708c9045029584a40b0e0e545377bd3.jpg",
-      "photo_note": "article's main photo; photo checked (1200x748)",
-      "rejected_photos": []
+      "photo": "https://wwd.com/wp-content/uploads/2026/11/14.-10x10_RAUL_GRAPHIC_BAGS_06.07.26_16_9.jpg?w=1000&h=563&crop=1",
+      "photo_note": "article's main photo; photo checked (1000x563)",
+      "rejected_photos": [
+        {
+          "photo": "https://wwd.com/wp-content/uploads/2022/07/Screen-Shot-2022-07-31-at-9.44.13-AM.png?w=260&h=150&crop=1",
+          "reason": "too small (260x150)"
+        }
+      ]
     },
     {
       "gallery": "makeup",
-      "designer": "Jackie Aina",
-      "brand": "FORVR Mood",
-      "headline": "Melanin Beauty Awards Trailblazer Award: Jackie Aina",
-      "source": "HelloBeautiful",
-      "url": "https://hellobeautiful.com/4606339/jackie-aina-trailblazer-award/",
+      "designer": "Pat McGrath",
+      "brand": "Pat McGrath Labs",
+      "headline": "Pat McGrath talks inspiration, innovation and the power of makeup",
+      "source": "Women's Wear Daily on MSN",
+      "url": "https://www.msn.com/en-us/news/other/pat-mcgrath-talks-inspiration-innovation-and-the-power-of-makeup/ar-AA2hEdxd",
       "result": "rejected",
-      "reason": "no makeup artist talk near the name (likely a different person)",
+      "reason": "page has almost no article text (paywall or blocked)",
       "photo": "",
       "photo_note": "",
       "rejected_photos": []
@@ -70,28 +62,18 @@
   ],
   "websites": [
     {
-      "designer": "Russell Simmons",
-      "website": "https://www.phatfarm.com",
-      "result": "using website found earlier"
-    },
-    {
-      "designer": "Simone I. Smith",
-      "website": "https://simoneismith.com",
-      "result": "opens"
-    },
-    {
       "designer": "Karl Kani",
       "website": "https://karlkani.com",
       "result": "opens"
     },
     {
-      "designer": "Joe Robinson",
-      "website": "https://joefreshgoods.com",
+      "designer": "Anifa Mvuemba",
+      "website": "https://hanifa.co",
       "result": "opens"
     },
     {
-      "designer": "Anifa Mvuemba",
-      "website": "https://hanifa.co",
+      "designer": "Joe Robinson",
+      "website": "https://joefreshgoods.com",
       "result": "opens"
     },
     {
@@ -210,6 +192,11 @@
       "result": "opens"
     },
     {
+      "designer": "Russell Simmons",
+      "website": "https://www.phatfarm.com",
+      "result": "using website found earlier"
+    },
+    {
       "designer": "Jerry Lorenzo",
       "website": "https://fearofgod.com",
       "result": "opens"
@@ -295,6 +282,11 @@
       "result": "opens"
     },
     {
+      "designer": "Simone I. Smith",
+      "website": "https://simoneismith.com",
+      "result": "opens"
+    },
+    {
       "designer": "Elisa Johnson",
       "website": "https://elisajohnson.co",
       "result": "opens"
@@ -307,6 +299,11 @@
     {
       "designer": "B Michael",
       "website": "https://bmichaelamerica.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Virgil Abloh",
+      "website": "https://www.off---white.com",
       "result": "opens"
     }
   ],

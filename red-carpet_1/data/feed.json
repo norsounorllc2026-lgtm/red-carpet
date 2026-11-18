@@ -1,46 +1,46 @@
 {
-  "updated": "2026-11-17T12:12:36.098242+00:00",
+  "updated": "2026-11-18T12:21:11.326457+00:00",
   "carousel": [
     {
       "kind": "article",
       "group": "designers",
       "role": "designer",
-      "origin": "Born in Costa Rica",
-      "designer": "Karl Kani",
-      "brand": "Karl Kani",
-      "website": "https://karlkani.com",
-      "details": "https://www.bing.com/search?q=Karl+Kani+Karl+Kani+designer",
+      "origin": "Black American",
+      "designer": "Russell Simmons",
+      "brand": "Phat Farm",
+      "website": "https://www.phatfarm.com",
+      "details": "https://www.bing.com/search?q=Phat+Farm+Russell+Simmons+designer",
       "instagram": "",
       "categories": [
-        "denim",
         "streetwear"
       ],
-      "image": "https://allhiphop.com/wp-content/uploads/2026/11/Karl-Kani-1200x675.png",
+      "image": "https://s.yimg.com/lo/mysterio/api/3e1008666eff668674b9dd01f203330a7c56e49e59b2f842254cfcb45b38c0e8/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2Fd66ab9af08dde5357802727474086ca5.jpg",
       "photo_source": "",
-      "headline": "Karl Kani Explains Why He Chose Control Over Going Public After $50M in Sales",
-      "url": "https://allhiphop.com/news/karl-kani-explains-why-he-chose-control-over-going-public-after-50m-in-sales/",
-      "source": "AllHipHop",
-      "published": "2026-11-16T19:02:00+00:00"
+      "headline": "Joey Badass Is Face of True Religion and Phat Farm's Y2K Men's Collection",
+      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/joey-badass-face-true-religion-210205298.html",
+      "source": "Yahoo",
+      "published": "2026-11-17T13:02:00+00:00"
     },
     {
       "kind": "article",
       "group": "designers",
       "role": "designer",
-      "origin": "Born in DR Congo",
-      "designer": "Anifa Mvuemba",
-      "brand": "Hanifa",
-      "website": "https://hanifa.co",
-      "details": "https://www.bing.com/search?q=Hanifa+Anifa+Mvuemba+designer",
+      "origin": "Ghanaian heritage",
+      "designer": "Virgil Abloh",
+      "brand": "Off-White",
+      "website": "https://www.off---white.com",
+      "details": "https://www.bing.com/search?q=Off-White+Virgil+Abloh+designer",
       "instagram": "",
       "categories": [
-        "dresses"
+        "streetwear",
+        "couture"
       ],
-      "image": "https://s.yimg.com/lo/mysterio/api/b22d1e188b7521a47e1052719ea553f50afa1d4336f58804d81ccf9b2847c3fb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fblack_enterprise_497%2F8708c9045029584a40b0e0e545377bd3.jpg",
+      "image": "https://wwd.com/wp-content/uploads/2026/11/14.-10x10_RAUL_GRAPHIC_BAGS_06.07.26_16_9.jpg?w=1000&h=563&crop=1",
       "photo_source": "",
-      "headline": "Hanifa Is Back: Anifa Mvuemba On Motherhood, The Pressure To Keep Going And The Decision To Pause",
-      "url": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/hanifa-back-anifa-mvuemba-motherhood-160559906.html",
-      "source": "Yahoo",
-      "published": "2026-11-16T08:05:00+00:00"
+      "headline": "Raul Lopez Reimagines Jitney Bag for 10×10: Off-White Project",
+      "url": "https://wwd.com/fashion-news/fashion-scoops/raul-lopez-jitney-bag-10x10-off-white-reimagined-luar-1239421172/",
+      "source": "Women's Wear Daily",
+      "published": "2026-11-17T16:01:00+00:00"
     },
     {
       "kind": "article",
@@ -547,21 +547,22 @@
           "kind": "article",
           "group": "designers",
           "role": "designer",
-          "origin": "Black American",
-          "designer": "Russell Simmons",
-          "brand": "Phat Farm",
-          "website": "https://www.phatfarm.com",
-          "details": "https://www.bing.com/search?q=Phat+Farm+Russell+Simmons+designer",
+          "origin": "Ghanaian heritage",
+          "designer": "Virgil Abloh",
+          "brand": "Off-White",
+          "website": "https://www.off---white.com",
+          "details": "https://www.bing.com/search?q=Off-White+Virgil+Abloh+designer",
           "instagram": "",
           "categories": [
-            "streetwear"
+            "streetwear",
+            "couture"
           ],
-          "image": "https://s.yimg.com/lo/mysterio/api/94d326945c17654cb64da09c571baf34514469d73a78842497a3fff30e00d52b/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmen_s_journal_718%2F1746b8c8ff099cc2fbf6c2905a90c9c5.jpg",
+          "image": "https://wwd.com/wp-content/uploads/2026/11/14.-10x10_RAUL_GRAPHIC_BAGS_06.07.26_16_9.jpg?w=1000&h=563&crop=1",
           "photo_source": "",
-          "headline": "Joey Bada$$ on True Religion x Phat Farm",
-          "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/joey-bada-true-religion-x-225500212.html",
-          "source": "Yahoo",
-          "published": "2026-11-15T14:55:00+00:00"
+          "headline": "Raul Lopez Reimagines Jitney Bag for 10×10: Off-White Project",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/raul-lopez-jitney-bag-10x10-off-white-reimagined-luar-1239421172/",
+          "source": "Women's Wear Daily",
+          "published": "2026-11-17T16:01:00+00:00"
         },
         {
           "kind": "article",
@@ -1174,25 +1175,25 @@
       "label": "Couture & Legacy Icons",
       "posts": [
         {
-          "kind": "profile",
+          "kind": "article",
           "group": "designers",
           "role": "designer",
-          "origin": "Black American",
-          "designer": "Christopher John Rogers",
-          "brand": "Christopher John Rogers",
-          "website": "https://www.christopherjohnrogers.com",
-          "details": "https://www.bing.com/search?q=Christopher+John+Rogers+Christopher+John+Rogers+designer",
+          "origin": "Ghanaian heritage",
+          "designer": "Virgil Abloh",
+          "brand": "Off-White",
+          "website": "https://www.off---white.com",
+          "details": "https://www.bing.com/search?q=Off-White+Virgil+Abloh+designer",
           "instagram": "",
           "categories": [
-            "dresses",
+            "streetwear",
             "couture"
           ],
-          "image": "https://wwd.com/wp-content/uploads/2025/02/Christopher-John-Rogers-A-Kaleidoscope-of-Color-in-Fashion23-2.jpg",
-          "photo_source": "https://wwd.com/fashion-news/fashion-features/black-fashion-designers-american-fashion-1236903193/",
-          "headline": "",
-          "url": "",
-          "source": "",
-          "published": ""
+          "image": "https://wwd.com/wp-content/uploads/2026/11/14.-10x10_RAUL_GRAPHIC_BAGS_06.07.26_16_9.jpg?w=1000&h=563&crop=1",
+          "photo_source": "",
+          "headline": "Raul Lopez Reimagines Jitney Bag for 10×10: Off-White Project",
+          "url": "https://wwd.com/fashion-news/fashion-scoops/raul-lopez-jitney-bag-10x10-off-white-reimagined-luar-1239421172/",
+          "source": "Women's Wear Daily",
+          "published": "2026-11-17T16:01:00+00:00"
         },
         {
           "kind": "profile",
