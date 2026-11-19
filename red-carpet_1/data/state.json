@@ -13,7 +13,13 @@
     "allhiphop|karl kani explains why he chose control over going public after 50m in sales": "2026-11-17",
     "yahoo|hanifa is back anifa mvuemba on motherhood the pressure to keep going and the decision to pause": "2026-11-17",
     "yahoo|joey badass is face of true religion and phat farms y2k mens collection": "2026-11-18",
-    "women's wear daily|raul lopez reimagines jitney bag for 1010 offwhite project": "2026-11-18"
+    "women's wear daily|raul lopez reimagines jitney bag for 1010 offwhite project": "2026-11-18",
+    "yahoo|fear of god fall 2027 easy does it": "2026-11-19",
+    "yahoo!|billionaire boys club releases new pokmon collab collection": "2026-11-19",
+    "yahoo!|stunna sandy stars in who decides war fw 2026 womenswear campaign": "2026-11-19",
+    "boise state public radio|karl kani dressed hiphop royalty for decades now hes telling his own story": "2026-11-19",
+    "esquire|offset discusses his fashion style creative influences and personal journey": "2026-11-19",
+    "yahoo|dame pat mcgrath hailey biebers rhode cymbiotika and more honored at 2026 beauty inc awards": "2026-11-19"
   },
   "next": 0,
   "carousel": [
@@ -22,41 +28,62 @@
       "group": "designers",
       "role": "designer",
       "origin": "Black American",
-      "designer": "Russell Simmons",
-      "brand": "Phat Farm",
-      "website": "https://www.phatfarm.com",
-      "details": "https://www.bing.com/search?q=Phat+Farm+Russell+Simmons+designer",
+      "designer": "Jerry Lorenzo",
+      "brand": "Fear of God",
+      "website": "https://fearofgod.com",
+      "details": "https://www.bing.com/search?q=Fear+of+God+Jerry+Lorenzo+designer",
       "instagram": "",
       "categories": [
-        "streetwear"
+        "streetwear",
+        "comfort"
       ],
-      "image": "https://s.yimg.com/lo/mysterio/api/3e1008666eff668674b9dd01f203330a7c56e49e59b2f842254cfcb45b38c0e8/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2Fd66ab9af08dde5357802727474086ca5.jpg",
+      "image": "https://s.yimg.com/lo/mysterio/api/714300327451c9c0f47e95cb094a0c6ea1df00eb34426430d9f9185f4d774808/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2Ff820e25056e3efcb4fcbd62d233f0005.jpg",
       "photo_source": "",
-      "headline": "Joey Badass Is Face of True Religion and Phat Farm's Y2K Men's Collection",
-      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/joey-badass-face-true-religion-210205298.html",
+      "headline": "Fear of God Fall 2027: Easy Does It",
+      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/fear-god-fall-2027-easy-050100622.html",
       "source": "Yahoo",
-      "published": "2026-11-17T13:02:00+00:00"
+      "published": "2026-11-18T21:01:00+00:00"
     },
     {
       "kind": "article",
       "group": "designers",
       "role": "designer",
-      "origin": "Ghanaian heritage",
-      "designer": "Virgil Abloh",
-      "brand": "Off-White",
-      "website": "https://www.off---white.com",
-      "details": "https://www.bing.com/search?q=Off-White+Virgil+Abloh+designer",
+      "origin": "Black American",
+      "designer": "Pharrell Williams",
+      "brand": "Billionaire Boys Club / ICECREAM",
+      "website": "https://www.bbcicecream.com",
+      "details": "https://www.bing.com/search?q=Billionaire+Boys+Club+%2F+ICECREAM+Pharrell+Williams+designer",
       "instagram": "",
       "categories": [
-        "streetwear",
-        "couture"
+        "streetwear"
       ],
-      "image": "https://wwd.com/wp-content/uploads/2026/11/14.-10x10_RAUL_GRAPHIC_BAGS_06.07.26_16_9.jpg?w=1000&h=563&crop=1",
+      "image": "https://s.yimg.com/lo/mysterio/api/44c84e525b178a5714e22bb2cb2c0eda54e4ae74fc063102228152a4541bcd8f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F8db84bc1735da81481385c8f20692e80.jpg",
       "photo_source": "",
-      "headline": "Raul Lopez Reimagines Jitney Bag for 10×10: Off-White Project",
-      "url": "https://wwd.com/fashion-news/fashion-scoops/raul-lopez-jitney-bag-10x10-off-white-reimagined-luar-1239421172/",
-      "source": "Women's Wear Daily",
-      "published": "2026-11-17T16:01:00+00:00"
+      "headline": "Billionaire Boys Club Releases New Pokémon Collab Collection",
+      "url": "https://shopping.yahoo.com/style/clothing/articles/billionaire-boys-club-releases-pok-153553302.html",
+      "source": "YAHOO!",
+      "published": "2026-11-18T07:35:00+00:00"
+    },
+    {
+      "kind": "article",
+      "group": "designers",
+      "role": "designer",
+      "origin": "",
+      "designer": "Ev Bravado & Téla D'Amore",
+      "brand": "Who Decides War",
+      "website": "https://whodecideswar.com",
+      "details": "https://www.bing.com/search?q=Who+Decides+War+Ev+Bravado+%26+T%C3%A9la+D%27Amore+designer",
+      "instagram": "",
+      "categories": [
+        "denim",
+        "streetwear"
+      ],
+      "image": "https://s.yimg.com/lo/mysterio/api/20d15957d3d995863bef07eee1705a921c6162df0ee760301e3c46ade7d813f8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F9c7dc679f774e1d088d94f18f78bdc0c.jpg",
+      "photo_source": "",
+      "headline": "Stunna Sandy Stars in Who Decides War F/W 2026 Womenswear Campaign",
+      "url": "https://shopping.yahoo.com/style/clothing/articles/stunna-sandy-stars-decides-war-231357775.html",
+      "source": "YAHOO!",
+      "published": "2026-11-18T15:13:00+00:00"
     },
     {
       "kind": "article",
@@ -72,52 +99,33 @@
         "denim",
         "streetwear"
       ],
-      "image": "https://www.karlkani.com/cdn/shop/files/pac-hoodie-purple_c2107ad8-f84d-4971-85bd-d88532e4b51e.png?v=1743792813",
+      "image": "https://fashionsizzle.com/wp-content/uploads/2025/04/bb4b64df81426caacfde3514b5a1f7ca.jpg",
       "photo_source": "",
-      "headline": "Hip-hop streetwear pioneer Karl Kani shares how he built his brand in new memoir",
-      "url": "https://www.boisestatepublicradio.org/2026-11-16/hip-hop-streetwear-pioneer-karl-kani-shares-how-he-built-his-brand-in-new-memoir",
+      "headline": "Karl Kani dressed hip-hop royalty for decades. Now he's telling his own story",
+      "url": "https://www.boisestatepublicradio.org/2026-11-18/karl-kani-dressed-hip-hop-royalty-for-decades-now-hes-telling-his-own-story",
       "source": "Boise State Public Radio",
-      "published": "2026-11-15T18:47:00+00:00"
+      "published": "2026-11-18T03:15:00+00:00"
     },
     {
       "kind": "article",
       "group": "designers",
       "role": "designer",
-      "origin": "",
-      "designer": "Joe Robinson",
-      "brand": "Joe Freshgoods",
-      "website": "https://joefreshgoods.com",
-      "details": "https://www.bing.com/search?q=Joe+Freshgoods+Joe+Robinson+designer",
+      "origin": "Ghanaian heritage",
+      "designer": "Virgil Abloh",
+      "brand": "Off-White",
+      "website": "https://www.off---white.com",
+      "details": "https://www.bing.com/search?q=Off-White+Virgil+Abloh+designer",
       "instagram": "",
       "categories": [
-        "streetwear"
+        "streetwear",
+        "couture"
       ],
-      "image": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fkicksundercost.com%2Fimages%2Fnews%2F82932791cb8b6097def511414f61eebb38506fc5.jpg&w=1200&q=80",
+      "image": "https://assets.contentsvc.com/offwhite/sha256/718079b837bdf45f6f7567a2a7048a75b93bef5819f84e2636128676eab053ad/Nuovo_progetto_20261117T174806057.jpg?w=1152&h=1694&fm=avif",
       "photo_source": "",
-      "headline": "Joe Freshgoods x Blackstock & Weber Loafer Releases October 23",
-      "url": "https://kicksundercost.com/news/joe-freshgoods-blackstock-weber-candy-apple-loafer-release",
-      "source": "kicksundercost.com",
-      "published": "2026-11-15T04:45:00+00:00"
-    },
-    {
-      "kind": "article",
-      "group": "designers",
-      "role": "designer",
-      "origin": "Born in DR Congo",
-      "designer": "Anifa Mvuemba",
-      "brand": "Hanifa",
-      "website": "https://hanifa.co",
-      "details": "https://www.bing.com/search?q=Hanifa+Anifa+Mvuemba+designer",
-      "instagram": "",
-      "categories": [
-        "dresses"
-      ],
-      "image": "https://gritdaily.com/wp-content/uploads/2026/11/hanifa-founder-anifa-mvuemba-portrait-768x432.webp",
-      "photo_source": "",
-      "headline": "Hanifa Returns After an 8-Month Hiatus With a Ready-to-Ship Collection",
-      "url": "https://gritdaily.com/8-month-hiatus-hanifa-ready-to-ship-collection/",
-      "source": "Grit Daily",
-      "published": "2026-11-16T02:40:00+00:00"
+      "headline": "Offset Discusses His Fashion Style, Creative Influences, and Personal Journey",
+      "url": "https://www.esquire.com/videos/cardi-b-s-style-sophomore-album-like-interview/",
+      "source": "Esquire",
+      "published": "2026-11-18T19:50:00+00:00"
     },
     {
       "kind": "profile",
@@ -451,12 +459,12 @@
           "denim",
           "streetwear"
         ],
-        "image": "https://allhiphop.com/wp-content/uploads/2026/11/Karl-Kani-1200x675.png",
+        "image": "https://fashionsizzle.com/wp-content/uploads/2025/04/bb4b64df81426caacfde3514b5a1f7ca.jpg",
         "photo_source": "",
-        "headline": "Karl Kani Explains Why He Chose Control Over Going Public After $50M in Sales",
-        "url": "https://allhiphop.com/news/karl-kani-explains-why-he-chose-control-over-going-public-after-50m-in-sales/",
-        "source": "AllHipHop",
-        "published": "2026-11-16T19:02:00+00:00"
+        "headline": "Karl Kani dressed hip-hop royalty for decades. Now he's telling his own story",
+        "url": "https://www.boisestatepublicradio.org/2026-11-18/karl-kani-dressed-hip-hop-royalty-for-decades-now-hes-telling-his-own-story",
+        "source": "Boise State Public Radio",
+        "published": "2026-11-18T03:15:00+00:00"
       },
       {
         "kind": "article",
@@ -472,12 +480,12 @@
           "denim",
           "streetwear"
         ],
-        "image": "https://images.complex.com/complex/image/upload/c_crop,h_1091,w_1920,x_0,y_0/g_auto:aoi_768_437_384_218/sanity-new/ljndxtfzrmsiayu8sr8e",
+        "image": "https://s.yimg.com/lo/mysterio/api/20d15957d3d995863bef07eee1705a921c6162df0ee760301e3c46ade7d813f8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F9c7dc679f774e1d088d94f18f78bdc0c.jpg",
         "photo_source": "",
         "headline": "Stunna Sandy Stars in Who Decides War F/W 2026 Womenswear Campaign",
-        "url": "https://www.complex.com/style/a/jaelaniturnerwilliams/who-decides-war-womenswear-collection-launch",
-        "source": "Complex",
-        "published": "2026-11-13T15:13:00+00:00"
+        "url": "https://shopping.yahoo.com/style/clothing/articles/stunna-sandy-stars-decides-war-231357775.html",
+        "source": "YAHOO!",
+        "published": "2026-11-18T15:13:00+00:00"
       },
       {
         "kind": "profile",
@@ -548,22 +556,42 @@
         "kind": "article",
         "group": "designers",
         "role": "designer",
-        "origin": "Ghanaian heritage",
-        "designer": "Virgil Abloh",
-        "brand": "Off-White",
-        "website": "https://www.off---white.com",
-        "details": "https://www.bing.com/search?q=Off-White+Virgil+Abloh+designer",
+        "origin": "Black American",
+        "designer": "Pharrell Williams",
+        "brand": "Billionaire Boys Club / ICECREAM",
+        "website": "https://www.bbcicecream.com",
+        "details": "https://www.bing.com/search?q=Billionaire+Boys+Club+%2F+ICECREAM+Pharrell+Williams+designer",
         "instagram": "",
         "categories": [
-          "streetwear",
-          "couture"
+          "streetwear"
         ],
-        "image": "https://wwd.com/wp-content/uploads/2026/11/14.-10x10_RAUL_GRAPHIC_BAGS_06.07.26_16_9.jpg?w=1000&h=563&crop=1",
+        "image": "https://s.yimg.com/lo/mysterio/api/44c84e525b178a5714e22bb2cb2c0eda54e4ae74fc063102228152a4541bcd8f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F8db84bc1735da81481385c8f20692e80.jpg",
         "photo_source": "",
-        "headline": "Raul Lopez Reimagines Jitney Bag for 10×10: Off-White Project",
-        "url": "https://wwd.com/fashion-news/fashion-scoops/raul-lopez-jitney-bag-10x10-off-white-reimagined-luar-1239421172/",
-        "source": "Women's Wear Daily",
-        "published": "2026-11-17T16:01:00+00:00"
+        "headline": "Billionaire Boys Club Releases New Pokémon Collab Collection",
+        "url": "https://shopping.yahoo.com/style/clothing/articles/billionaire-boys-club-releases-pok-153553302.html",
+        "source": "YAHOO!",
+        "published": "2026-11-18T07:35:00+00:00"
+      },
+      {
+        "kind": "article",
+        "group": "designers",
+        "role": "designer",
+        "origin": "",
+        "designer": "Ev Bravado & Téla D'Amore",
+        "brand": "Who Decides War",
+        "website": "https://whodecideswar.com",
+        "details": "https://www.bing.com/search?q=Who+Decides+War+Ev+Bravado+%26+T%C3%A9la+D%27Amore+designer",
+        "instagram": "",
+        "categories": [
+          "denim",
+          "streetwear"
+        ],
+        "image": "https://s.yimg.com/lo/mysterio/api/20d15957d3d995863bef07eee1705a921c6162df0ee760301e3c46ade7d813f8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F9c7dc679f774e1d088d94f18f78bdc0c.jpg",
+        "photo_source": "",
+        "headline": "Stunna Sandy Stars in Who Decides War F/W 2026 Womenswear Campaign",
+        "url": "https://shopping.yahoo.com/style/clothing/articles/stunna-sandy-stars-decides-war-231357775.html",
+        "source": "YAHOO!",
+        "published": "2026-11-18T15:13:00+00:00"
       },
       {
         "kind": "article",
@@ -579,53 +607,33 @@
           "denim",
           "streetwear"
         ],
-        "image": "https://allhiphop.com/wp-content/uploads/2026/11/Karl-Kani-1200x675.png",
+        "image": "https://fashionsizzle.com/wp-content/uploads/2025/04/bb4b64df81426caacfde3514b5a1f7ca.jpg",
         "photo_source": "",
-        "headline": "Karl Kani Explains Why He Chose Control Over Going Public After $50M in Sales",
-        "url": "https://allhiphop.com/news/karl-kani-explains-why-he-chose-control-over-going-public-after-50m-in-sales/",
-        "source": "AllHipHop",
-        "published": "2026-11-16T19:02:00+00:00"
+        "headline": "Karl Kani dressed hip-hop royalty for decades. Now he's telling his own story",
+        "url": "https://www.boisestatepublicradio.org/2026-11-18/karl-kani-dressed-hip-hop-royalty-for-decades-now-hes-telling-his-own-story",
+        "source": "Boise State Public Radio",
+        "published": "2026-11-18T03:15:00+00:00"
       },
       {
         "kind": "article",
         "group": "designers",
         "role": "designer",
-        "origin": "",
-        "designer": "Joe Robinson",
-        "brand": "Joe Freshgoods",
-        "website": "https://joefreshgoods.com",
-        "details": "https://www.bing.com/search?q=Joe+Freshgoods+Joe+Robinson+designer",
-        "instagram": "",
-        "categories": [
-          "streetwear"
-        ],
-        "image": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fkicksundercost.com%2Fimages%2Fnews%2F82932791cb8b6097def511414f61eebb38506fc5.jpg&w=1200&q=80",
-        "photo_source": "",
-        "headline": "Joe Freshgoods x Blackstock & Weber Loafer Releases October 23",
-        "url": "https://kicksundercost.com/news/joe-freshgoods-blackstock-weber-candy-apple-loafer-release",
-        "source": "kicksundercost.com",
-        "published": "2026-11-15T04:45:00+00:00"
-      },
-      {
-        "kind": "profile",
-        "group": "designers",
-        "role": "designer",
-        "origin": "Black American",
-        "designer": "Jerry Lorenzo",
-        "brand": "Fear of God",
-        "website": "https://fearofgod.com",
-        "details": "https://www.bing.com/search?q=Fear+of+God+Jerry+Lorenzo+designer",
+        "origin": "Ghanaian heritage",
+        "designer": "Virgil Abloh",
+        "brand": "Off-White",
+        "website": "https://www.off---white.com",
+        "details": "https://www.bing.com/search?q=Off-White+Virgil+Abloh+designer",
         "instagram": "",
         "categories": [
           "streetwear",
-          "comfort"
+          "couture"
         ],
-        "image": "https://fearofgod.com/cdn/shop/files/NBA_DESKTOP_BANNER_0cdbc57f-6790-4c37-96f9-89d168483c7a_x1800.jpg?v=1792439800",
-        "photo_source": "https://fearofgod.com",
-        "headline": "",
-        "url": "",
-        "source": "",
-        "published": ""
+        "image": "https://assets.contentsvc.com/offwhite/sha256/718079b837bdf45f6f7567a2a7048a75b93bef5819f84e2636128676eab053ad/Nuovo_progetto_20261117T174806057.jpg?w=1152&h=1694&fm=avif",
+        "photo_source": "",
+        "headline": "Offset Discusses His Fashion Style, Creative Influences, and Personal Journey",
+        "url": "https://www.esquire.com/videos/cardi-b-s-style-sophomore-album-like-interview/",
+        "source": "Esquire",
+        "published": "2026-11-18T19:50:00+00:00"
       },
       {
         "kind": "profile",
@@ -756,7 +764,7 @@
     ],
     "comfort": [
       {
-        "kind": "profile",
+        "kind": "article",
         "group": "designers",
         "role": "designer",
         "origin": "Black American",
@@ -769,12 +777,12 @@
           "streetwear",
           "comfort"
         ],
-        "image": "https://media.gettyimages.com/id/1328750773/photo/fashion-designer-jerry-lorenzo-poses-for-a-portrait-on-october-22-2020-in-los-angeles.jpg?s=612x612&w=gi&k=20&c=N1PrUWhqAV86tsU6_FHA74-CWKAeXadmXcPJs1UyPkU=",
-        "photo_source": "https://www.gettyimages.dk/photos/jerry-lorenzo",
-        "headline": "",
-        "url": "",
-        "source": "",
-        "published": ""
+        "image": "https://s.yimg.com/lo/mysterio/api/714300327451c9c0f47e95cb094a0c6ea1df00eb34426430d9f9185f4d774808/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2Ff820e25056e3efcb4fcbd62d233f0005.jpg",
+        "photo_source": "",
+        "headline": "Fear of God Fall 2027: Easy Does It",
+        "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/fear-god-fall-2027-easy-050100622.html",
+        "source": "Yahoo",
+        "published": "2026-11-18T21:01:00+00:00"
       },
       {
         "kind": "profile",
@@ -1165,12 +1173,12 @@
           "streetwear",
           "couture"
         ],
-        "image": "https://wwd.com/wp-content/uploads/2026/11/14.-10x10_RAUL_GRAPHIC_BAGS_06.07.26_16_9.jpg?w=1000&h=563&crop=1",
+        "image": "https://assets.contentsvc.com/offwhite/sha256/718079b837bdf45f6f7567a2a7048a75b93bef5819f84e2636128676eab053ad/Nuovo_progetto_20261117T174806057.jpg?w=1152&h=1694&fm=avif",
         "photo_source": "",
-        "headline": "Raul Lopez Reimagines Jitney Bag for 10×10: Off-White Project",
-        "url": "https://wwd.com/fashion-news/fashion-scoops/raul-lopez-jitney-bag-10x10-off-white-reimagined-luar-1239421172/",
-        "source": "Women's Wear Daily",
-        "published": "2026-11-17T16:01:00+00:00"
+        "headline": "Offset Discusses His Fashion Style, Creative Influences, and Personal Journey",
+        "url": "https://www.esquire.com/videos/cardi-b-s-style-sophomore-album-like-interview/",
+        "source": "Esquire",
+        "published": "2026-11-18T19:50:00+00:00"
       },
       {
         "kind": "profile",
@@ -1489,7 +1497,7 @@
     "Dynasty & Soull Ogun": {
       "photo": "",
       "photo_source": "",
-      "photo_date": "2026-11-18",
+      "photo_date": "2026-11-19",
       "instagram": ""
     },
     "Simone I. Smith": {
@@ -1525,15 +1533,24 @@
       "instagram": ""
     },
     "Karl Kani": {
-      "photo": "https://www.karlkani.com/cdn/shop/files/pac-hoodie-purple_c2107ad8-f84d-4971-85bd-d88532e4b51e.png?v=1743792813",
-      "photo_source": "https://karlkani.com",
-      "photo_date": "2026-11-16",
+      "photo": "https://fashionsizzle.com/wp-content/uploads/2025/04/bb4b64df81426caacfde3514b5a1f7ca.jpg",
+      "photo_source": "https://fashionsizzle.com/2025/04/karl-kani-the-godfather-of-urban-streetwear-his-undeniable-impact-on-fashion/",
+      "photo_date": "2026-11-19",
       "instagram": ""
     },
     "Anifa Mvuemba": {
       "instagram": ""
     },
     "Virgil Abloh": {
+      "instagram": "",
+      "photo": "https://assets.contentsvc.com/offwhite/sha256/718079b837bdf45f6f7567a2a7048a75b93bef5819f84e2636128676eab053ad/Nuovo_progetto_20261117T174806057.jpg?w=1152&h=1694&fm=avif",
+      "photo_source": "https://www.off---white.com",
+      "photo_date": "2026-11-19"
+    },
+    "Pharrell Williams": {
+      "instagram": ""
+    },
+    "Pat McGrath": {
       "instagram": ""
     }
   },
@@ -1619,22 +1636,22 @@
       "next": 0,
       "carousel": [
         {
-          "kind": "profile",
+          "kind": "article",
           "group": "makeup",
           "role": "makeup artist",
-          "origin": "",
-          "designer": "Sam Fine",
-          "brand": "Fine Beauty",
-          "website": "https://www.instagram.com/samfinebeauty/",
-          "details": "https://www.bing.com/search?q=Sam+Fine+makeup+artist",
+          "origin": "United Kingdom",
+          "designer": "Pat McGrath",
+          "brand": "Pat McGrath Labs",
+          "website": "https://www.patmcgrath.com",
+          "details": "https://www.bing.com/search?q=Pat+McGrath+makeup+artist",
           "instagram": "",
           "categories": [],
-          "image": "https://images.squarespace-cdn.com/content/v1/57c84f1de3df28a00dacd1ed/1522288277707-G3FDEJAN40RK3QL8C8A9/SB_SamFine2.png",
-          "photo_source": "https://www.saubhaya.com/sam-fine-makeup-book/",
-          "headline": "",
-          "url": "",
-          "source": "",
-          "published": ""
+          "image": "https://s.yimg.com/lo/mysterio/api/5f7cf366198432f689891a7aec96073b71ca9e3bc1dbdca775b48cd7d64d9c1b/lightyear_networkapi/resizefill_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2F31a8ee35c37d97beb887c5e3c0ab7f24.jpg",
+          "photo_source": "",
+          "headline": "Dame Pat McGrath, Hailey Bieber’s Rhode, Cymbiotika and More Honored at 2026 Beauty Inc Awards",
+          "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/dame-pat-mcgrath-hailey-bieber-194805179.html",
+          "source": "Yahoo",
+          "published": "2026-11-18T11:48:00+00:00"
         },
         {
           "kind": "profile",
