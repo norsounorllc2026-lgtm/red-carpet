@@ -1,177 +1,87 @@
 {
-  "date": "2026-11-19",
-  "summary": "6 posted, 5 rejected, 0 earlier cards removed",
+  "date": "2026-11-20",
+  "summary": "4 posted, 1 rejected, 0 earlier cards removed",
   "articles": [
     {
       "gallery": "designers",
-      "designer": "LaQuan Smith",
-      "brand": "LaQuan Smith",
-      "headline": "Sydney Sweeney wore a Bond-inspired LaQuan Smith's spring/summer 2023 gown to GQ's 2022 Men of the Year Awards",
-      "source": "HELLO! on MSN",
-      "url": "https://www.msn.com/en-us/news/other/sydney-sweeney-wore-a-bond-inspired-laquan-smith-s-spring-summer-2023-gown-to-gq-s-2022-men-of-the-year-awards/ar-AA2hIxBy",
-      "result": "rejected",
-      "reason": "page has almost no article text (paywall or blocked)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Brandon Blackwood",
-      "brand": "Brandon Blackwood New York",
-      "headline": "Rich Mnisi, Brandon Blackwood, Ugo Mozie & Jacques Agbobly link up in Cognac for 'Swift Ones'",
-      "source": "Complex on MSN",
-      "url": "https://www.msn.com/en-us/lifestyle/other/rich-mnisi-brandon-blackwood-ugo-mozie-jacques-agbobly-link-up-in-cognac-for-swift-ones/ar-AA2hIjLC",
-      "result": "rejected",
-      "reason": "page has almost no article text (paywall or blocked)",
-      "photo": "",
-      "photo_note": "",
+      "designer": "Sergio Hudson",
+      "brand": "Sergio Hudson",
+      "headline": "Lisa Rinna Goes Bold in Sergio Hudson Micro Shorts & Sheer Tights for Vogue",
+      "source": "Yahoo",
+      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/lisa-rinna-goes-bold-sergio-100858019.html",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://s.yimg.com/lo/mysterio/api/73cc1f3f37fa2c5ef6233d15dbe21c1d394ce2ded58c1e2ad620e9e4ac2da06e/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_fashion_spot_348%2Fa0afdea38770f3ade68e79b02160f1d1.jpg",
+      "photo_note": "captioned with the designer's name; photo checked (976x549)",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
       "designer": "Jerry Lorenzo",
       "brand": "Fear of God",
-      "headline": "Fear of God Fall 2027: Easy Does It",
-      "source": "Yahoo",
-      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/fear-god-fall-2027-easy-050100622.html",
+      "headline": "Fear of God",
+      "source": "The Impression",
+      "url": "https://theimpression.com/fear-of-god-fall-2027-fashion-show/",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/714300327451c9c0f47e95cb094a0c6ea1df00eb34426430d9f9185f4d774808/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2Ff820e25056e3efcb4fcbd62d233f0005.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (976x1465)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Dapper Dan",
-      "brand": "Dapper Dan of Harlem",
-      "headline": "78-летний Михаил Барышников снялся для журнала",
-      "source": "Lenta.ru",
-      "url": "https://lenta.ru/news/2026/11/18/78-letniy-mihail-baryshnikov-snyalsya-dlya-zhurnala/",
-      "result": "rejected",
-      "reason": "article is not in English (language: ru)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Pharrell Williams",
-      "brand": "Billionaire Boys Club / ICECREAM",
-      "headline": "Billionaire Boys Club Releases New Pokémon Collab Collection",
-      "source": "YAHOO!",
-      "url": "https://shopping.yahoo.com/style/clothing/articles/billionaire-boys-club-releases-pok-153553302.html",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/44c84e525b178a5714e22bb2cb2c0eda54e4ae74fc063102228152a4541bcd8f/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F8db84bc1735da81481385c8f20692e80.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (1200x676)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Ev Bravado & Téla D'Amore",
-      "brand": "Who Decides War",
-      "headline": "Stunna Sandy Stars in Who Decides War F/W 2026 Womenswear Campaign",
-      "source": "YAHOO!",
-      "url": "https://shopping.yahoo.com/style/clothing/articles/stunna-sandy-stars-decides-war-231357775.html",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/20d15957d3d995863bef07eee1705a921c6162df0ee760301e3c46ade7d813f8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F9c7dc679f774e1d088d94f18f78bdc0c.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (1200x675)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
-      "brand": "FUBU",
-      "headline": "Shark Tank’s Daymond John reveals what he got wrong about Bombas",
-      "source": "The Wall Street Journal on MSN",
-      "url": "https://www.msn.com/en-us/entertainment/general/shark-tank-s-daymond-john-reveals-what-he-got-wrong-about-bombas/vi-AA2hIYVv",
-      "result": "rejected",
-      "reason": "page has almost no article text (paywall or blocked)",
-      "photo": "",
-      "photo_note": "",
+      "photo": "https://theimpression.com/wp-content/uploads/2026/11/fear-of-god-fall-2027-the-impression-001-scaled-1.jpg",
+      "photo_note": "captioned with the designer's name; photo checked (1998x3000)",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
       "designer": "Karl Kani",
       "brand": "Karl Kani",
-      "headline": "Karl Kani reflects on how he built a streetwear empire in new memoir",
-      "source": "The Root on MSN",
-      "url": "https://www.msn.com/en-us/news/us/karl-kani-reflects-on-how-he-built-a-streetwear-empire-in-new-memoir/ar-AA2hIMDO",
-      "result": "rejected",
-      "reason": "page has almost no article text (paywall or blocked)",
-      "photo": "",
-      "photo_note": "",
+      "headline": "Who Dat Makin' Headlines? | Fashion designer Karl Kani releases autobiography ‘A Life by Design’",
+      "source": "FOX 8 WVUE-TV",
+      "url": "https://www.fox8live.com/video/2026/11/19/who-dat-makin-headlines-fashion-designer-karl-kani-releases-autobiography-life-by-design/",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://gray-wvue-prod.gtv-cdn.com/resizer/v2/https%3A%2F%2Fdo0bihdskp9dy.cloudfront.net%2F11-19-2026%2Ft_f38ad81d8b054d3495a4ef8947e05adb_name_file_1280x720_2000_v3_1_.jpg?auth=42bd4c6bd82a564159f9a132a5db2ab761ca77b342914ad6d2cbf766afac5441&width=1200&height=600&smart=true",
+      "photo_note": "article's main photo; photo checked (1200x600)",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
-      "designer": "Karl Kani",
-      "brand": "Karl Kani",
-      "headline": "Karl Kani dressed hip-hop royalty for decades. Now he's telling his own story",
-      "source": "Boise State Public Radio",
-      "url": "https://www.boisestatepublicradio.org/2026-11-18/karl-kani-dressed-hip-hop-royalty-for-decades-now-hes-telling-his-own-story",
+      "designer": "Kenya Freeman",
+      "brand": "Sylvia Mollie",
+      "headline": "Black Business: Sylvia Mollie",
+      "source": "Texas Metro News",
+      "url": "https://texasmetronews.com/black-business-sylvia-mollie/",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://fashionsizzle.com/wp-content/uploads/2025/04/bb4b64df81426caacfde3514b5a1f7ca.jpg",
-      "photo_note": "no usable article photo; used a photo of them from fashionsizzle.com",
-      "rejected_photos": [
-        {
-          "photo": "https://npr.brightspotcdn.com/dims4/default/fecbcbe/2147483647/strip/true/crop/594x396+0+0/resize/1760x1174!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims3%2Fdefault%2Fstrip%2Ffalse%2Fcrop%2F594x396%200%200%2Fresize%2F594x396%21%2Fquality%2F85%2Fformat%2Fwebp%2F%3Furl%3Dhttps%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F50%2F24%2F17058e7143b199a70cbcf1a77012%2Fgettyimages-1959972404-594x594.jpg",
-          "reason": "looks like a logo, icon or placeholder"
-        },
-        {
-          "photo": "https://npr.brightspotcdn.com/dims4/default/44eb759/2147483647/strip/true/crop/624x328+0+12/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims3%2Fdefault%2Fstrip%2Ffalse%2Fcrop%2F594x334%200%2031%2Fresize%2F624x351%21%2Fquality%2F85%2Fformat%2Fwebp%2F%3Furl%3Dhttps%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F50%2F24%2F17058e7143b199a70cbcf1a77012%2Fgettyimages-1959972404-594x594.jpg",
-          "reason": "looks like a logo, icon or placeholder"
-        },
-        {
-          "photo": "https://npr.brightspotcdn.com/dims4/default/5a78aef/2147483647/strip/true/crop/624x351+0+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fnpr.brightspotcdn.com%2Fdims3%2Fdefault%2Fstrip%2Ffalse%2Fcrop%2F594x334%200%2031%2Fresize%2F624x351%21%2Fquality%2F85%2Fformat%2Fwebp%2F%3Furl%3Dhttps%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F50%2F24%2F17058e7143b199a70cbcf1a77012%2Fgettyimages-1959972404-594x594.jpg",
-          "reason": "looks like a logo, icon or placeholder"
-        },
-        {
-          "photo": "http://www.bing.com/th?id=ONUT.ukv-J2xnP247KRmAFNwVEw&pid=News",
-          "reason": "too small (700x367)"
-        }
-      ]
-    },
-    {
-      "gallery": "designers",
-      "designer": "Virgil Abloh",
-      "brand": "Off-White",
-      "headline": "Offset Discusses His Fashion Style, Creative Influences, and Personal Journey",
-      "source": "Esquire",
-      "url": "https://www.esquire.com/videos/cardi-b-s-style-sophomore-album-like-interview/",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://assets.contentsvc.com/offwhite/sha256/718079b837bdf45f6f7567a2a7048a75b93bef5819f84e2636128676eab053ad/Nuovo_progetto_20261117T174806057.jpg?w=1152&h=1694&fm=avif",
-      "photo_note": "no usable article photo; used a photo of them from off---white.com",
+      "photo": "https://i0.wp.com/texasmetronews.com/wp-content/uploads/2026/11/11-20-26-Sylvia-Mollie-Black-Business-Spotlight.png?w=433&ssl=1",
+      "photo_note": "file name names the designer; photo checked (433x426)",
       "rejected_photos": []
     },
     {
       "gallery": "makeup",
-      "designer": "Pat McGrath",
-      "brand": "Pat McGrath Labs",
-      "headline": "Dame Pat McGrath, Hailey Bieber’s Rhode, Cymbiotika and More Honored at 2026 Beauty Inc Awards",
-      "source": "Yahoo",
-      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/dame-pat-mcgrath-hailey-bieber-194805179.html",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/5f7cf366198432f689891a7aec96073b71ca9e3bc1dbdca775b48cd7d64d9c1b/lightyear_networkapi/resizefill_w960%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2F31a8ee35c37d97beb887c5e3c0ab7f24.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (960x640)",
+      "designer": "Jackie Aina",
+      "brand": "FORVR Mood",
+      "headline": "HelloBeautiful and MadameNoire Celebrate ‘Beauty Is Collective’ with the 2026 Melanin Beauty Awards",
+      "source": "The Des Moines Register",
+      "url": "https://www.desmoinesregister.com/press-release/story/156388/hellobeautiful-and-madamenoire-celebrate-beauty-is-collective-with-the-2026-melanin-beauty-awards/",
+      "result": "rejected",
+      "reason": "link returned error 402",
+      "photo": "",
+      "photo_note": "",
       "rejected_photos": []
     }
   ],
   "websites": [
     {
-      "designer": "Russell Simmons",
-      "website": "https://www.phatfarm.com",
-      "result": "using website found earlier"
+      "designer": "Jerry Lorenzo",
+      "website": "https://fearofgod.com",
+      "result": "opens"
     },
     {
-      "designer": "Virgil Abloh",
-      "website": "https://www.off---white.com",
+      "designer": "Pharrell Williams",
+      "website": "https://www.bbcicecream.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ev Bravado & Téla D'Amore",
+      "website": "https://whodecideswar.com",
       "result": "opens"
     },
     {
@@ -180,13 +90,8 @@
       "result": "opens"
     },
     {
-      "designer": "Joe Robinson",
-      "website": "https://joefreshgoods.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Anifa Mvuemba",
-      "website": "https://hanifa.co",
+      "designer": "Virgil Abloh",
+      "website": "https://www.off---white.com",
       "result": "opens"
     },
     {
@@ -235,9 +140,9 @@
       "result": "opens"
     },
     {
-      "designer": "Sam Fine",
-      "website": "https://www.instagram.com/samfinebeauty/",
-      "result": "social profile kept (these sites block automated checks)"
+      "designer": "Pat McGrath",
+      "website": "https://www.patmcgrath.com",
+      "result": "opens"
     },
     {
       "designer": "AJ Crimson",
@@ -252,6 +157,11 @@
     {
       "designer": "Ashunta Sheriff",
       "website": "https://ashuntabeauty.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Anifa Mvuemba",
+      "website": "https://hanifa.co",
       "result": "opens"
     },
     {
@@ -285,11 +195,6 @@
       "result": "opens"
     },
     {
-      "designer": "Ev Bravado & Téla D'Amore",
-      "website": "https://whodecideswar.com",
-      "result": "opens"
-    },
-    {
       "designer": "Romeo Hunte",
       "website": "https://romeohunte.com",
       "result": "opens"
@@ -302,11 +207,6 @@
     {
       "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
       "website": "https://fubu.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Jerry Lorenzo",
-      "website": "https://fearofgod.com",
       "result": "opens"
     },
     {
@@ -410,13 +310,8 @@
       "result": "opens"
     },
     {
-      "designer": "Pharrell Williams",
-      "website": "https://www.bbcicecream.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Pat McGrath",
-      "website": "https://www.patmcgrath.com",
+      "designer": "Kenya Freeman",
+      "website": "https://kenyafreeman.com",
       "result": "opens"
     }
   ],
@@ -427,18 +322,6 @@
       "photo": "(none found)",
       "from": "",
       "how": ""
-    },
-    {
-      "person": "Karl Kani",
-      "photo": "https://fashionsizzle.com/wp-content/uploads/2025/04/bb4b64df81426caacfde3514b5a1f7ca.jpg",
-      "from": "https://fashionsizzle.com/2025/04/karl-kani-the-godfather-of-urban-streetwear-his-undeniable-impact-on-fashion/",
-      "how": "image search"
-    },
-    {
-      "person": "Virgil Abloh",
-      "photo": "https://assets.contentsvc.com/offwhite/sha256/718079b837bdf45f6f7567a2a7048a75b93bef5819f84e2636128676eab053ad/Nuovo_progetto_20261117T174806057.jpg?w=1152&h=1694&fm=avif",
-      "from": "https://www.off---white.com",
-      "how": "their website"
     }
   ]
 }
