@@ -1,92 +1,118 @@
 {
-  "date": "2026-11-20",
-  "summary": "4 posted, 1 rejected, 0 earlier cards removed",
+  "date": "2026-11-21",
+  "summary": "5 posted, 2 rejected, 0 earlier cards removed",
   "articles": [
-    {
-      "gallery": "designers",
-      "designer": "Sergio Hudson",
-      "brand": "Sergio Hudson",
-      "headline": "Lisa Rinna Goes Bold in Sergio Hudson Micro Shorts & Sheer Tights for Vogue",
-      "source": "Yahoo",
-      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/lisa-rinna-goes-bold-sergio-100858019.html",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/73cc1f3f37fa2c5ef6233d15dbe21c1d394ce2ded58c1e2ad620e9e4ac2da06e/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_fashion_spot_348%2Fa0afdea38770f3ade68e79b02160f1d1.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (976x549)",
-      "rejected_photos": []
-    },
     {
       "gallery": "designers",
       "designer": "Jerry Lorenzo",
       "brand": "Fear of God",
-      "headline": "Fear of God",
-      "source": "The Impression",
-      "url": "https://theimpression.com/fear-of-god-fall-2027-fashion-show/",
+      "headline": "Fear of God Prepares to Launch Independent Sneaker Following Split From Adidas",
+      "source": "Women's Wear Daily",
+      "url": "https://wwd.com/footwear-news/sneaker-news/fear-of-god-trainer-first-independent-sneaker-1239429658/",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://theimpression.com/wp-content/uploads/2026/11/fear-of-god-fall-2027-the-impression-001-scaled-1.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (1998x3000)",
+      "photo": "https://wwd.com/wp-content/uploads/2026/11/fear-of-god-trainer-001.jpg?w=1000&h=563&crop=1&resize=1000%2C563",
+      "photo_note": "alt text names the designer; photo checked (1000x563)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Pharrell Williams",
+      "brand": "Billionaire Boys Club / ICECREAM",
+      "headline": "Billionaire Boys Club",
+      "source": "De Morgen",
+      "url": "https://www.demorgen.be/tv-gids/play-crime/uitzending/aflevering/3e520c7e-cbc0-494c-9ce6-e69e88dbbd35",
+      "result": "rejected",
+      "reason": "link returned error 403",
+      "photo": "",
+      "photo_note": "",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
       "designer": "Karl Kani",
       "brand": "Karl Kani",
-      "headline": "Who Dat Makin' Headlines? | Fashion designer Karl Kani releases autobiography ‘A Life by Design’",
-      "source": "FOX 8 WVUE-TV",
-      "url": "https://www.fox8live.com/video/2026/11/19/who-dat-makin-headlines-fashion-designer-karl-kani-releases-autobiography-life-by-design/",
+      "headline": "Fashion Icon, Karl Kani talks new memoir \", Karl Kani: A Life by Design\"",
+      "source": "Yahoo",
+      "url": "https://www.yahoo.com/news/videos/fashion-icon-karl-kani-talks-155226227.html",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://gray-wvue-prod.gtv-cdn.com/resizer/v2/https%3A%2F%2Fdo0bihdskp9dy.cloudfront.net%2F11-19-2026%2Ft_f38ad81d8b054d3495a4ef8947e05adb_name_file_1280x720_2000_v3_1_.jpg?auth=42bd4c6bd82a564159f9a132a5db2ab761ca77b342914ad6d2cbf766afac5441&width=1200&height=600&smart=true",
-      "photo_note": "article's main photo; photo checked (1200x600)",
+      "photo": "https://s.yimg.com/lo/mysterio/api/6056ba483bc463a38419a944b925fc88d1584d06f1826baf536cf4d0b7a3e6da/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwaga_fox_local_videos_854%2Fe487a835c71ca74ce0d9e09fcd835731.jpg",
+      "photo_note": "article's main photo; photo checked (1200x675)",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
-      "designer": "Kenya Freeman",
-      "brand": "Sylvia Mollie",
-      "headline": "Black Business: Sylvia Mollie",
-      "source": "Texas Metro News",
-      "url": "https://texasmetronews.com/black-business-sylvia-mollie/",
+      "designer": "Tyler, the Creator",
+      "brand": "Golf Wang / Golf le Fleur",
+      "headline": "LYCHEE ROSE LEMONADE by GOLF WANG & ARIZONA",
+      "source": "BevNET",
+      "url": "https://www.bevnet.com/pr/2026/11/20/lychee-rose-lemonade-by-golf-wang--arizona",
+      "result": "rejected",
+      "reason": "link returned error 403",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Ye (Kanye West)",
+      "brand": "Yeezy",
+      "headline": "Ye’s Yeezy returns with LA runway show and JD Sports partnership",
+      "source": "The Straits Times",
+      "url": "https://www.straitstimes.com/life/style/yes-yeezy-returns-with-la-runway-show-and-jd-sports-partnership",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://i0.wp.com/texasmetronews.com/wp-content/uploads/2026/11/11-20-26-Sylvia-Mollie-Black-Business-Spotlight.png?w=433&ssl=1",
-      "photo_note": "file name names the designer; photo checked (433x426)",
+      "photo": "https://cassette.sphdigital.com.sg/image/straitstimes/a571db799fa096e2e916989a9d4a4159b3e347dbeac4f89b8d9bc6a6a89613b0",
+      "photo_note": "captioned with the designer's name; photo checked (1140x760)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Virgil Abloh",
+      "brand": "Off-White",
+      "headline": "Off-White Launch FW26 “For Walking” Cowboy Boots for $1,150 Ahead of Black Friday",
+      "source": "Holler",
+      "url": "https://holler.country/news/breaking/offwhite-launch-fw26-for-walking-cowboy-boots-for-1150-ahead-of-black-friday/",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://cdn.sanity.io/images/o6uq28nb/production/7f996846fa5fdd913cea5df55a2a34bc60d14ea9-2175x2900.jpg?w=1200&h=630&fit=crop&crop=center",
+      "photo_note": "article's main photo; photo checked (1200x630)",
       "rejected_photos": []
     },
     {
       "gallery": "makeup",
-      "designer": "Jackie Aina",
-      "brand": "FORVR Mood",
-      "headline": "HelloBeautiful and MadameNoire Celebrate ‘Beauty Is Collective’ with the 2026 Melanin Beauty Awards",
-      "source": "The Des Moines Register",
-      "url": "https://www.desmoinesregister.com/press-release/story/156388/hellobeautiful-and-madamenoire-celebrate-beauty-is-collective-with-the-2026-melanin-beauty-awards/",
-      "result": "rejected",
-      "reason": "link returned error 402",
-      "photo": "",
-      "photo_note": "",
+      "designer": "Pat McGrath",
+      "brand": "Pat McGrath Labs",
+      "headline": "Dame Pat McGrath wins 2026 Beauty Inc award amid Hailey Bieber Rhode Birthday Collection",
+      "source": "El-Balad",
+      "url": "https://www.el-balad.com/17068509",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://www.el-balad.com/uploads/2026/11/21/hailey-bieber-rhode-birthday-collection-6f2d4e2a_800w.webp",
+      "photo_note": "alt text names the designer; photo checked (800x534)",
       "rejected_photos": []
     }
   ],
   "websites": [
+    {
+      "designer": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
+      "result": "opens"
+    },
     {
       "designer": "Jerry Lorenzo",
       "website": "https://fearofgod.com",
       "result": "opens"
     },
     {
-      "designer": "Pharrell Williams",
-      "website": "https://www.bbcicecream.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Ev Bravado & Téla D'Amore",
-      "website": "https://whodecideswar.com",
-      "result": "opens"
-    },
-    {
       "designer": "Karl Kani",
       "website": "https://karlkani.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kenya Freeman",
+      "website": "https://kenyafreeman.com",
       "result": "opens"
     },
     {
@@ -160,16 +186,6 @@
       "result": "opens"
     },
     {
-      "designer": "Anifa Mvuemba",
-      "website": "https://hanifa.co",
-      "result": "opens"
-    },
-    {
-      "designer": "Christopher John Rogers",
-      "website": "https://www.christopherjohnrogers.com",
-      "result": "opens"
-    },
-    {
       "designer": "LaQuan Smith",
       "website": "https://www.laquansmith.com",
       "result": "opens"
@@ -180,11 +196,6 @@
       "result": "opens"
     },
     {
-      "designer": "Sergio Hudson",
-      "website": "https://www.sergiohudson.com",
-      "result": "opens"
-    },
-    {
       "designer": "Kerby Jean-Raymond",
       "website": "https://pyermoss.com",
       "result": "opens"
@@ -192,6 +203,11 @@
     {
       "designer": "Dapper Dan",
       "website": "https://dapperdanofharlem.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ev Bravado & Téla D'Amore",
+      "website": "https://whodecideswar.com",
       "result": "opens"
     },
     {
@@ -307,11 +323,6 @@
     {
       "designer": "B Michael",
       "website": "https://bmichaelamerica.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Kenya Freeman",
-      "website": "https://kenyafreeman.com",
       "result": "opens"
     }
   ],
