@@ -1,105 +1,53 @@
 {
-  "date": "2026-11-21",
-  "summary": "5 posted, 2 rejected, 0 earlier cards removed",
+  "date": "2026-11-22",
+  "summary": "3 posted, 0 rejected, 0 earlier cards removed",
   "articles": [
     {
       "gallery": "designers",
-      "designer": "Jerry Lorenzo",
-      "brand": "Fear of God",
-      "headline": "Fear of God Prepares to Launch Independent Sneaker Following Split From Adidas",
-      "source": "Women's Wear Daily",
-      "url": "https://wwd.com/footwear-news/sneaker-news/fear-of-god-trainer-first-independent-sneaker-1239429658/",
+      "designer": "Sergio Hudson",
+      "brand": "Sergio Hudson",
+      "headline": "Sheryl Lee Ralph Commands the Carpet in Cobalt Sergio Hudson at Abbott Elementary Milestone Event",
+      "source": "The Hype Magazine",
+      "url": "https://www.thehypemagazine.com/2026/11/21/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode/",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://wwd.com/wp-content/uploads/2026/11/fear-of-god-trainer-001.jpg?w=1000&h=563&crop=1&resize=1000%2C563",
-      "photo_note": "alt text names the designer; photo checked (1000x563)",
+      "photo": "https://www.thehypemagazine.com/wp-content/uploads/2026/11/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode.jpg",
+      "photo_note": "file name names the designer; photo checked (2000x1060)",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
-      "designer": "Pharrell Williams",
-      "brand": "Billionaire Boys Club / ICECREAM",
-      "headline": "Billionaire Boys Club",
-      "source": "De Morgen",
-      "url": "https://www.demorgen.be/tv-gids/play-crime/uitzending/aflevering/3e520c7e-cbc0-494c-9ce6-e69e88dbbd35",
-      "result": "rejected",
-      "reason": "link returned error 403",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
+      "designer": "Jerry Lorenzo",
+      "brand": "Fear of God",
+      "headline": "Jerry Lorenzo Unveils the Independent Fear of God Trainer Following adidas Split",
+      "source": "Hypebeast",
+      "url": "https://hypebeast.com/2026/11/jerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Fjerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look-001.jpg?q=90&w=800&cbr=1&fit=max",
+      "photo_note": "alt text names the designer; photo checked (800x533)",
+      "rejected_photos": [
+        {
+          "photo": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F03%2FFear-of-God.jpg?w=210&cbr=1&q=90&fit=max",
+          "reason": "too small (210x210)"
+        }
+      ]
     },
     {
       "gallery": "designers",
       "designer": "Karl Kani",
       "brand": "Karl Kani",
-      "headline": "Fashion Icon, Karl Kani talks new memoir \", Karl Kani: A Life by Design\"",
-      "source": "Yahoo",
-      "url": "https://www.yahoo.com/news/videos/fashion-icon-karl-kani-talks-155226227.html",
+      "headline": "Karl Kani Dressed Tupac, Biggie and Aaliyah — Now He’s Telling His Own Story | WATCH",
+      "source": "EURweb",
+      "url": "https://eurweb.com/karl-kani-memoir/",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/6056ba483bc463a38419a944b925fc88d1584d06f1826baf536cf4d0b7a3e6da/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwaga_fox_local_videos_854%2Fe487a835c71ca74ce0d9e09fcd835731.jpg",
-      "photo_note": "article's main photo; photo checked (1200x675)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Tyler, the Creator",
-      "brand": "Golf Wang / Golf le Fleur",
-      "headline": "LYCHEE ROSE LEMONADE by GOLF WANG & ARIZONA",
-      "source": "BevNET",
-      "url": "https://www.bevnet.com/pr/2026/11/20/lychee-rose-lemonade-by-golf-wang--arizona",
-      "result": "rejected",
-      "reason": "link returned error 403",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Ye (Kanye West)",
-      "brand": "Yeezy",
-      "headline": "Ye’s Yeezy returns with LA runway show and JD Sports partnership",
-      "source": "The Straits Times",
-      "url": "https://www.straitstimes.com/life/style/yes-yeezy-returns-with-la-runway-show-and-jd-sports-partnership",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://cassette.sphdigital.com.sg/image/straitstimes/a571db799fa096e2e916989a9d4a4159b3e347dbeac4f89b8d9bc6a6a89613b0",
-      "photo_note": "captioned with the designer's name; photo checked (1140x760)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Virgil Abloh",
-      "brand": "Off-White",
-      "headline": "Off-White Launch FW26 “For Walking” Cowboy Boots for $1,150 Ahead of Black Friday",
-      "source": "Holler",
-      "url": "https://holler.country/news/breaking/offwhite-launch-fw26-for-walking-cowboy-boots-for-1150-ahead-of-black-friday/",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://cdn.sanity.io/images/o6uq28nb/production/7f996846fa5fdd913cea5df55a2a34bc60d14ea9-2175x2900.jpg?w=1200&h=630&fit=crop&crop=center",
-      "photo_note": "article's main photo; photo checked (1200x630)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "makeup",
-      "designer": "Pat McGrath",
-      "brand": "Pat McGrath Labs",
-      "headline": "Dame Pat McGrath wins 2026 Beauty Inc award amid Hailey Bieber Rhode Birthday Collection",
-      "source": "El-Balad",
-      "url": "https://www.el-balad.com/17068509",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://www.el-balad.com/uploads/2026/11/21/hailey-bieber-rhode-birthday-collection-6f2d4e2a_800w.webp",
-      "photo_note": "alt text names the designer; photo checked (800x534)",
+      "photo": "https://eurweb.com/wp-content/uploads/2026/11/Karl-Kani-via-eurAI.jpg",
+      "photo_note": "captioned with the designer's name; photo checked (1335x752)",
       "rejected_photos": []
     }
   ],
   "websites": [
-    {
-      "designer": "Sergio Hudson",
-      "website": "https://www.sergiohudson.com",
-      "result": "opens"
-    },
     {
       "designer": "Jerry Lorenzo",
       "website": "https://fearofgod.com",
@@ -111,8 +59,8 @@
       "result": "opens"
     },
     {
-      "designer": "Kenya Freeman",
-      "website": "https://kenyafreeman.com",
+      "designer": "Ye (Kanye West)",
+      "website": "https://yeezy.com",
       "result": "opens"
     },
     {
@@ -172,8 +120,8 @@
     },
     {
       "designer": "AJ Crimson",
-      "website": "https://ajcrimson.com",
-      "result": "opens"
+      "website": "(none)",
+      "result": "listed website did NOT open; no official website found — using a search link"
     },
     {
       "designer": "Sir John",
@@ -183,6 +131,16 @@
     {
       "designer": "Ashunta Sheriff",
       "website": "https://ashuntabeauty.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Kenya Freeman",
+      "website": "https://kenyafreeman.com",
       "result": "opens"
     },
     {
@@ -253,11 +211,6 @@
     {
       "designer": "Kimora Lee Simmons",
       "website": "https://babyphat.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Ye (Kanye West)",
-      "website": "https://yeezy.com",
       "result": "opens"
     },
     {

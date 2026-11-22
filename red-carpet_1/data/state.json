@@ -28,10 +28,34 @@
     "yahoo|fashion icon karl kani talks new memoir  karl kani a life by design": "2026-11-21",
     "the straits times|yes yeezy returns with la runway show and jd sports partnership": "2026-11-21",
     "holler|offwhite launch fw26 for walking cowboy boots for 1150 ahead of black friday": "2026-11-21",
-    "el-balad|dame pat mcgrath wins 2026 beauty inc award amid hailey bieber rhode birthday collection": "2026-11-21"
+    "el-balad|dame pat mcgrath wins 2026 beauty inc award amid hailey bieber rhode birthday collection": "2026-11-21",
+    "the hype magazine|sheryl lee ralph commands the carpet in cobalt sergio hudson at abbott elementary milestone event": "2026-11-22",
+    "hypebeast|jerry lorenzo unveils the independent fear of god trainer following adidas split": "2026-11-22",
+    "eurweb|karl kani dressed tupac biggie and aaliyah  now hes telling his own story": "2026-11-22"
   },
   "next": 0,
   "carousel": [
+    {
+      "kind": "article",
+      "group": "designers",
+      "role": "designer",
+      "origin": "Black American",
+      "designer": "Sergio Hudson",
+      "brand": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
+      "details": "https://www.bing.com/search?q=Sergio+Hudson+Sergio+Hudson+designer",
+      "instagram": "",
+      "categories": [
+        "suiting",
+        "dresses"
+      ],
+      "image": "https://www.thehypemagazine.com/wp-content/uploads/2026/11/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode.jpg",
+      "photo_source": "",
+      "headline": "Sheryl Lee Ralph Commands the Carpet in Cobalt Sergio Hudson at Abbott Elementary Milestone Event",
+      "url": "https://www.thehypemagazine.com/2026/11/21/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode/",
+      "source": "The Hype Magazine",
+      "published": "2026-11-21T10:15:00+00:00"
+    },
     {
       "kind": "article",
       "group": "designers",
@@ -46,12 +70,12 @@
         "streetwear",
         "comfort"
       ],
-      "image": "https://wwd.com/wp-content/uploads/2026/11/fear-of-god-trainer-001.jpg?w=1000&h=563&crop=1&resize=1000%2C563",
+      "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Fjerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look-001.jpg?q=90&w=800&cbr=1&fit=max",
       "photo_source": "",
-      "headline": "Fear of God Prepares to Launch Independent Sneaker Following Split From Adidas",
-      "url": "https://wwd.com/footwear-news/sneaker-news/fear-of-god-trainer-first-independent-sneaker-1239429658/",
-      "source": "Women's Wear Daily",
-      "published": "2026-11-20T04:49:00+00:00"
+      "headline": "Jerry Lorenzo Unveils the Independent Fear of God Trainer Following adidas Split",
+      "url": "https://hypebeast.com/2026/11/jerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look",
+      "source": "Hypebeast",
+      "published": "2026-11-21T15:59:00+00:00"
     },
     {
       "kind": "article",
@@ -67,32 +91,12 @@
         "denim",
         "streetwear"
       ],
-      "image": "https://s.yimg.com/lo/mysterio/api/6056ba483bc463a38419a944b925fc88d1584d06f1826baf536cf4d0b7a3e6da/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwaga_fox_local_videos_854%2Fe487a835c71ca74ce0d9e09fcd835731.jpg",
+      "image": "https://eurweb.com/wp-content/uploads/2026/11/Karl-Kani-via-eurAI.jpg",
       "photo_source": "",
-      "headline": "Fashion Icon, Karl Kani talks new memoir \", Karl Kani: A Life by Design\"",
-      "url": "https://www.yahoo.com/news/videos/fashion-icon-karl-kani-talks-155226227.html",
-      "source": "Yahoo",
-      "published": "2026-11-20T07:52:00+00:00"
-    },
-    {
-      "kind": "article",
-      "group": "designers",
-      "role": "designer",
-      "origin": "Black American",
-      "designer": "Ye (Kanye West)",
-      "brand": "Yeezy",
-      "website": "https://yeezy.com",
-      "details": "https://www.bing.com/search?q=Yeezy+Ye+%28Kanye+West%29+designer",
-      "instagram": "",
-      "categories": [
-        "comfort"
-      ],
-      "image": "https://cassette.sphdigital.com.sg/image/straitstimes/a571db799fa096e2e916989a9d4a4159b3e347dbeac4f89b8d9bc6a6a89613b0",
-      "photo_source": "",
-      "headline": "Ye’s Yeezy returns with LA runway show and JD Sports partnership",
-      "url": "https://www.straitstimes.com/life/style/yes-yeezy-returns-with-la-runway-show-and-jd-sports-partnership",
-      "source": "The Straits Times",
-      "published": "2026-11-20T12:20:00+00:00"
+      "headline": "Karl Kani Dressed Tupac, Biggie and Aaliyah — Now He’s Telling His Own Story | WATCH",
+      "url": "https://eurweb.com/karl-kani-memoir/",
+      "source": "EURweb",
+      "published": "2026-11-21T08:00:00+00:00"
     },
     {
       "kind": "article",
@@ -256,12 +260,12 @@
           "suiting",
           "dresses"
         ],
-        "image": "https://s.yimg.com/lo/mysterio/api/73cc1f3f37fa2c5ef6233d15dbe21c1d394ce2ded58c1e2ad620e9e4ac2da06e/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_fashion_spot_348%2Fa0afdea38770f3ade68e79b02160f1d1.jpg",
+        "image": "https://www.thehypemagazine.com/wp-content/uploads/2026/11/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode.jpg",
         "photo_source": "",
-        "headline": "Lisa Rinna Goes Bold in Sergio Hudson Micro Shorts & Sheer Tights for Vogue",
-        "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/lisa-rinna-goes-bold-sergio-100858019.html",
-        "source": "Yahoo",
-        "published": "2026-11-20T02:08:00+00:00"
+        "headline": "Sheryl Lee Ralph Commands the Carpet in Cobalt Sergio Hudson at Abbott Elementary Milestone Event",
+        "url": "https://www.thehypemagazine.com/2026/11/21/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode/",
+        "source": "The Hype Magazine",
+        "published": "2026-11-21T10:15:00+00:00"
       },
       {
         "kind": "article",
@@ -361,12 +365,12 @@
           "suiting",
           "dresses"
         ],
-        "image": "https://s.yimg.com/lo/mysterio/api/73cc1f3f37fa2c5ef6233d15dbe21c1d394ce2ded58c1e2ad620e9e4ac2da06e/lightyear_networkapi/resizefill_w976%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_fashion_spot_348%2Fa0afdea38770f3ade68e79b02160f1d1.jpg",
+        "image": "https://www.thehypemagazine.com/wp-content/uploads/2026/11/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode.jpg",
         "photo_source": "",
-        "headline": "Lisa Rinna Goes Bold in Sergio Hudson Micro Shorts & Sheer Tights for Vogue",
-        "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/lisa-rinna-goes-bold-sergio-100858019.html",
-        "source": "Yahoo",
-        "published": "2026-11-20T02:08:00+00:00"
+        "headline": "Sheryl Lee Ralph Commands the Carpet in Cobalt Sergio Hudson at Abbott Elementary Milestone Event",
+        "url": "https://www.thehypemagazine.com/2026/11/21/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode/",
+        "source": "The Hype Magazine",
+        "published": "2026-11-21T10:15:00+00:00"
       },
       {
         "kind": "profile",
@@ -468,12 +472,12 @@
           "denim",
           "streetwear"
         ],
-        "image": "https://s.yimg.com/lo/mysterio/api/6056ba483bc463a38419a944b925fc88d1584d06f1826baf536cf4d0b7a3e6da/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwaga_fox_local_videos_854%2Fe487a835c71ca74ce0d9e09fcd835731.jpg",
+        "image": "https://eurweb.com/wp-content/uploads/2026/11/Karl-Kani-via-eurAI.jpg",
         "photo_source": "",
-        "headline": "Fashion Icon, Karl Kani talks new memoir \", Karl Kani: A Life by Design\"",
-        "url": "https://www.yahoo.com/news/videos/fashion-icon-karl-kani-talks-155226227.html",
-        "source": "Yahoo",
-        "published": "2026-11-20T07:52:00+00:00"
+        "headline": "Karl Kani Dressed Tupac, Biggie and Aaliyah — Now He’s Telling His Own Story | WATCH",
+        "url": "https://eurweb.com/karl-kani-memoir/",
+        "source": "EURweb",
+        "published": "2026-11-21T08:00:00+00:00"
       },
       {
         "kind": "article",
@@ -575,12 +579,12 @@
           "streetwear",
           "comfort"
         ],
-        "image": "https://wwd.com/wp-content/uploads/2026/11/fear-of-god-trainer-001.jpg?w=1000&h=563&crop=1&resize=1000%2C563",
+        "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Fjerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look-001.jpg?q=90&w=800&cbr=1&fit=max",
         "photo_source": "",
-        "headline": "Fear of God Prepares to Launch Independent Sneaker Following Split From Adidas",
-        "url": "https://wwd.com/footwear-news/sneaker-news/fear-of-god-trainer-first-independent-sneaker-1239429658/",
-        "source": "Women's Wear Daily",
-        "published": "2026-11-20T04:49:00+00:00"
+        "headline": "Jerry Lorenzo Unveils the Independent Fear of God Trainer Following adidas Split",
+        "url": "https://hypebeast.com/2026/11/jerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look",
+        "source": "Hypebeast",
+        "published": "2026-11-21T15:59:00+00:00"
       },
       {
         "kind": "article",
@@ -617,12 +621,12 @@
           "denim",
           "streetwear"
         ],
-        "image": "https://s.yimg.com/lo/mysterio/api/6056ba483bc463a38419a944b925fc88d1584d06f1826baf536cf4d0b7a3e6da/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwaga_fox_local_videos_854%2Fe487a835c71ca74ce0d9e09fcd835731.jpg",
+        "image": "https://eurweb.com/wp-content/uploads/2026/11/Karl-Kani-via-eurAI.jpg",
         "photo_source": "",
-        "headline": "Fashion Icon, Karl Kani talks new memoir \", Karl Kani: A Life by Design\"",
-        "url": "https://www.yahoo.com/news/videos/fashion-icon-karl-kani-talks-155226227.html",
-        "source": "Yahoo",
-        "published": "2026-11-20T07:52:00+00:00"
+        "headline": "Karl Kani Dressed Tupac, Biggie and Aaliyah — Now He’s Telling His Own Story | WATCH",
+        "url": "https://eurweb.com/karl-kani-memoir/",
+        "source": "EURweb",
+        "published": "2026-11-21T08:00:00+00:00"
       },
       {
         "kind": "article",
@@ -787,12 +791,12 @@
           "streetwear",
           "comfort"
         ],
-        "image": "https://wwd.com/wp-content/uploads/2026/11/fear-of-god-trainer-001.jpg?w=1000&h=563&crop=1&resize=1000%2C563",
+        "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Fjerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look-001.jpg?q=90&w=800&cbr=1&fit=max",
         "photo_source": "",
-        "headline": "Fear of God Prepares to Launch Independent Sneaker Following Split From Adidas",
-        "url": "https://wwd.com/footwear-news/sneaker-news/fear-of-god-trainer-first-independent-sneaker-1239429658/",
-        "source": "Women's Wear Daily",
-        "published": "2026-11-20T04:49:00+00:00"
+        "headline": "Jerry Lorenzo Unveils the Independent Fear of God Trainer Following adidas Split",
+        "url": "https://hypebeast.com/2026/11/jerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look",
+        "source": "Hypebeast",
+        "published": "2026-11-21T15:59:00+00:00"
       },
       {
         "kind": "profile",
@@ -1359,10 +1363,8 @@
       "instagram": ""
     },
     "AJ Crimson": {
-      "photo": "https://www.whodiedtoday.com/wp-content/uploads/2022/04/Celebrity-makeup-artist-AJ-Crimson-dies-at-age-27-1024x512.jpeg",
-      "photo_source": "https://www.whodiedtoday.com/aj-crimson-celebrity-makeup-artist-dies-at-age-27/",
-      "photo_date": "2026-11-14",
-      "instagram": ""
+      "site": "",
+      "looked": "2026-11-22"
     },
     "Sir John": {
       "photo": "https://hips.hearstapps.com/hmg-prod/images/masterclass-1652712370.jpg?crop=0.563xw:1.00xh;0.246xw,0&resize=640:*",
@@ -1507,7 +1509,7 @@
     "Dynasty & Soull Ogun": {
       "photo": "",
       "photo_source": "",
-      "photo_date": "2026-11-21",
+      "photo_date": "2026-11-22",
       "instagram": ""
     },
     "Simone I. Smith": {
@@ -1673,7 +1675,7 @@
           "origin": "",
           "designer": "AJ Crimson",
           "brand": "AJ Crimson Beauty (legacy)",
-          "website": "https://ajcrimson.com",
+          "website": "https://www.bing.com/search?q=AJ+Crimson+makeup+artist",
           "details": "https://www.bing.com/search?q=AJ+Crimson+makeup+artist",
           "instagram": "",
           "categories": [],
