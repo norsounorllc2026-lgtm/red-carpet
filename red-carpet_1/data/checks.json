@@ -1,53 +1,66 @@
 {
-  "date": "2026-11-22",
-  "summary": "3 posted, 0 rejected, 0 earlier cards removed",
+  "date": "2026-11-23",
+  "summary": "1 posted, 3 rejected, 0 earlier cards removed",
   "articles": [
     {
       "gallery": "designers",
-      "designer": "Sergio Hudson",
-      "brand": "Sergio Hudson",
-      "headline": "Sheryl Lee Ralph Commands the Carpet in Cobalt Sergio Hudson at Abbott Elementary Milestone Event",
-      "source": "The Hype Magazine",
-      "url": "https://www.thehypemagazine.com/2026/11/21/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode/",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://www.thehypemagazine.com/wp-content/uploads/2026/11/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode.jpg",
-      "photo_note": "file name names the designer; photo checked (2000x1060)",
+      "designer": "Tremaine Emory",
+      "brand": "Denim Tears",
+      "headline": "『Denim Tears Tokyo Residency』が国内12月10日よりオープン。東京限定アイテムの販売も",
+      "source": "uptodate",
+      "url": "https://uptodate.tokyo/denim-tears-tokyo-residency/",
+      "result": "rejected",
+      "reason": "article is not in English (language: ja)",
+      "photo": "",
+      "photo_note": "",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
-      "designer": "Jerry Lorenzo",
-      "brand": "Fear of God",
-      "headline": "Jerry Lorenzo Unveils the Independent Fear of God Trainer Following adidas Split",
-      "source": "Hypebeast",
-      "url": "https://hypebeast.com/2026/11/jerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Fjerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look-001.jpg?q=90&w=800&cbr=1&fit=max",
-      "photo_note": "alt text names the designer; photo checked (800x533)",
-      "rejected_photos": [
-        {
-          "photo": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F03%2FFear-of-God.jpg?w=210&cbr=1&q=90&fit=max",
-          "reason": "too small (210x210)"
-        }
-      ]
+      "designer": "Tremaine Emory",
+      "brand": "Denim Tears",
+      "headline": "Coveted Americana Denim Tears Black Heritage Icon",
+      "source": "bingkaiwarta",
+      "url": "https://bingkaiwarta.co.id/coveted-americana-denim-tears-black-heritage-icon/",
+      "result": "rejected",
+      "reason": "article is not in English (language: id)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
     },
     {
       "gallery": "designers",
-      "designer": "Karl Kani",
-      "brand": "Karl Kani",
-      "headline": "Karl Kani Dressed Tupac, Biggie and Aaliyah — Now He’s Telling His Own Story | WATCH",
-      "source": "EURweb",
-      "url": "https://eurweb.com/karl-kani-memoir/",
+      "designer": "Don C",
+      "brand": "Just Don",
+      "headline": "Disney Bets Big on Streaming. Just Don’t Ask What It Costs.",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/finance/disney-bets-big-on-streaming-just-dont-ask-what-it-costs-4b33553a",
+      "result": "rejected",
+      "reason": "link returned error 401",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Virgil Abloh",
+      "brand": "Off-White",
+      "headline": "Art, music, architecture, and fashion: Virgil Abloh’s many talents in five key moments",
+      "source": "Luxus Magazine",
+      "url": "https://magazine.luxus-plus.com/en/art-music-architecture-and-fashion-virgil-ablohs-many-talents-in-five-key-moments/",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://eurweb.com/wp-content/uploads/2026/11/Karl-Kani-via-eurAI.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (1335x752)",
+      "photo": "https://magazine.luxus-plus.com/wp-content/uploads/2026/11/Capture-decran-2026-11-17-a-13.10.32.png",
+      "photo_note": "article's main photo; photo checked (1409x775)",
       "rejected_photos": []
     }
   ],
   "websites": [
+    {
+      "designer": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
+      "result": "opens"
+    },
     {
       "designer": "Jerry Lorenzo",
       "website": "https://fearofgod.com",
@@ -56,11 +69,6 @@
     {
       "designer": "Karl Kani",
       "website": "https://karlkani.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Ye (Kanye West)",
-      "website": "https://yeezy.com",
       "result": "opens"
     },
     {
@@ -121,7 +129,7 @@
     {
       "designer": "AJ Crimson",
       "website": "(none)",
-      "result": "listed website did NOT open; no official website found — using a search link"
+      "result": "listed website did NOT open; no website (looked recently) — using a search link"
     },
     {
       "designer": "Sir John",
@@ -131,11 +139,6 @@
     {
       "designer": "Ashunta Sheriff",
       "website": "https://ashuntabeauty.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Sergio Hudson",
-      "website": "https://www.sergiohudson.com",
       "result": "opens"
     },
     {
@@ -211,6 +214,11 @@
     {
       "designer": "Kimora Lee Simmons",
       "website": "https://babyphat.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Ye (Kanye West)",
+      "website": "https://yeezy.com",
       "result": "opens"
     },
     {
