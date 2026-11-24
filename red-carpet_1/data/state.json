@@ -32,10 +32,33 @@
     "the hype magazine|sheryl lee ralph commands the carpet in cobalt sergio hudson at abbott elementary milestone event": "2026-11-22",
     "hypebeast|jerry lorenzo unveils the independent fear of god trainer following adidas split": "2026-11-22",
     "eurweb|karl kani dressed tupac biggie and aaliyah  now hes telling his own story": "2026-11-22",
-    "luxus magazine|art music architecture and fashion virgil ablohs many talents in five key moments": "2026-11-23"
+    "luxus magazine|art music architecture and fashion virgil ablohs many talents in five key moments": "2026-11-23",
+    "yahoo!|why millennial parents love a nostalgic collab plus the ones to gift this year": "2026-11-24",
+    "yahoo|exclusive rizzoli to release kiss  cry virgil abloh a working archive": "2026-11-24"
   },
   "next": 0,
   "carousel": [
+    {
+      "kind": "article",
+      "group": "designers",
+      "role": "designer",
+      "origin": "Black American",
+      "designer": "Sergio Hudson",
+      "brand": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
+      "details": "https://www.bing.com/search?q=Sergio+Hudson+Sergio+Hudson+designer",
+      "instagram": "",
+      "categories": [
+        "suiting",
+        "dresses"
+      ],
+      "image": "https://s.yimg.com/lo/mysterio/api/197e4d97d9dfd38d98faa90a564e5f67a83e27a273346f5b4c59cd7a2921f636/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbc_selected_201%2F1e3304aba7b7e64bc362d0b5bf38a53a.jpg",
+      "photo_source": "",
+      "headline": "Why millennial parents love a nostalgic collab, plus the ones to gift this year",
+      "url": "https://shopping.yahoo.com/gift-ideas/articles/why-millennial-parents-love-nostalgic-184937659.html",
+      "source": "YAHOO!",
+      "published": "2026-11-23T10:49:00+00:00"
+    },
     {
       "kind": "article",
       "group": "designers",
@@ -50,33 +73,12 @@
         "streetwear",
         "couture"
       ],
-      "image": "https://magazine.luxus-plus.com/wp-content/uploads/2026/11/Capture-decran-2026-11-17-a-13.10.32.png",
+      "image": "https://s.yimg.com/lo/mysterio/api/5b2fe0180f40de6dc8b36b894f940fe20df6e62399a120f0c0989497f1a8c0e8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2F59e1482caf089d021272b090fcab4296.jpg",
       "photo_source": "",
-      "headline": "Art, music, architecture, and fashion: Virgil Abloh’s many talents in five key moments",
-      "url": "https://magazine.luxus-plus.com/en/art-music-architecture-and-fashion-virgil-ablohs-many-talents-in-five-key-moments/",
-      "source": "Luxus Magazine",
-      "published": "2026-11-22T16:00:00+00:00"
-    },
-    {
-      "kind": "article",
-      "group": "designers",
-      "role": "designer",
-      "origin": "Black American",
-      "designer": "Jerry Lorenzo",
-      "brand": "Fear of God",
-      "website": "https://fearofgod.com",
-      "details": "https://www.bing.com/search?q=Fear+of+God+Jerry+Lorenzo+designer",
-      "instagram": "",
-      "categories": [
-        "streetwear",
-        "comfort"
-      ],
-      "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2026%2F11%2F20%2Fjerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look-001.jpg?q=90&w=800&cbr=1&fit=max",
-      "photo_source": "",
-      "headline": "Jerry Lorenzo Unveils the Independent Fear of God Trainer Following adidas Split",
-      "url": "https://hypebeast.com/2026/11/jerry-lorenzo-unveils-fear-of-god-trainer-following-adidas-split-first-look",
-      "source": "Hypebeast",
-      "published": "2026-11-21T15:59:00+00:00"
+      "headline": "EXCLUSIVE: Rizzoli to Release ‘Kiss & Cry: Virgil Abloh: A Working Archive’",
+      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/exclusive-rizzoli-release-kiss-cry-202219419.html",
+      "source": "Yahoo",
+      "published": "2026-11-23T12:22:00+00:00"
     },
     {
       "kind": "article",
@@ -261,12 +263,12 @@
           "suiting",
           "dresses"
         ],
-        "image": "https://www.thehypemagazine.com/wp-content/uploads/2026/11/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode.jpg",
+        "image": "https://s.yimg.com/lo/mysterio/api/197e4d97d9dfd38d98faa90a564e5f67a83e27a273346f5b4c59cd7a2921f636/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbc_selected_201%2F1e3304aba7b7e64bc362d0b5bf38a53a.jpg",
         "photo_source": "",
-        "headline": "Sheryl Lee Ralph Commands the Carpet in Cobalt Sergio Hudson at Abbott Elementary Milestone Event",
-        "url": "https://www.thehypemagazine.com/2026/11/21/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode/",
-        "source": "The Hype Magazine",
-        "published": "2026-11-21T10:15:00+00:00"
+        "headline": "Why millennial parents love a nostalgic collab, plus the ones to gift this year",
+        "url": "https://shopping.yahoo.com/gift-ideas/articles/why-millennial-parents-love-nostalgic-184937659.html",
+        "source": "YAHOO!",
+        "published": "2026-11-23T10:49:00+00:00"
       },
       {
         "kind": "article",
@@ -366,12 +368,12 @@
           "suiting",
           "dresses"
         ],
-        "image": "https://www.thehypemagazine.com/wp-content/uploads/2026/11/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode.jpg",
+        "image": "https://s.yimg.com/lo/mysterio/api/197e4d97d9dfd38d98faa90a564e5f67a83e27a273346f5b4c59cd7a2921f636/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnbc_selected_201%2F1e3304aba7b7e64bc362d0b5bf38a53a.jpg",
         "photo_source": "",
-        "headline": "Sheryl Lee Ralph Commands the Carpet in Cobalt Sergio Hudson at Abbott Elementary Milestone Event",
-        "url": "https://www.thehypemagazine.com/2026/11/21/sheryl-lee-ralph-sergio-hudson-abbott-elementary-100th-episode/",
-        "source": "The Hype Magazine",
-        "published": "2026-11-21T10:15:00+00:00"
+        "headline": "Why millennial parents love a nostalgic collab, plus the ones to gift this year",
+        "url": "https://shopping.yahoo.com/gift-ideas/articles/why-millennial-parents-love-nostalgic-184937659.html",
+        "source": "YAHOO!",
+        "published": "2026-11-23T10:49:00+00:00"
       },
       {
         "kind": "profile",
@@ -643,12 +645,12 @@
           "streetwear",
           "couture"
         ],
-        "image": "https://magazine.luxus-plus.com/wp-content/uploads/2026/11/Capture-decran-2026-11-17-a-13.10.32.png",
+        "image": "https://s.yimg.com/lo/mysterio/api/5b2fe0180f40de6dc8b36b894f940fe20df6e62399a120f0c0989497f1a8c0e8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2F59e1482caf089d021272b090fcab4296.jpg",
         "photo_source": "",
-        "headline": "Art, music, architecture, and fashion: Virgil Abloh’s many talents in five key moments",
-        "url": "https://magazine.luxus-plus.com/en/art-music-architecture-and-fashion-virgil-ablohs-many-talents-in-five-key-moments/",
-        "source": "Luxus Magazine",
-        "published": "2026-11-22T16:00:00+00:00"
+        "headline": "EXCLUSIVE: Rizzoli to Release ‘Kiss & Cry: Virgil Abloh: A Working Archive’",
+        "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/exclusive-rizzoli-release-kiss-cry-202219419.html",
+        "source": "Yahoo",
+        "published": "2026-11-23T12:22:00+00:00"
       },
       {
         "kind": "profile",
@@ -1188,12 +1190,12 @@
           "streetwear",
           "couture"
         ],
-        "image": "https://magazine.luxus-plus.com/wp-content/uploads/2026/11/Capture-decran-2026-11-17-a-13.10.32.png",
+        "image": "https://s.yimg.com/lo/mysterio/api/5b2fe0180f40de6dc8b36b894f940fe20df6e62399a120f0c0989497f1a8c0e8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwwd_409%2F59e1482caf089d021272b090fcab4296.jpg",
         "photo_source": "",
-        "headline": "Art, music, architecture, and fashion: Virgil Abloh’s many talents in five key moments",
-        "url": "https://magazine.luxus-plus.com/en/art-music-architecture-and-fashion-virgil-ablohs-many-talents-in-five-key-moments/",
-        "source": "Luxus Magazine",
-        "published": "2026-11-22T16:00:00+00:00"
+        "headline": "EXCLUSIVE: Rizzoli to Release ‘Kiss & Cry: Virgil Abloh: A Working Archive’",
+        "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/exclusive-rizzoli-release-kiss-cry-202219419.html",
+        "source": "Yahoo",
+        "published": "2026-11-23T12:22:00+00:00"
       },
       {
         "kind": "profile",
@@ -1511,7 +1513,7 @@
     "Dynasty & Soull Ogun": {
       "photo": "",
       "photo_source": "",
-      "photo_date": "2026-11-23",
+      "photo_date": "2026-11-24",
       "instagram": ""
     },
     "Simone I. Smith": {
@@ -1677,7 +1679,7 @@
           "origin": "",
           "designer": "AJ Crimson",
           "brand": "AJ Crimson Beauty (legacy)",
-          "website": "https://www.bing.com/search?q=AJ+Crimson+makeup+artist",
+          "website": "https://ajcrimson.com",
           "details": "https://www.bing.com/search?q=AJ+Crimson+makeup+artist",
           "instagram": "",
           "categories": [],
