@@ -1,92 +1,66 @@
 {
-  "date": "2026-11-25",
-  "summary": "4 posted, 6 rejected, 0 earlier cards removed",
+  "date": "2026-11-26",
+  "summary": "4 posted, 2 rejected, 0 earlier cards removed",
   "articles": [
     {
       "gallery": "designers",
-      "designer": "Sergio Hudson",
-      "brand": "Sergio Hudson",
-      "headline": "Sergio Hudson x Fashion Trust Dinner: Looks We Loved",
-      "source": "HelloBeautiful",
-      "url": "https://hellobeautiful.com/4608880/brandy-sergio-hudson-fashion-trust/",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://hellobeautiful.com/wp-content/uploads/sites/50/2026/11/17954832328653-e1795524302727.jpg?strip=all&quality=90",
-      "photo_note": "captioned with the designer's name; photo checked (718x428)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Jerry Lorenzo",
-      "brand": "Fear of God",
-      "headline": "Fear of God Trainer Summer 2027 Release Date",
-      "source": "YAHOO!",
-      "url": "https://shopping.yahoo.com/style/shoes/articles/fear-god-trainer-summer-2027-182529476.html",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/570e34f21f8f9d7a04a0902a5015ffd5f086942a7c875f7d087ad84c6ceac872/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F9cfd9f46833c2149e48cd69e5279f2a0.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (1200x800)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
       "designer": "Tremaine Emory",
       "brand": "Denim Tears",
-      "headline": "デニム ティアーズがポップアップで限定フーディーを発売 胸元に「TOKYO」をデザイン",
-      "source": "FASHIONSNAP",
-      "url": "https://www.fashionsnap.com/article/2026-11-25/denim-tears-popup-202612/",
-      "result": "rejected",
-      "reason": "article is not in English (language: ja)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Tremaine Emory",
-      "brand": "Denim Tears",
-      "headline": "デニム ティアーズが原宿に限定ストア、白い綿花のリースが「TOKYO」を囲むフーディー",
-      "source": "ファッションプレス",
-      "url": "https://www.fashion-press.net/news/153756",
-      "result": "rejected",
-      "reason": "article is not in English (language: ja)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Joe Robinson",
-      "brand": "Joe Freshgoods",
-      "headline": "Joe Freshgoods x New Balance 990v3 “Uniform Clothes”が12月より発売予定",
-      "source": "uptodate",
-      "url": "https://uptodate.tokyo/joe-freshgoods-x-new-balance-990v3-uniform-clothes/",
-      "result": "rejected",
-      "reason": "article is not in English (language: ja)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Joe Robinson",
-      "brand": "Joe Freshgoods",
-      "headline": "Joe Freshgoods Teases Uniform Clothes New Balance 990v3 Collab",
+      "headline": "Denim Tears x Timberland 6-Inch Boot Arrives December 4",
       "source": "kicksundercost.com",
-      "url": "https://kicksundercost.com/news/joe-freshgoods-uniform-clothes-new-balance-990v3-collab",
+      "url": "https://kicksundercost.com/news/denim-tears-timberland-6-inch-boot-wreath",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fkicksundercost.com%2Fimages%2Fnews%2F0d34014d6c84c11ff03a10f33ae0e7436c8eb7c2.jpg&w=1200&q=80",
-      "photo_note": "captioned with the designer's name; photo checked (1024x1364)",
+      "photo": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fsneakernews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fdenim-tears-timberland-6-inch-boot-cotton-wreath-black-3.jpg&w=1200&q=80",
+      "photo_note": "captioned with the designer's name; photo checked (1200x1500)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Keith Herron",
+      "brand": "Advisry",
+      "headline": "Ja'Marr Chase Gives Nike a High-Fashion Makeover With Surprising Collaboration",
+      "source": "Yahoo Sports",
+      "url": "https://sports.yahoo.com/sports-business/articles/jamarr-chase-gives-nike-high-212500485.html",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://s.yimg.com/lo/mysterio/api/e82da81c1b329bdb5947e3d45b709e07cf514948f9582978cd072235e5db23a4/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_athlete_lifestyle_on_si_596%2F54d87a4c9679d7e9abd8871bc6de7654.jpg_up.jpg",
+      "photo_note": "article's main photo; photo checked (1200x675)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
+      "brand": "FUBU",
+      "headline": "He spent $40 on fabric, sewed hats and sold them on the street; his mother mortgaged her house for $100,000 to back his clothing brand. It became FUBU, with more than $6 ...",
+      "source": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/world/people/he-spent-40-on-fabric-sewed-hats-and-sold-them-on-the-street-his-mother-mortgaged-her-house-for-100000-to-back-his-clothing-brand-it-became-fubu-with-more-than-6-billion-in-sales/articleshow/136171160.cms",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://img.etimg.com/thumb/msid-136171824,width-950,height-641,imgsize-48298,resizemode-4/he-spent-40-on-fabric-sewed-hats-and-sold-them-on-the-street-his-mother-mortgaged-her-house-for-100000-to-back-his-clothing-brand-it-became-fubu-with-more-than-6-billion-in-sales-image-wikipedia.jpg",
+      "photo_note": "captioned with the designer's name; photo checked (950x641)",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Virgil Abloh",
+      "brand": "Off-White",
+      "headline": "READYMADE: Yuta Hosokawa’s Japanese Fashion Brand Explained",
+      "source": "Yahoo",
+      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/readymade-yuta-hosokawa-japanese-fashion-182243697.html",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://s.yimg.com/lo/mysterio/api/f441b658db671e26584be29a08b69855dc351238f37126a40ae88ad680547aab/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F7666c02c96739ac9df0ae5a2eb72f1b7.jpg_up.jpg",
+      "photo_note": "article's main photo; photo checked (1200x1559)",
       "rejected_photos": []
     },
     {
       "gallery": "designers",
       "designer": "Rihanna",
       "brand": "Savage X Fenty",
-      "headline": "Rihanna’s Daughter Brings Unfiltered Toddler Energy to Savage x Fenty BTS",
+      "headline": "Rihanna Shares Unfiltered Moments With Her Kids From Savage X Fenty Shoot: ‘Behind the Scenes With the Actual Gifts’",
       "source": "Yahoo",
-      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/rihanna-daughter-brings-unfiltered-toddler-082241284.html",
+      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/rihanna-shares-unfiltered-moments-her-090522710.html",
       "result": "rejected",
       "reason": "no designer talk near the name (likely a different person)",
       "photo": "",
@@ -97,39 +71,13 @@
       "gallery": "designers",
       "designer": "Rihanna",
       "brand": "Savage X Fenty",
-      "headline": "Rihanna shares adorable behind-the-scenes footage of Savage X Fenty campaign with her kids",
-      "source": "Complex on MSN",
-      "url": "https://www.msn.com/en-us/entertainment/celebrities/rihanna-shares-adorable-behind-the-scenes-footage-of-savage-x-fenty-campaign-with-her-kids/ar-AA2i8TcR",
+      "headline": "Rihanna Shares Rare Footage of Her Kids RZA, Riot, and Rocki on Set",
+      "source": "ELLE",
+      "url": "https://www.elle.com/culture/celebrities/a74532092/rihanna-kids-rza-riot-rocki-holiday-campaign-shoot-video/",
       "result": "rejected",
-      "reason": "page has almost no article text (paywall or blocked)",
+      "reason": "no designer talk near the name (likely a different person)",
       "photo": "",
       "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Rihanna",
-      "brand": "Savage X Fenty",
-      "headline": "Rihanna shares adorable behind-the-scenes video with all 3 kids as they film Savage X Fenty holiday campaign: 'The actual gifts'",
-      "source": "People on MSN",
-      "url": "https://www.msn.com/en-us/news/other/rihanna-shares-adorable-behind-the-scenes-video-with-all-3-kids-as-they-film-savage-x-fenty-holiday-campaign-the-actual-gifts/ar-AA2i88Fe",
-      "result": "rejected",
-      "reason": "page has almost no article text (paywall or blocked)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Rihanna",
-      "brand": "Savage X Fenty",
-      "headline": "Rihanna Shares Rare Glimpse of All 3 Kids in Adorable Holiday Video",
-      "source": "EntertainmentNow",
-      "url": "https://entertainmentnow.com/music/rihanna-kids-rare-holiday-campaign-video/",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://entertainmentnow.com/wp-content/uploads/2026/11/RIHANNA.jpg?quality=65&strip=all",
-      "photo_note": "article's main photo; photo checked (2048x1151)",
       "rejected_photos": []
     }
   ],
@@ -140,13 +88,23 @@
       "result": "opens"
     },
     {
-      "designer": "Virgil Abloh",
-      "website": "https://www.off---white.com",
+      "designer": "Jerry Lorenzo",
+      "website": "https://fearofgod.com",
       "result": "opens"
     },
     {
-      "designer": "Karl Kani",
-      "website": "https://karlkani.com",
+      "designer": "Joe Robinson",
+      "website": "https://joefreshgoods.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Rihanna",
+      "website": "https://www.rihannanow.com",
+      "result": "listed website did NOT open; using website found earlier"
+    },
+    {
+      "designer": "Virgil Abloh",
+      "website": "https://www.off---white.com",
       "result": "opens"
     },
     {
@@ -201,8 +159,8 @@
     },
     {
       "designer": "AJ Crimson",
-      "website": "https://ajcrimson.com",
-      "result": "opens"
+      "website": "(none)",
+      "result": "listed website did NOT open; no website (looked recently) — using a search link"
     },
     {
       "designer": "Sir John",
@@ -240,6 +198,11 @@
       "result": "opens"
     },
     {
+      "designer": "Karl Kani",
+      "website": "https://karlkani.com",
+      "result": "opens"
+    },
+    {
       "designer": "Ev Bravado & Téla D'Amore",
       "website": "https://whodecideswar.com",
       "result": "opens"
@@ -257,11 +220,6 @@
     {
       "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
       "website": "https://fubu.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Jerry Lorenzo",
-      "website": "https://fearofgod.com",
       "result": "opens"
     },
     {
@@ -308,11 +266,6 @@
       "designer": "Shiara Robinson",
       "website": "https://www.lasette.shop",
       "result": "opens"
-    },
-    {
-      "designer": "Rihanna",
-      "website": "https://www.rihannanow.com",
-      "result": "listed website did NOT open; using website found earlier"
     },
     {
       "designer": "Don C",
@@ -365,8 +318,13 @@
       "result": "opens"
     },
     {
-      "designer": "Joe Robinson",
-      "website": "https://joefreshgoods.com",
+      "designer": "Tremaine Emory",
+      "website": "https://denimtears.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Keith Herron",
+      "website": "https://advisry.shop",
       "result": "opens"
     }
   ],
