@@ -42,7 +42,9 @@
     "kicksundercost.com|denim tears x timberland 6inch boot arrives december 4": "2026-11-26",
     "yahoo sports|jamarr chase gives nike a highfashion makeover with surprising collaboration": "2026-11-26",
     "the economic times|he spent 40 on fabric sewed hats and sold them on the street his mother mortgaged her house for 100000 to back his clothing brand it became fubu with more than 6": "2026-11-26",
-    "yahoo|readymade yuta hosokawas japanese fashion brand explained": "2026-11-26"
+    "yahoo|readymade yuta hosokawas japanese fashion brand explained": "2026-11-26",
+    "houseofheat|denim tears and timberland team up for two new boots": "2026-11-27",
+    "kicksundercost.com|new balance 990v7 surfaces on joe freshgoods feet": "2026-11-27"
   },
   "next": 0,
   "carousel": [
@@ -60,32 +62,32 @@
         "denim",
         "streetwear"
       ],
-      "image": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fsneakernews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fdenim-tears-timberland-6-inch-boot-cotton-wreath-black-3.jpg&w=1200&q=80",
+      "image": "https://cdn.sanity.io/images/pu5wtzfc/production/bd7f5de3cc357555af9b3618809e7e34915a68c7-1600x900.png?rect=0,30,1600,840&w=1200&h=630",
       "photo_source": "",
-      "headline": "Denim Tears x Timberland 6-Inch Boot Arrives December 4",
-      "url": "https://kicksundercost.com/news/denim-tears-timberland-6-inch-boot-wreath",
-      "source": "kicksundercost.com",
-      "published": "2026-11-25T13:44:00+00:00"
+      "headline": "Denim Tears and Timberland Team Up for Two New Boots",
+      "url": "https://houseofheat.co/timberland/denim-tears-timberland-boots-december-2026",
+      "source": "houseofheat",
+      "published": "2026-11-26T16:00:00+00:00"
     },
     {
       "kind": "article",
       "group": "designers",
       "role": "designer",
       "origin": "",
-      "designer": "Keith Herron",
-      "brand": "Advisry",
-      "website": "https://advisry.shop",
-      "details": "https://www.bing.com/search?q=Advisry+Keith+Herron+designer",
+      "designer": "Joe Robinson",
+      "brand": "Joe Freshgoods",
+      "website": "https://joefreshgoods.com",
+      "details": "https://www.bing.com/search?q=Joe+Freshgoods+Joe+Robinson+designer",
       "instagram": "",
       "categories": [
         "streetwear"
       ],
-      "image": "https://s.yimg.com/lo/mysterio/api/e82da81c1b329bdb5947e3d45b709e07cf514948f9582978cd072235e5db23a4/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_athlete_lifestyle_on_si_596%2F54d87a4c9679d7e9abd8871bc6de7654.jpg_up.jpg",
+      "image": "https://kicksundercost.com/images/news/ed0d92b0f57a07dcb12d9b114ab98a8fe8e25a46.jpg",
       "photo_source": "",
-      "headline": "Ja'Marr Chase Gives Nike a High-Fashion Makeover With Surprising Collaboration",
-      "url": "https://sports.yahoo.com/sports-business/articles/jamarr-chase-gives-nike-high-212500485.html",
-      "source": "Yahoo Sports",
-      "published": "2026-11-25T13:25:00+00:00"
+      "headline": "New Balance 990v7 Surfaces on Joe Freshgoods' Feet",
+      "url": "https://kicksundercost.com/news/new-balance-990v7-joe-freshgoods-look",
+      "source": "kicksundercost.com",
+      "published": "2026-11-26T13:46:00+00:00"
     },
     {
       "kind": "article",
@@ -482,12 +484,12 @@
           "denim",
           "streetwear"
         ],
-        "image": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fsneakernews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fdenim-tears-timberland-6-inch-boot-cotton-wreath-black-3.jpg&w=1200&q=80",
+        "image": "https://cdn.sanity.io/images/pu5wtzfc/production/bd7f5de3cc357555af9b3618809e7e34915a68c7-1600x900.png?rect=0,30,1600,840&w=1200&h=630",
         "photo_source": "",
-        "headline": "Denim Tears x Timberland 6-Inch Boot Arrives December 4",
-        "url": "https://kicksundercost.com/news/denim-tears-timberland-6-inch-boot-wreath",
-        "source": "kicksundercost.com",
-        "published": "2026-11-25T13:44:00+00:00"
+        "headline": "Denim Tears and Timberland Team Up for Two New Boots",
+        "url": "https://houseofheat.co/timberland/denim-tears-timberland-boots-december-2026",
+        "source": "houseofheat",
+        "published": "2026-11-26T16:00:00+00:00"
       },
       {
         "kind": "article",
@@ -579,22 +581,21 @@
         "kind": "article",
         "group": "designers",
         "role": "designer",
-        "origin": "Black American",
-        "designer": "Tremaine Emory",
-        "brand": "Denim Tears",
-        "website": "https://denimtears.com",
-        "details": "https://www.bing.com/search?q=Denim+Tears+Tremaine+Emory+designer",
+        "origin": "",
+        "designer": "Joe Robinson",
+        "brand": "Joe Freshgoods",
+        "website": "https://joefreshgoods.com",
+        "details": "https://www.bing.com/search?q=Joe+Freshgoods+Joe+Robinson+designer",
         "instagram": "",
         "categories": [
-          "denim",
           "streetwear"
         ],
-        "image": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fsneakernews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fdenim-tears-timberland-6-inch-boot-cotton-wreath-black-3.jpg&w=1200&q=80",
+        "image": "https://kicksundercost.com/images/news/ed0d92b0f57a07dcb12d9b114ab98a8fe8e25a46.jpg",
         "photo_source": "",
-        "headline": "Denim Tears x Timberland 6-Inch Boot Arrives December 4",
-        "url": "https://kicksundercost.com/news/denim-tears-timberland-6-inch-boot-wreath",
+        "headline": "New Balance 990v7 Surfaces on Joe Freshgoods' Feet",
+        "url": "https://kicksundercost.com/news/new-balance-990v7-joe-freshgoods-look",
         "source": "kicksundercost.com",
-        "published": "2026-11-25T13:44:00+00:00"
+        "published": "2026-11-26T13:46:00+00:00"
       },
       {
         "kind": "article",
@@ -1519,7 +1520,7 @@
     "Dynasty & Soull Ogun": {
       "photo": "",
       "photo_source": "",
-      "photo_date": "2026-11-26",
+      "photo_date": "2026-11-27",
       "instagram": ""
     },
     "Simone I. Smith": {
@@ -1688,7 +1689,7 @@
           "origin": "",
           "designer": "AJ Crimson",
           "brand": "AJ Crimson Beauty (legacy)",
-          "website": "https://www.bing.com/search?q=AJ+Crimson+makeup+artist",
+          "website": "https://ajcrimson.com",
           "details": "https://www.bing.com/search?q=AJ+Crimson+makeup+artist",
           "instagram": "",
           "categories": [],

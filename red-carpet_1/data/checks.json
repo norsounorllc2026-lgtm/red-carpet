@@ -1,57 +1,94 @@
 {
-  "date": "2026-11-26",
-  "summary": "4 posted, 2 rejected, 0 earlier cards removed",
+  "date": "2026-11-27",
+  "summary": "2 posted, 3 rejected, 0 earlier cards removed",
   "articles": [
     {
       "gallery": "designers",
       "designer": "Tremaine Emory",
       "brand": "Denim Tears",
-      "headline": "Denim Tears x Timberland 6-Inch Boot Arrives December 4",
+      "headline": "Denim Tears and Timberland Team Up for Two New Boots",
+      "source": "houseofheat",
+      "url": "https://houseofheat.co/timberland/denim-tears-timberland-boots-december-2026",
+      "result": "posted",
+      "reason": "article verified",
+      "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/bd7f5de3cc357555af9b3618809e7e34915a68c7-1600x900.png?rect=0,30,1600,840&w=1200&h=630",
+      "photo_note": "article's main photo; photo checked (1200x630)",
+      "rejected_photos": [
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/bd8c3d733cfb075ef957ff3e85177de8d426cb3f-2000x1250.png/denim-tears-x-timberland-premium-6-inch-boot-black-nubuck-emboss.png?w=320&h=200&auto=format",
+          "reason": "too small (320x200)"
+        },
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/6b9208729df00e52f72ed5d190869ffaefb48668-2000x1250.png/denim-tears-x-timberland-field-boot-dark-blue-denim-tb0a5pkm-06i.png?w=320&h=200&auto=format",
+          "reason": "too small (320x200)"
+        },
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/bd7f5de3cc357555af9b3618809e7e34915a68c7-1600x900.png/denim-tears-timberland-boots-december-2026-0.png?w=320&h=180&auto=format",
+          "reason": "too small (320x180)"
+        },
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/b3d6d6cf2ea3d1d59e131acc05c2613760964aab-1000x720.jpg/denim-tears-timberland-boots-december-2026-3.jpg?rect=0,1,1000,719&w=320&h=230&auto=format",
+          "reason": "too small (320x230)"
+        },
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/79462e3ec3d5abc7744f247a1514f812e2b0d86b-1000x592.jpg/denim-tears-timberland-boots-december-2026-7.jpg?rect=0,1,1000,591&w=320&h=189&auto=format",
+          "reason": "too small (320x189)"
+        },
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/f9c1fb936e0f1afec5f67f8f625f227e5af232be-1000x727.jpg/denim-tears-timberland-boots-december-2026-4.jpg?rect=1,0,998,727&w=320&h=233&auto=format",
+          "reason": "too small (320x233)"
+        },
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/93c38bccb2673ce3b67bf286d78f8cfc15abb794-1000x573.jpg/denim-tears-timberland-boots-december-2026-8.jpg?rect=0,1,1000,572&w=320&h=183&auto=format",
+          "reason": "too small (320x183)"
+        },
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/581a7d9f171a725672da96bda254988619c95e22-1000x757.jpg/denim-tears-timberland-boots-december-2026.jpg?rect=0,1,1000,756&w=320&h=242&auto=format",
+          "reason": "too small (320x242)"
+        },
+        {
+          "photo": "https://cdn.sanity.io/images/pu5wtzfc/production/d57f0ee371ea7f5fb9ff0b34c2feb7a8ce11fa32-1000x599.jpg/denim-tears-timberland-boots-december-2026-5.jpg?rect=1,0,998,599&w=320&h=192&auto=format",
+          "reason": "too small (320x192)"
+        }
+      ]
+    },
+    {
+      "gallery": "designers",
+      "designer": "Don C",
+      "brand": "Just Don",
+      "headline": "‘Some Things You Just Don’t Take Off The Menu’: Denny’s Seems Pretty Thrilled To Have Jensen Huang Back",
+      "source": "HuffPost",
+      "url": "https://www.huffpost.com/entry/dennys-statement-jensen-huang_n_6b0878c7e4b01f494a032998",
+      "result": "rejected",
+      "reason": "article text does not name this designer or brand",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Ye (Kanye West)",
+      "brand": "Yeezy",
+      "headline": "Ye drops new track ‘Out Of My Mind’ after teasing at Yeezy fashion show",
+      "source": "mixmag",
+      "url": "https://mixmag.asia/read/ye-new-single-out-of-my-mind-yeezy-fashion-show-news",
+      "result": "rejected",
+      "reason": "no designer talk near the name (likely a different person)",
+      "photo": "",
+      "photo_note": "",
+      "rejected_photos": []
+    },
+    {
+      "gallery": "designers",
+      "designer": "Joe Robinson",
+      "brand": "Joe Freshgoods",
+      "headline": "New Balance 990v7 Surfaces on Joe Freshgoods' Feet",
       "source": "kicksundercost.com",
-      "url": "https://kicksundercost.com/news/denim-tears-timberland-6-inch-boot-wreath",
+      "url": "https://kicksundercost.com/news/new-balance-990v7-joe-freshgoods-look",
       "result": "posted",
       "reason": "article verified",
-      "photo": "https://kicksundercost.com/_next/image?url=https%3A%2F%2Fsneakernews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fdenim-tears-timberland-6-inch-boot-cotton-wreath-black-3.jpg&w=1200&q=80",
-      "photo_note": "captioned with the designer's name; photo checked (1200x1500)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Keith Herron",
-      "brand": "Advisry",
-      "headline": "Ja'Marr Chase Gives Nike a High-Fashion Makeover With Surprising Collaboration",
-      "source": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/sports-business/articles/jamarr-chase-gives-nike-high-212500485.html",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/e82da81c1b329bdb5947e3d45b709e07cf514948f9582978cd072235e5db23a4/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_athlete_lifestyle_on_si_596%2F54d87a4c9679d7e9abd8871bc6de7654.jpg_up.jpg",
-      "photo_note": "article's main photo; photo checked (1200x675)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
-      "brand": "FUBU",
-      "headline": "He spent $40 on fabric, sewed hats and sold them on the street; his mother mortgaged her house for $100,000 to back his clothing brand. It became FUBU, with more than $6 ...",
-      "source": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/world/people/he-spent-40-on-fabric-sewed-hats-and-sold-them-on-the-street-his-mother-mortgaged-her-house-for-100000-to-back-his-clothing-brand-it-became-fubu-with-more-than-6-billion-in-sales/articleshow/136171160.cms",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://img.etimg.com/thumb/msid-136171824,width-950,height-641,imgsize-48298,resizemode-4/he-spent-40-on-fabric-sewed-hats-and-sold-them-on-the-street-his-mother-mortgaged-her-house-for-100000-to-back-his-clothing-brand-it-became-fubu-with-more-than-6-billion-in-sales-image-wikipedia.jpg",
-      "photo_note": "captioned with the designer's name; photo checked (950x641)",
-      "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Virgil Abloh",
-      "brand": "Off-White",
-      "headline": "READYMADE: Yuta Hosokawa’s Japanese Fashion Brand Explained",
-      "source": "Yahoo",
-      "url": "https://www.yahoo.com/entertainment/celebrity/fashion/articles/readymade-yuta-hosokawa-japanese-fashion-182243697.html",
-      "result": "posted",
-      "reason": "article verified",
-      "photo": "https://s.yimg.com/lo/mysterio/api/f441b658db671e26584be29a08b69855dc351238f37126a40ae88ad680547aab/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcomplex_131%2F7666c02c96739ac9df0ae5a2eb72f1b7.jpg_up.jpg",
-      "photo_note": "article's main photo; photo checked (1200x1559)",
+      "photo": "https://kicksundercost.com/images/news/ed0d92b0f57a07dcb12d9b114ab98a8fe8e25a46.jpg",
+      "photo_note": "article's main photo; photo checked (1068x757)",
       "rejected_photos": []
     },
     {
@@ -66,41 +103,23 @@
       "photo": "",
       "photo_note": "",
       "rejected_photos": []
-    },
-    {
-      "gallery": "designers",
-      "designer": "Rihanna",
-      "brand": "Savage X Fenty",
-      "headline": "Rihanna Shares Rare Footage of Her Kids RZA, Riot, and Rocki on Set",
-      "source": "ELLE",
-      "url": "https://www.elle.com/culture/celebrities/a74532092/rihanna-kids-rza-riot-rocki-holiday-campaign-shoot-video/",
-      "result": "rejected",
-      "reason": "no designer talk near the name (likely a different person)",
-      "photo": "",
-      "photo_note": "",
-      "rejected_photos": []
     }
   ],
   "websites": [
     {
-      "designer": "Sergio Hudson",
-      "website": "https://www.sergiohudson.com",
+      "designer": "Tremaine Emory",
+      "website": "https://denimtears.com",
       "result": "opens"
     },
     {
-      "designer": "Jerry Lorenzo",
-      "website": "https://fearofgod.com",
+      "designer": "Keith Herron",
+      "website": "https://advisry.shop",
       "result": "opens"
     },
     {
-      "designer": "Joe Robinson",
-      "website": "https://joefreshgoods.com",
+      "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
+      "website": "https://fubu.com",
       "result": "opens"
-    },
-    {
-      "designer": "Rihanna",
-      "website": "https://www.rihannanow.com",
-      "result": "listed website did NOT open; using website found earlier"
     },
     {
       "designer": "Virgil Abloh",
@@ -159,8 +178,8 @@
     },
     {
       "designer": "AJ Crimson",
-      "website": "(none)",
-      "result": "listed website did NOT open; no website (looked recently) — using a search link"
+      "website": "https://ajcrimson.com",
+      "result": "opens"
     },
     {
       "designer": "Sir John",
@@ -170,6 +189,11 @@
     {
       "designer": "Ashunta Sheriff",
       "website": "https://ashuntabeauty.com",
+      "result": "opens"
+    },
+    {
+      "designer": "Sergio Hudson",
+      "website": "https://www.sergiohudson.com",
       "result": "opens"
     },
     {
@@ -198,11 +222,6 @@
       "result": "opens"
     },
     {
-      "designer": "Karl Kani",
-      "website": "https://karlkani.com",
-      "result": "opens"
-    },
-    {
       "designer": "Ev Bravado & Téla D'Amore",
       "website": "https://whodecideswar.com",
       "result": "opens"
@@ -215,11 +234,6 @@
     {
       "designer": "April Walker",
       "website": "https://walkerwear.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Daymond John, J. Alexander Martin, Keith Perrin & Carl Brown",
-      "website": "https://fubu.com",
       "result": "opens"
     },
     {
@@ -241,6 +255,11 @@
       "designer": "Rachel Scott",
       "website": "https://diotima.world",
       "result": "using website found earlier"
+    },
+    {
+      "designer": "Jerry Lorenzo",
+      "website": "https://fearofgod.com",
+      "result": "opens"
     },
     {
       "designer": "Aaron Potts",
@@ -266,6 +285,11 @@
       "designer": "Shiara Robinson",
       "website": "https://www.lasette.shop",
       "result": "opens"
+    },
+    {
+      "designer": "Rihanna",
+      "website": "https://www.rihannanow.com",
+      "result": "listed website did NOT open; using website found earlier"
     },
     {
       "designer": "Don C",
@@ -318,13 +342,8 @@
       "result": "opens"
     },
     {
-      "designer": "Tremaine Emory",
-      "website": "https://denimtears.com",
-      "result": "opens"
-    },
-    {
-      "designer": "Keith Herron",
-      "website": "https://advisry.shop",
+      "designer": "Joe Robinson",
+      "website": "https://joefreshgoods.com",
       "result": "opens"
     }
   ],
